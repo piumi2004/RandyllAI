@@ -1,0 +1,174 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Documents Academic
+ORIGINAL SOURCE: Jeonbuk National Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 3
+
+must submit their high school and college diplomas, their respective transcripts and a 
+certificate of the 5-year system must be specified by their schools
+※ Graduates of non-accredited academic institutions are not eligible for applying
+  (Transcripts must have acquired credits (including every subject)and grades in the percentile system) 
+※ Applicants can apply for majors regardless of their major from their previous institution,
+and recognition for course credits will be at the Dean's discretion for each department
+※ As Jeonbuk National University does not recognize dual enrollment, successful applicants who
+are enrolled in another university must withdraw from their previous institution before admission
+※ Applicants who have been dismissed from their institution as for a disciplinary action,
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 8, passage 2
+
+4
+High School Diploma 
+(or anticipated graduate certificate)
+O
+O
+· China : Submit ① Original+Translation or ② Apostille (Notarized documents)
+· Other countries : Substituting for submission of Apostille or Verification from embassy
+· For applicants of Track II, submission of proof documents for the entire elementary,
+middle, and high school education is required.
+· Expected graduate certificate : should submit the certificate of expected
+5
+University Diploma 
+(or anticipated graduate certificate/Enrollment Certificate)
+X
+O
+graduation from the school and submit diploma of graduation later.
+ · Student who graduated vocational high school in china, need to submit Form 2
+6
+ Official Transcript of High School
+O
+X
+· Upload Transcript during online application 
+· Submit ① Original+Translation or ② notarized copy documents
+· Expected graduates : submit transcripts obtained by the date of submission
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 8, passage 3
+
+and submit final transcript after graduation(Completion)
+· University Transcripts must include earned credit points for every subject
+and grades in Percentile Score
+7
+Official University Transcript
+X
+O
+8
+Certificate of High School Diploma
+· Submit original documents
+· China : submit 中国高等教育学历认证报告 or Verification from embassy
+· Other countries : submit Apostille or Verification from embassy
+※ Student who apply for transfer
+ - student of 4years university : High school graduation&University enrollment verification
+ - student of Junior College : College graduation verification
+※ Students who will graduate, must submit their diploma and verification documents
+9
+Certificate of University Diploma
+by February 19(Fri) 2027, otherwise, the admission certificate won’t be issued
+※ No Need for the Graduates from the Schools in Korea
+· Family Relationship or Birth Certificate : issued by the government of the
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 9, passage 1
+
+<Note 1. Certificate of Diploma Verification>
+Documents for submission : graduation certificate(Degree certificate) apostille, issued 
+by the government appointed organizations [Check Appendix 1]
+Certificate of academic background (Diploma of Graduation) approved by embassy. 
+Documents can be issued by Korean consulate or the applicant’s country’s embassy 
+in Korea
+․ General High School and College
+- Academic/Degree certificate from the Ministry of Education or Degree Confirmation Center,
+issued by Ministry of Education’s Academic Certification Center
+ (www.chsi.com.cn , www.cdgdc.edu.cn)
+․ Vacational High School : one of the certificates below and [Form2] 
+ ① Certificate from the school authorized by the Province Educational Office and Korean embassy
+ ② Certificate from Province Educational Office authorized by the Korean embassy
+<Note 2. College of Arts Exam content>
+Dance, Industrial design, Korean Music
+Free format
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 12, passage 2
+
+Department of Bioenvironmental
+Department of Food Science &
+Technology
+https://foodtech.jbnu.ac.kr/
+O
+2, 3, 4
+Department of Horticulture
+https://hort.jbnu.ac.kr/
+O
+X
+Department of Crop Science and
+Biotechnology
+https://crop.jbnu.ac.kr/
+O
+X
+Architecture
+http://la.jbnu.ac.kr
+O
+2, 3
+Department of Rural Construction
+Engineering
+https://agrieng.jbnu.ac.kr 
+O
+2, 3, 4
+Farm
+Smart Farm
+https://sfarm.jbnu.ac.kr
+O
+2
+Department of Social Welfare
+https://welfare.jbnu.ac.kr/
+O
+2, 3
+Department of Sociology
+http://socio.jbnu.ac.kr/
+O
+2, 3
+Department of Media and
+Communication Studies
+http://media.jbnu.ac.kr
+O
+2, 3
+Social 
+Science
+Social Science Division
+Department of Psychology
+http://psy.jbnu.ac.kr
+O
+2, 3
+Department of Political Science &
+Diplomacy
+http://pol.jbnu.ac.kr/
+O
+2, 3
+Administration
+http://dpa.jbnu.ac.kr/
+O
+2, 3, 4
+Department of Child Studies
+https://child.jbnu.ac.kr
+O
+2, 3
+H
+Fashion
+http://fashion.jbnu.ac.kr
+O
+2

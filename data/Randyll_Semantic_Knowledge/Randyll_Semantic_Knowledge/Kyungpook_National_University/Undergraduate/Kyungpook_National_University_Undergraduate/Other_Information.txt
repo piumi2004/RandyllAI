@@ -1,0 +1,157 @@
+UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Other Information
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Introduction
+LOCATION: heading: Introduction / passage 1
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+
+--- RECORD 2 ---
+SECTION: 2027 Admissions Guide
+LOCATION: heading: 2027 Admissions Guide / passage 1
+
+for International Undergraduate Students
+
+
+--- RECORD 4 ---
+SECTION: 2. International Special Admission Track I
+LOCATION: heading: 2. International Special Admission Track I / passage 2
+
+| College             | Regular (Non-Transfer) Program   |   Spring |   Fall |
+|---------------------|----------------------------------|----------|--------|
+| Global Liberal Arts | Global Liberal Arts              |        0 |      0 |
+
+
+--- RECORD 5 ---
+SECTION: Criteria for Qualification of High School Graduation
+LOCATION: heading: Criteria for Qualification of High School Graduation / passage 1
+
+- High school graduation should be completed by the day prior to the opening day of admission to KNU in oe        o  n o  o n  o er school differ by more than one (1) month from Korea (e.g., Japan), one (1) fufll month of attendance at an overseas high school will be approved as equivalent to graduation.
+
+
+--- RECORD 6 ---
+SECTION: 1. Department of Music
+LOCATION: heading: 1. Department of Music / passage 2
+
+2. Applicants must bring their own accompanist.
+3. Applicants must bring their own instruments, except for the piano.
+3. Ao-+ e t s    e,
+
+
+--- RECORD 7 ---
+SECTION: 2. Department of Fine Arts
+LOCATION: heading: 2. Department of Fine Arts / passage 4
+
+5. Submitted portfolios will not be returned.
+
+
+--- RECORD 8 ---
+SECTION: 3. Department of Design
+LOCATION: heading: 3. Department of Design / passage 1
+
+Submit a portfolio consisting of at least 10 A4-sized pages.
+
+
+--- RECORD 9 ---
+SECTION: 学校信息确认书 | 留学生
+LOCATION: heading: 学校信息确认书 / row 3
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 留学生    | 国籍                 |                             | 护照号码                        |                             |
+
+
+--- RECORD 10 ---
+SECTION: 学校信息确认书 | 留学生
+LOCATION: heading: 学校信息确认书 / row 4
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 留学生    | 拟入学大学名称            |                             | 专业名称                        | 个人信息                        |
+
+
+--- RECORD 11 ---
+SECTION: 学校信息确认书 | 学校信息
+LOCATION: heading: 学校信息确认书 / row 6
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 学校信息   | (局) 毕业学校名称 (毕业日期)  | ( 毕业日期：2022. .)             | ( 毕业日期：2022. .)             | ( 毕业日期：2022. .)             |
+
+
+--- RECORD 12 ---
+SECTION: 学校信息确认书 | 学校信息
+LOCATION: heading: 学校信息确认书 / row 7
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 学校信息   | 学校类型               | 早导否是普通中专() 舎是成人中专()         | 职业高中() 7E其他()               | 职业高中() 7E其他()               |
+
+
+--- RECORD 13 ---
+SECTION: 学校信息确认书 | 学校信息
+LOCATION: heading: 学校信息确认书 / row 8
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 学校信息   | 教育种类               | 卫 高中阶段学历教育() 卫  高中阶段非学历教育() | 卫 高中阶段学历教育() 卫  高中阶段非学历教育() | 卫 高中阶段学历教育() 卫  高中阶段非学历教育() |
+
+
+--- RECORD 14 ---
+SECTION: 学校信息确认书 | 学校信息
+LOCATION: heading: 学校信息确认书 / row 9
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 学校信息   |                    | 学校地址                        | 学校地址                        | 学校地址                        |
+
+
+--- RECORD 15 ---
+SECTION: 学校信息确认书 | 学校信息
+LOCATION: heading: 学校信息确认书 / row 10
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 学校信息   | 学校电话               |                             |                             |                             |
+
+
+--- RECORD 16 ---
+SECTION: 学校信息确认书 | 学校信息
+LOCATION: heading: 学校信息确认书 / row 11
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 学校信息   | 喜&#124;&#124; 学校官网 |                             |                             |                             |
+
+
+--- RECORD 17 ---
+SECTION: 学校信息确认书 | 居位 教职工
+LOCATION: heading: 学校信息确认书 / row 12
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 居位 教职工 | 所属部门及职位            |                             |                             |                             |
+
+
+--- RECORD 18 ---
+SECTION: 学校信息确认书 | 居位 教职工
+LOCATION: heading: 学校信息确认书 / row 13
+
+| 留学生    | 姓名                 |                             | 出生日期                        |                             |
+|--------|--------------------|-----------------------------|-----------------------------|-----------------------------|
+| 居位 教职工 | 姓名                 | () (盖章或签名)                  | 联系电话                        | 联系信息                        |
+
+
+--- RECORD 19 ---
+SECTION: 学校信息确认书
+LOCATION: heading: 学校信息确认书 / passage 2
+
+本人保证，以上所填写的学校信息等内容均属实。本人理解，以上信息如有虚假，可能会受到韩国相关法律法规的处罚。特此确认。

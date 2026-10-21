@@ -1,0 +1,118 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Eligibility Academic
+ORIGINAL SOURCE: Tongmyong Master_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 5, passage 1
+
+School
+Affiliation
+Admission Unit(Major)
+Master
+Doctoral
+Freshman
+Transfer
+Freshman
+Transfer
+Dept. of Computer & Media Engineering
+○
+○
+○
+○
+Dept. of Electrical, Electronical & 
+Information Communication Engineering
+○
+○
+○
+○
+Dept. of Mechanical System Engineering
+○
+○
+○
+○
+Dept. of Shipbuilding and Marine 
+Engineering
+○
+○
+X
+X
+Dept. of Port Logistics System
+○
+○
+○
+○
+Dept. of Architecture
+○
+○
+○
+○
+Dept. of Architectural Engineering
+○
+○
+○
+○
+Dept. of Business Administration
+○
+○
+○
+○
+Dept. of Hospitality & Tourism 
+Management
+○
+○
+○
+○
+Dept. of Mass-communication & 
+Advertising
+○
+○
+○
+○
+Dept. of Global Humanities and Content
+○
+○
+X
+X
+Graduate 
+School of 
+General  
+      
+(2 years 
+Course)
+(Korean 
+Track)
+Humanities 
+and Social 
+science
+Dept. of Counseling and Clinical 
+Psychology
+○
+X
+○
+○
+Dept. of Global Korean Studies
+○
+○
+○
+X
+Dept. of Security Policy
+○
+X
+X
+X
+Dept. of Beauty Art Cosmetology
+X
+X
+○
+○
+Dept. of Sports Science
+○
+X
+X
+X

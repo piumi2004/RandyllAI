@@ -1,0 +1,44 @@
+UNIVERSITY: Hannam University
+DEGREE/PROGRAM: Graduate
+TOPIC: Other Information
+ORIGINAL SOURCE: 2027-Spring-Semester-Graduate-School-Admissions-Guide-HNU.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 1, passage 1
+
+Graduate Admissions Guide for
+The Graduate Admissions Guide is in Korean and English.
+When interpretational differences arise, the Korean version
+will have priority over the English version.
+The Graduate School of HNU
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 13, passage 2
+
+*By signing this form, I am giving my agreement and hereby authorize Hannam University to verify my degree/enrollment 
+records.
+*The information you provide will be kept in strict confidence and will be used only for the purpose of degree 
+verification
+*If the information you provide is NOT able to validate your academic degree, a notice of your success in acceptance 
+could be nullified
+Applicant:                              Signature
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 1
+
+XIII. CAMPUS MAP
+
+
+
+
+
+                                   - 13 -

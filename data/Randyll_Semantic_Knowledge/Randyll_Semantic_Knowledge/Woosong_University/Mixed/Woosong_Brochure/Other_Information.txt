@@ -1,0 +1,54 @@
+UNIVERSITY: Woosong University
+DEGREE/PROGRAM: Mixed
+TOPIC: Other Information
+ORIGINAL SOURCE: Woosong Brochure.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 1, passage 1
+
+The Most Globalized University in Korea
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 2, passage 2
+
+We continuously strive for the professions the global society requires based on Korea’s founding philosophy and 
+ideology by empowering innovative experts with the professional skills necessary to lead the global community.
+Why Study in Daejeon, South Korea
+5th Largest City in Korea
+Balanced Life & Community
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 3, passage 1
+
+QS World
+University
+Ranking
+Ranked #1 for 
+“International Outlook”
+Ministry of Education
+(International Education 
+Quality Assurance System)
+International Student
+3000+
+universities located 
+in 100+ countries
+International Partnerships 
+600+
+Group of universities with less than 2,000 graduates
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 8, passage 1
+
+*some pictures are AI-generated
+171 Dong Daejeon-ro, Dongu Daejeon 34606, South Korea

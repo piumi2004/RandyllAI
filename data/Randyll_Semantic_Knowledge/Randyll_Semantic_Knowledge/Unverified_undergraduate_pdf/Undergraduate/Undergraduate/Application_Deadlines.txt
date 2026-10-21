@@ -1,0 +1,18 @@
+UNIVERSITY: Unverified undergraduate pdf
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Application Deadlines
+ORIGINAL SOURCE: Undergraduate.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 11, passage 4
+
+- How to Submit: registered mail(POSTAL), courier, direct visit
+    - Submission address: To: International Admissions Coordinator / Office of International Affairs, Sejong Community Edu-culture
+center office 207. Kongju National University, 56 Gongjudaehak-ro, Gongju-si, Chungcheongnam-do
+(Zip code: 32588)
+2) If the documents do not arrive by submission deadline or if the documents are insufficient, applicants will be disqualified

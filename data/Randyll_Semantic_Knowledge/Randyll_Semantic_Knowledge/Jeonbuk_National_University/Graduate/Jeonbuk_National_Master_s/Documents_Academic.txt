@@ -1,0 +1,37 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Graduate
+TOPIC: Documents Academic
+ORIGINAL SOURCE: Jeonbuk National Master_s.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: 1. Freshman | - Applicants must hold a Bachelor's degree or a diploma
+LOCATION: heading: 1. Freshman / row 5
+
+| Category Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| - Applicants must hold a Bachelor's degree or a diploma that is equivalent to a Bachelor's degree. • Doctoral Program Academic - Applicants must hold a Master's degree or a diploma that is equivalent to a Master's degree. * Expected graduates must obtain their degree before the start of the semester. The graduation date stated on the degree or graduation certificate must be prior to the first day of the semester.                                                                                                   |
+
+
+--- RECORD 2 ---
+SECTION: Verification of diploma from Korean Embassy
+LOCATION: heading: Verification of diploma from Korean Embassy / passage 1
+
+&lt;From the Korean Embassy in Vietnam &gt;
+
+
+--- RECORD 3 ---
+SECTION: Improvement of recognition standards for international students' academic background requirements (Ministry of Justice notification)
+LOCATION: heading: Improvement of recognition standards for international students' academic background requirements (Ministry of Justice notification) / passage 2
+
+ex o  son or s   o    n oda national exam for university admission recognize the test certificate as a document proving academic qualification requirements.
+
+
+--- RECORD 4 ---
+SECTION: Exceptional recognition for certificate of expected graduation
+LOCATION: heading: Exceptional recognition for certificate of expected graduation / passage 1
+
+(Eligible countries) Countries where official graduation certificates are typically issued several months after graduation

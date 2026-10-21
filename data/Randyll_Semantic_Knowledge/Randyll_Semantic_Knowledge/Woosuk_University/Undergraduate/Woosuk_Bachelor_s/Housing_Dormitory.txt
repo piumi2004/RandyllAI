@@ -1,0 +1,47 @@
+UNIVERSITY: Woosuk University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Housing Dormitory
+ORIGINAL SOURCE: Woosuk Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 2, passage 4
+
+Student  Record-based  Selection  ························································  20  Residency  (Dormitory)  ···············································  58
+1.  [Student  Record-based]  Subject-based  Admission  -  Group  Na,  Group  Da························  20  Tuition  ·································································  60
+2.  [Student  Record-based]  Adult  Learner  Admission  -  Group  Na,  Group  Da  ··········  21  2026  Academic  Year  Regular  Admission  Results
+3.  [Student  Record-based]  Equal  Opportunity  Screening  (Outside  Quota)  -  Group  Na  ··············  23
+4.  [Student  Record-based]  Rural  Student  Admission  (Outside  Quota)  -  Group  Na,  Group  Da  ·  25
+5.  [Student  Record-based]  Admission  for  Persons  with  Disabilities,  etc.  (Outside  of  Quota)  -  Group  Na,  Group  Da  27
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 58, passage 1
+
+Machine Translated by Google
+ÿ  Residence  Hall  (Dormitory)
+•  Maru-dong  (Male):  ÿ063-290-1795  •
+•  Nuri-dong  (South):  ÿ063-290-1796
+Saegil-dong  (Female):  ÿ063-290-1797
+•  Narae-dong  (Female):  ÿ063-290-1798
+Room  Availability  (Rooms)  Triple
+3-person  room,  4-person  room,  room  for  disabled
+Wooseokheon  Hall  1  (Nuri-dong)  South  98
+Wooseokheon  Hall  2  (Narae-dong)  Women
+Wooseokheon  Hall  3  (Maru-dong)  South  364
+Wooseokheon  Hall  4  (Saegil-dong)  Female  164
+ÿ  Maintenance  fee  (per  semester)
+Maru-dong  (Building  3,  South)
+Saegil-dong  (4th  building,  female)
+Nuri-dong  (Building  1,  South)
+Narae-dong  (Building  2,  female)
+ÿ  Based  on  the  2026  academic  year,  and  subject  to  change  for  the  2027  academic  year.
+ÿ  Food  expenses  (per  semester)
+Type  190  (Optional)
+division
+ÿ  Based  on  the  2026  academic  year,  and  subject  to  change  for  the  2027  academic  year.

@@ -1,0 +1,24 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Tuition Fees
+ORIGINAL SOURCE: Tongmyong Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 5, passage 2
+
+※ Following admission, scholarships for enrolled students will be determined separately and are awarded 
+to those who have [earned 12 or more credits in the previous semester with a GPA of 3.0 or higher].
+7. Additional fees and Application notes
+■ Additional Fees
+ 1. Insurance fee KRW 250,000(Included in tuition invoice) - Insurance for Student’s safety for 1year After enrolling at our university
+2. Dormitory Fee(for 6 months, Including meals) : KRW 1,900,000 (If you choose, could be included in tuition invoice)
+3. Among the successful applicants for the Korean Track, those who do not submit TOPIK are required to take
+Korean Language course. Korean Language Course(2 semesters) tuition fee: KRW 1,200,000 (Included in tuition invoice)
+4. KRW 36,000 of immigration registering fee and etc.
+❏ Important Notes for Online Application
+1. Application Deadlines (KST - Korea Standard Time)

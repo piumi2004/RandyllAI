@@ -1,0 +1,65 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Other Information
+ORIGINAL SOURCE: Tongmyong Master_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 1, passage 1
+
+Admissions Guide for International Applicants
+       Graduate Programs – Spring Semester, 2027
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 2, passage 3
+
+⑥ Submission Complete 
+/ Check Application Number
+⑦ Submit Original 
+Documents
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 4, passage 3
+
+③ For degrees obtained in China, an academic degree verification report issued by the
+China Academic Degrees and Graduate Education Development Center (CDGDC)
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 10, passage 4
+
+Europe
+Georgia, Greece, Netherlands, Norway, Denmark, Germany, Latvia, Russia, Romania, 
+Luxembourg, Lithuania, Liechtenstein, North Macedonia, Monaco, Montenegro, 
+Moldova, Malta, Belgium, Belarus, Bosnia and Herzegovina, Bulgaria, Cyprus, San 
+Marino, Serbia, Sweden, Switzerland, Spain, Slovakia, Slovenia, Armenia, Iceland, 
+Ireland, Azerbaijan, Andorra, Albania, Estonia, United Kingdom, Austria, Uzbekistan, 
+Ukraine, Italy, Czech Republic, Kazakhstan, Kosovo, Croatia, Kyrgyzstan, Türkiye, 
+Portugal, Poland, France, Finland, Hungary
+United States (including Guam, the Northern Mariana Islands, Saipan, and Puerto 
+Rico), Canada
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 10, passage 5
+
+Guyana, Guatemala, Grenada, Nicaragua, Dominican Republic, Dominica, Mexico, 
+Barbados, Bahamas, Venezuela, Belize, Bolivia, Brazil, Saint Lucia, Saint Vincent and 
+the Grenadines, Saint Kitts and Nevis, Suriname, Argentina, Antigua and Barbuda, 
+Ecuador, El Salvador, Honduras, Uruguay, Chile, Costa Rica, Colombia, Trinidad and 
+Tobago, Panama, Peru, Paraguay, Jamaica
+Africa
+Namibia, South Africa, Liberia, Lesotho, Malawi, Botswana, São Tomé and Príncipe, 
+Senegal, Seychelles, Eswatini, Cabo Verde, Burundi, Tunisia
+Middle 
+Morocco, Bahrain, Saudi Arabia, Oman, Israel

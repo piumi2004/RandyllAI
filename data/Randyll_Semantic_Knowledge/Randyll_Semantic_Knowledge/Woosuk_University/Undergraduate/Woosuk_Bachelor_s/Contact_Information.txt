@@ -1,0 +1,103 @@
+UNIVERSITY: Woosuk University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Contact Information
+ORIGINAL SOURCE: Woosuk Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 5, passage 2
+
+You  must  submit  your  school  life  record  separately  to  the  original  university.
+D.  Graduates  prior  to  February  2023  (graduates  of  the  2022  academic  year)  must  submit  their  school  records  to  the  universities  they  apply  to.
+However,  graduates  from  February  2005  to  February  2023  may  apply  through  the  'Online  Creation  Application  System'  if  they  wish.)
+Application  for  online  provision  of  application  materials  available /  apply.neis.go.kr)
+2.  Online  provision  of  College  Scholastic  Ability  Test  score  data
+a.  2027  academic  year  College  Scholastic  Ability  Test  (CSAT)  score  data  will  be  provided  through  all  online  systems  starting  from  the  score  announcement  date,
+upon  obtaining  the  applicant's  consent.  b.
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 1
+
+Machine Translated by Google
+I  Key  Details  of  the  2027  Regular  Admissions
+2027  academic  year
+division
+2026  academic  year
+ÿ  School  of  AI  Convergence
+ÿ  School  of  Physical  Education  (Jeonju)
+ÿ  Department  of  Police  Criminal  Psychology
+ÿ  School  of  Physical  Education  (Jincheon)
+ÿ  Glocal  Life  School  of  Liberal  Studies
+[Jeonju  Campus]
+[Jeonju  Campus]
+ÿ  Department  of  Hotel  and  Culinary  Arts  ÿ
+ÿ  Department  of  Culinary  Arts  and  Baking
+'School  of  Electric  Vehicle  Engineering'  within  the  School  of  Hydrogen  Technology  and  Autonomous  Studies
+ÿ  'Division  of  AI  Mobility  Engineering'  within  the  School  of  Hydrogen  Technology  and  Autonomous
+Studies  [Jincheon  Campus]
+ÿ  Department  of  Architecture  &  Interior  Design  ÿ  School  of  Global
+ÿ  School  of  Architecture
+ÿ  School  of  Global  Design  and  Culture  Management
+ÿ  Department  of  Life  Sciences
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 50, passage 4
+
+requirements.  -  When  submitting  online,  all  information  must  be  entered  accurately  in  accordance  with  the  application  instructions  in  the  admission  guidelines.
+Any  disadvantages  resulting  from  errors  in  input  or  omissions  are  the  applicant's  responsibility,  and  admission  may  be  revoked  if  the  information  provided
+in  the  application  is  found  to  be  false.
+2.  Method  of  Document  Submission
+ÿ  Applicants  required  to  submit  documents  must  do  so  by  January  11,  2027  (Mon).  (Postmarks  are  accepted.)  ÿ  Submission  Location
+-  (Visit)  Admissions  Team,  1st  Floor,  Main  Building,  Woosuk  University
+-  (Mail)  Admissions  Team,  1F,  Main  Building,  Woosuk  University,  443  Samnye-ro,  Samnye-eup,  Wanju-gun,  Jeollabuk-do,  55338
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 51, passage 4
+
+B.  Applicants  must  personally  check  the  list  of  additional  successful  candidates  through  the  admissions  inquiry  page  posted  on  the  university  website  (https://www.woosuk.ac.kr).  Checking
+the  status  via  telephone  inquiry  is  not  permitted.  (Applicants  are  solely  responsible  for  any  disadvantages  resulting  from  failure  to  check  their  admission  status.)
+C.  When  additional  successful  applicants  are  individually  notified  via  telephone,  if  we  are  unable  to  reach  them  three  or  more  times  using  the  contact  information  listed  on  the  application  form,  the
+applicant  shall  bear  any  resulting  disadvantages.
+D.  Additional  successful  candidates  who  fail  to  register  their  documents  within  the  designated  registration  period  will  be  deemed  to  have  no  intention  of  registering.
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 54, passage 4
+
+-  Pursuant  to  Article  15  (Age  Limit  for  Appointment)  Paragraph  1  of  the  Military  Personnel  Act,  the  minimum  age  of  a  person  appointed  as  an  officer  for  the  first  time  and
+The  age  group  is  as  follows.
+4.  Related  Inquiries  -
+Department  of  Military  Science  (Jeonju  Campus):  063-290-1709
+-  Department  of  Military  and  Security  Studies  (Jincheon  Campus):  043-531-2834
+
+
+--- RECORD 6 ---
+SECTION: Source page subsection
+LOCATION: PDF page 61, passage 2
+
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Department  of  Psychology
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Department  of  Child  Social  Welfare
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Department  of  Early  Childhood  Special  Education
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Department  of  Emergency  Medical  Services
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Department  of  Information  Security
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Department  of  Landscape  Architecture
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)
+Hotel  and  Culinary  Arts  Department
+Jeonju  Student  Record-based  Subject_General  Student  (Subject-centered)

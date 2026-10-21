@@ -1,0 +1,17 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Health Insurance
+ORIGINAL SOURCE: Tongmyong Master_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 9, passage 4
+
+Students are mandatorily enrolled in the National Health Insurance and must pay the insurance
+premium for the following month by the 25th of each month.
+In accordance with the National Health Insurance Act and its Enforcement Regulations, international
+students have been mandatorily enrolled as local subscribers of the National Health Insurance since

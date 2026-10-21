@@ -1,0 +1,118 @@
+UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Other Policies
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: CONTENTS | 8 Important Notes for Applicants 14
+LOCATION: heading: CONTENTS / row 6
+
+| 工 ADMISSIONS GUIDE Admissions Process 01 2 Schedule 01 Available Departments Eligibility How to Apply 10 Required Documents 11 Application Fee   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 8 Important Notes for Applicants 14                                                                                                              |
+
+
+--- RECORD 2 ---
+SECTION: β Important Notes for Applicants
+LOCATION: heading: β Important Notes for Applicants / passage 1
+
+- To n  os  ot  st ot o on  od  os   b a notarized translation.
+2. If any required documents are found to be false or counterfeit, your application will be canceled.
+3. Applicants are solely responsible for any problems arising from incorrect contact information provided in the application or from failure to respond to communications.
+4. Even after admission has been granted, the admission will be canceled if the applicant is denied a visa or is unable to enter Korea due to failure to obtain a visa.
+- 5 n  e n o r uo     o i   sdd o Certificate of Scholarship Payment from the scholarship-awarding institution.
+6. Application fees and submitted application documents will not be returned.
+7. The application number is required to check the admission results and for other procedures. Applicants must ker  r er e o  o r  doo
+8. Applicants may not be admitted if they are deemed to lack the academic ability required to successfully complete the program.
+9. According to the regulations for Recognition of Graduation Qualification at KNU, international undergraduate students (excluding transfer students) who are enrolled at KNU must obtain a TOPIK Level 4 or higher before graduation.
+- Only grades within four years from the test date indicated on the TOPIK score report will be recognized.
+10. In accordance with the National Health Insurance Act and the Enforcement Rules of the National Health Insurance Act, international students have been automatically enrolled in National Health Insurance (!) as local subscribers in Korea since March 2021.
+
+
+--- RECORD 3 ---
+SECTION: β Important Notes for Applicants
+LOCATION: heading: β Important Notes for Applicants / passage 2
+
+11. Matters not specified in this Admission Guide shall be determined by the Office of International Affairs of Kyungpook National University.
+12. This Admission Guide has been prepared in Korean, English, Chinese, and Vietnamese. In the event of any discrepancy or difference in interpretation among the language versions, the Korean version shall prevail.
+13. The following personal information of applicants will be collected and used for the admission process as shown below.
+4. – Information Collected and Used: Full Name, Alien Registration No., Passport No., Physical Address, Name of School of Graduation, Telephone Number, Mobile Phone Number, Email Address, Language Proficiency Scoe e y a s o eer o e r eer eas
+- Purpose of Collection and Use: Admission Process, Visa Application, General Academic Affairs, Scholarship Eligibility, Statistics, Dormitory Resident Selection, Admission Instructions
+- Collection and Usage Period: 10 years
+7. In accordance with Article 35 and Article 73 of the Enforcement Decree of the Higher Education Act, and the National Archives of Korea's "Guidelines for Determining Retention Periods of University Records (2021)" (Task Name: Admissions Management).
+
+
+--- RECORD 4 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 3
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | University Headquarters (Registrar's Office, Office of Student Affairs, Finance Department, etc.) | Full Name, Alien Registration No., Address, Telephone No., Application Information, Name of School of Graduation, etc.                                                                                            | Creation of School Regis- ter, Selection of Scholarship Students, Statistics, Tuition Fee Payments, etc. | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 5 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 4
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | College, School, and Department Offices                                                           | Full Name, Telephone No., Name of School of Graduation, Language Scores/Grades, etc.                                                                                                                              | Student Management, etc.                                                                                 | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 6 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 5
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | Dormitory Office                                                                                  | Full Name, Alien Registration No., Application Information, etc.                                                                                                                                                  | Dormitory Resident Selection, Sending of Admission Instructions, etc.                                    | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 7 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 6
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | Language Institute                                                                                | Full Name, Telephone No., etc.                                                                                                                                                                                    | Providing Language Program Information, etc.                                                             | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 8 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 7
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | IT Education Center                                                                               | Full Name, Telephone No., etc.                                                                                                                                                                                    | Providing Information of IT Programs, etc.                                                               | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 9 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 8
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | Ministry of Justice, Immigration Office                                                           | Full Name, Alien Registration No., Address, Telephone No., Application Information, Grades, Name of School of Graduation, etc.                                                                                    | Certificate of Admission Issuance, Immigration Services, etc.                                            | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 10 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 9
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | Korea Council for Third University Education Party                                                | Name, Alien Registration No., Application Information, etc.                                                                                                                                                       | Application System, etc.                                                                                 | Until the Purpose of the Process is Achieved. |
+
+
+--- RECORD 11 ---
+SECTION: β Important Notes for Applicants | KNU
+LOCATION: heading: β Important Notes for Applicants / row 10
+
+| Receiver of Information   | Receiver of Information                                                                           | Provided Information                                                                                                                                                                                              | Purpose of Provision                                                                                     | Holding Period                                |
+|---------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| KNU                       | GLN International Co., Ltd                                                                        | Full Name, Student ID, University's name in English, University's address in English, Tuition Payment deadline, Tuition Amount to be paid, Virtual Account Number, Payment Details (Payment Date, Payment Amount) | Using the GLN Tuition Payment Service                                                                    | Until the Purpose of the Process is Achieved. |

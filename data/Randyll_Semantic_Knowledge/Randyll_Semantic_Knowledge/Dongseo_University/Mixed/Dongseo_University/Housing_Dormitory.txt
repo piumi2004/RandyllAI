@@ -1,0 +1,41 @@
+UNIVERSITY: Dongseo University
+DEGREE/PROGRAM: Mixed
+TOPIC: Housing Dormitory
+ORIGINAL SOURCE: Dongseo University.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 4
+
+Based on the 2026 Fall semester, tuition rates are 
+※
+subject to change based on university policy.
+ ※ For Ph.D. students, accommodation (one room for two or three students) is provided during the regular semesters (1 year).
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 3
+
+Homepage
+https://www.dongseo.ac.kr/kr/index.php?pCode=MN2000306
+Based on the 2026 academic year; fees are subject to change in future semesters.
+※
+Dormitory availability will be determined after review, based on applications received.
+※
+Residents must remit payment within one week of moving in, after receiving the payment notice from 
+※ 
+the Dormitory Office (Student Apartment(Woojin Apartment) 107).
+For new students, dormitory rooms and roommates will be assigned at random for the first semester.
+※
+For Ph.D. program students, 
+※ 
+complimentary dormitory accommodation is provided for the first year after
+admission(2 semesters + 2 vacation periods).
+Dormitory housing is not available for students who have completed regular semesters and are in 
+※ 
+post-course completion status.

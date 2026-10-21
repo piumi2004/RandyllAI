@@ -1,0 +1,26 @@
+UNIVERSITY: Unverified 2027 1 en pdf
+DEGREE/PROGRAM: Mixed
+TOPIC: Application Deadlines
+ORIGINAL SOURCE: 2027_1학기 영남이공대학교 외국인특별전형 모집요강(En).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 8, passage 2
+
+B. All documents must be written in Korean or English. Documents in other languages must be submitted with a notarized translation.
+C. Admission will be canceled if tuition is not paid by the designated deadline.
+D. The admission schedule may change depending on circumstances, and changes will be announced separately.
+E. Applicants cannot raise objections if admission is canceled because notices could not be delivered due to incorrect contact information or loss
+F. Submitted documents are not returned in principle.
+G. Details not specified in this guide follow decisions of the university committee for international student admission.
+11. Contact and admission counseling
+A
+Mailing address for documents
+Global Admissions Team, Global House, 1st Floor
+Admissions Officer for International Degree Programs
+Yeungnam University College, 170 Hyeonchung-ro, Nam-gu,
+Daegu 42415, Republic of Korea

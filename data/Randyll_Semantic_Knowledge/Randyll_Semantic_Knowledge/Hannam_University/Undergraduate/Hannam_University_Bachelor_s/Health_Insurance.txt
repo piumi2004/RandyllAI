@@ -1,0 +1,24 @@
+UNIVERSITY: Hannam University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Health Insurance
+ORIGINAL SOURCE: Hannam University Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 1
+
+Notes Regarding Registration
+Admitted applicants must obtain their Certificate of Admission and Tuition Invoice from the Admissions
+Office or the Center for International Relations after the announcement of admission results, and
+complete registration within the designated period. For more detailed information regarding registration,
+please refer to the admission results page after (1st Round) 10:00, November 16, 2026 (Mon) / (2nd
+Round) 10:00, January 18, 2027 (Mon).
+· According to the amendment to the Enforcement Rule of the National Health Insurance Act
+(Ministry of Health and Welfare Ordinance No. 657, July 16, 2019), foreign students
+entering the university are subject to mandatory enrollment in the National Health
+Insurance (insurance premiums are borne by the student). For details, contact the National
+Health Insurance Corporation (1577-1000) or the Center for International Relations of the

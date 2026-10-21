@@ -1,0 +1,52 @@
+UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Application Procedure
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: 2 Schedule | Submit Online Application
+LOCATION: heading: 2 Schedule / row 3
+
+| Process                                     | Timeline - Spring                                                                                                                                                                                                                                                                                                                                                           | Timeline - Fall                                                                                                                                                                                                                                                                                                                                                             | Remarks                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Submit Online Application                   | Oct 12, 2026 (Mon) 09:00 ～ Oct 30, 2026 (Fri) 18:00                                                                                                                                                                                                                                                                                                                         | Apr 12, 2027 (Mon) 09:00 ~Apr 30, 2027 (Fri) 18:00                                                                                                                                                                                                                                                                                                                          | Uway Apply (Link available on the KNU OIA website)                                                                                                                                                                                                                                                                                                                          |
+
+
+--- RECORD 2 ---
+SECTION: 1. Applications
+LOCATION: heading: 1. Applications / passage 2
+
+- Applicants may apply to both Track I and Track II simultaneously.
+- A. Application Period
+- Spring Semester: Oct. 12, 2026 (Mon), 09:00 – Oct. 30, 2026 (Fri), 18:00
+- Fall Semester: Apr. 12, 2027 (Mon), 09:00 – Apr. 30, 2027 (Fri), 18:00
+- B. Application Website: Uway Apply (Link available on the KNU OIA website: www.uwayapply.com)
+- C. Application Number: Automatically generated upon successful completion of the online application
+- D. Application Procedure:
+- During the application period, upload the required documents listed in "6. Required Documents" (Page 11).
+- Upload one PDF file for each document item (① – ④).
+- Do NOT upload all required documents as a single PDF file
+
+
+--- RECORD 3 ---
+SECTION: Online Application Process
+LOCATION: heading: Online Application Process / passage 1
+
+- Upload the required documents (1) in the order listed under "6. Required Documents" and (2) as one PDF file per document item.
+- ▶Applications applying to both Track I and Track Il must upload a separate set of application documents for each application number.
+- ▶An application is considered complete only after the application fee has been paid. Once payment has been made, no changes may be made to the application.
+- ▶The application fee will be fully refunded if the application is withdrawn before 18:00 on Oct. 30, 2026 (Spring Semester) or before 18:00 on Apr. 30, 2027 (Fall Semester). No refund will be provided after the application deadline.
+- ▶Applicants should keep their five-digit application number for future reference.
+- ▶Heavy website traffic is expected on the application deadline. Applicants are strongly advised to complete their application well in advance.
+- ▶For inquiries regarding the online application system: Uway Apply (+82-1588-8988)
+
+
+--- RECORD 4 ---
+SECTION: 3. ★Mandatory Submission of Original Documents
+LOCATION: heading: 3. ★Mandatory Submission of Original Documents / passage 3
+
+Admission may be cancelled if the submitted documents diffter from those uploaded during the online application.

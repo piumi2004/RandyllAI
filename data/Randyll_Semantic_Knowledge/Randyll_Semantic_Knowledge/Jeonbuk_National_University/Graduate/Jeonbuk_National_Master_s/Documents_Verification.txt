@@ -1,0 +1,138 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Graduate
+TOPIC: Documents Verification
+ORIGINAL SOURCE: Jeonbuk National Master_s.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Contents | [Appendix B] Apostille
+LOCATION: heading: Contents / row 14
+
+| ① Admission Timeline                                   |   1 |
+|--------------------------------------------------------|-----|
+| [Appendix B] Apostille                                 |  20 |
+
+
+--- RECORD 2 ---
+SECTION: &lt;NOTE1 Certificate of Diploma Verification&gt; | Apostille Convention Countries
+LOCATION: heading: &lt;NOTE1 Certificate of Diploma Verification&gt; / row 3
+
+| Category                                   | Documents                                                                                                                                                                              |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apostille Convention Countries             | Documents for submission- graduation certificate(Degree certificate) apostille, issued by the government appointed organizations [Appendix A] Apostille                                |
+
+
+--- RECORD 3 ---
+SECTION: &lt;NOTE1 Certificate of Diploma Verification&gt; | Countries outside the Apostille Convention
+LOCATION: heading: &lt;NOTE1 Certificate of Diploma Verification&gt; / row 4
+
+| Category                                   | Documents                                                                                                                                                                              |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Countries outside the Apostille Convention | Certificate of academic background (Diploma of Graduation and Transcript) approved by embassy. Documents can be issued by Korean Embassy or the applicant's country's embassy in Korea |
+
+
+--- RECORD 4 ---
+SECTION: &lt;NOTE1 Certificate of Diploma Verification&gt; | CHINA
+LOCATION: heading: &lt;NOTE1 Certificate of Diploma Verification&gt; / row 5
+
+| Category                                   | Documents                                                                                                                                                                              |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CHINA                                      | The Education Verification can be done through the following CHSI website at; www.chsi.com.cn                                                                                          |
+
+
+--- RECORD 5 ---
+SECTION: &lt;NOTE1 Certificate of Diploma Verification&gt;
+LOCATION: heading: &lt;NOTE1 Certificate of Diploma Verification&gt; / passage 2
+
+1. Application fee : 80,000 KRW (Unpaid applications cannot be accepted)
+2. How to pay : Payment can be made by bank transfer or credit card through the online application website Application may be cancelled when the application fee payment is not made until the deadline.
+
+
+--- RECORD 6 ---
+SECTION: ▪ What APOSTILLE is,
+LOCATION: heading: ▪ What APOSTILLE is, / passage 1
+
+- Since July 14, 2007, the Republic of Korea has been part of the 1961 Hague Convention abolishing the Reos   r ti  i n oi    ie certification or public (including notarized) documents to be used in countries that have joined the convention.
+- An Apostille ensures that public documents issued in one signatory country will be recognized as valid in another signatory country.
+- The List of Countries for Apostille Certificates
+- For information regarding how to get an Apostille, please, refer to the website at; https://www.hcch.net/en/instruments/specialised-sections/apostille
+
+
+--- RECORD 7 ---
+SECTION: ▪ What APOSTILLE is, | Asia, Pacific
+LOCATION: heading: ▪ What APOSTILLE is, / row 3
+
+| Area                    | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Asia, Pacific           | Australia, China, Japan, Korea, New Zealand, Brunei, Mongolia, Cook Islands, Fiji, India, Marshall Islands, Mauritius, Vanuatu, Samoa, Tonga, Niue, Tajikistan, Palau, Philippines, Singapore, Indonesia, Pakistan, Macao, Hong Kong                                                                                                                                                                                                                                                                                                            |
+
+
+--- RECORD 8 ---
+SECTION: ▪ What APOSTILLE is, | Europe
+LOCATION: heading: ▪ What APOSTILLE is, / row 4
+
+| Area                    | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Europe                  | Albania, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Georgia, Germany, Malta, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Russia, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Türkiye, Kyrgyzstan, North Macedonia, Ukraine, United Kingdom, Andorra, Armenia, Azerbaijan, Moldova, Liechtenstein, San Marino, Kazakhstan, Uzbekistan, Kosovo |
+
+
+--- RECORD 9 ---
+SECTION: ▪ What APOSTILLE is, | North America
+LOCATION: heading: ▪ What APOSTILLE is, / row 5
+
+| Area                    | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| North America           | United States (including Guam, Northern Mariana Islands, Saipan, and Puerto Rico), Canada                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+
+--- RECORD 10 ---
+SECTION: ▪ What APOSTILLE is, | Central & South America
+LOCATION: heading: ▪ What APOSTILLE is, / row 6
+
+| Area                    | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Central & South America | Argentina, Mexico, Panama, Suriname, Venezuela, Antigua and Barbuda, Bahamas, Barbados, Belize, Colombia, Dominica, Dominican Republic, Ecuador, El Salvador, Grenada, Honduras, Saint Vincent and the Grenadines, Peru, Trinidad and Tobago, Saint Lucia, Saint Kitts and Nevis, Costa Rica, Uruguay, Nicaragua, Paraguay, Brazil, Chile, Guatemala, Bolivia, Guyana, Jamaica                                                                                                                                                                  |
+
+
+--- RECORD 11 ---
+SECTION: ▪ What APOSTILLE is, | Africa
+LOCATION: heading: ▪ What APOSTILLE is, / row 7
+
+| Area                    | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Africa                  | Namibia, South Africa, Liberia, Lesotho, Malawi, Botswana, Burundi, São Tomé and Príncipe, Senegal, Seychelles, Eswatini, Cabo Verde, Tunisia, Rwanda                                                                                                                                                                                                                                                                                                                                                                                           |
+
+
+--- RECORD 12 ---
+SECTION: ▪ What APOSTILLE is, | Middle East
+LOCATION: heading: ▪ What APOSTILLE is, / row 8
+
+| Area                    | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Middle East             | Morocco, Bahrain, Saudi Arabia, Oman, Israel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+
+--- RECORD 13 ---
+SECTION: ▪ Apostille Issuance Procedure
+LOCATION: heading: ▪ Apostille Issuance Procedure / passage 3
+
+&lt;Diploma verification for university in China (CHSI)&gt;
+
+
+--- RECORD 14 ---
+SECTION: ▪ Apostille Issuance Procedure
+LOCATION: heading: ▪ Apostille Issuance Procedure / passage 4
+
+- Students admitted from countries which are NOT signatories to the convention and do not recognize the Apostille must meet the following requirements:
+- Applicants from these countries should submit their official certificates with an authentication attachment C.rr   se (sittts t cera o ttte o rottna oo ttitea ean Embassy or Consulate.
+- Those who get a diploma from Universities in China should submit the degree certificate from the CHSI(www.chsi.com.cn)
+
+
+--- RECORD 15 ---
+SECTION: Exceptional recognition for certificate of expected graduation
+LOCATION: heading: Exceptional recognition for certificate of expected graduation / passage 5
+
+- v  n  e  r   id e ns et v e Apostille from the issuing country or consular confirmation from the Korean embassy in the country where the document is issued.

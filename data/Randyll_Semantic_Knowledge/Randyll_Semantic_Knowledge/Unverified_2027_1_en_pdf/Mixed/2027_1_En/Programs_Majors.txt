@@ -1,0 +1,61 @@
+UNIVERSITY: Unverified 2027 1 en pdf
+DEGREE/PROGRAM: Mixed
+TOPIC: Programs Majors
+ORIGINAL SOURCE: 2027_1학기 영남이공대학교 외국인특별전형 모집요강(En).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 4, passage 1
+
+2027 Academic Year, 1st Semester International Student Special Admission Guide
+PAGE 2
+Departments and Admission
+3. Departments: Daytime / Quota: No limit (Global Korean Language and Culture: 50 students)
+Korean Track
+Field
+Department and major
+Years
+Field
+Department and major
+Years
+Health
+Health Care Administration
+3 yrs
+Natural
+Science
+Fashion Design Marketing
+2 yrs
+Engineering
+AI Software
+3 yrs
+Natural
+Science
+K-Beauty
+2 yrs
+Engineering
+Cyber Security
+3 yrs
+Natural
+Science
+Companion Animal Stylist
+2 yrs
+*Mechanical and Automotive Department
+↳ Robot Smart Manufacturing, Future Mobility
+Design, Smart Factory, Future Automotive
+Engineering
+AI Logistics Automation
+2 yrs
+Engineering
+ICT Semiconductor Electronics
+↳ ICT Electronics, Semiconductor Systems
+2 yrs
+Engineering
+Electrical Automation
+2 yrs
+i-Business Accounting
+↳ Accounting and Financial Investment, Marketing
+Big Data Startup

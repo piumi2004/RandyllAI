@@ -1,0 +1,16 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Graduate
+TOPIC: Financial Proof
+ORIGINAL SOURCE: Jeonbuk National Master_s.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Admissions Timeline | Submission of Proof of funds
+LOCATION: heading: Admissions Timeline / row 8
+
+| Steps                              | Schedule (KST) - Round 1                      | Schedule (KST) - Round 2                      | Remarks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Submission of Proof of funds       | To be determined (Successful Applicants Only) | To be determined (Successful Applicants Only) | - Original Bank Statement submission - KRW 16,000,000 or more (approximately USD 13,000 or more) 1) Those in Korea: Only successful applicants need to submit • Only a Korean account in your name is acceptable • Issuance date: Within 30 days of the visa application date 2) Those in overseas: Can be submitted during application or after acceptance • Student's or his/her parents' account (overseas account) • Issuance date: Within 30 days of the submission date • If not submitted at the time of application, submit before making visa application - Possible Substitute documents for bank balance certificate • Financial Sponsorship Certificate (Ministry of Justice form) • Jeonbuk National University Scholarship Certificate (can be issued for department-recommended applicants) |

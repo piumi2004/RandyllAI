@@ -1,0 +1,33 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Eligibility Language
+ORIGINAL SOURCE: Tongmyong Master_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 3, passage 3
+
+-. Applicants who have obtained TOPIK Level 3 or higher
+-. Applicants without TOPIK who, if necessary, are recognized for their Korean language proficiency through an interview.
+※ Applicants without proof of language proficiency are required to complete the university’s Korean language
+-. Applicants who have achieved a minimum score of IELTS 5.5, TOEFL iBT 80, TOEFL PBT 550, or TEPS 550
+-. Applicants who can provide proof of completing secondary or higher education entirely in English
+-. Applicants without English proficiency certificate, who, if necessary, are recognized as having sufficient English
+proficiency through an interview
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 3, passage 4
+
+※ Applicants admitted to the Korean Track who do not possess the above language qualifications are 
+required to complete a separate Korean language program at the university after admission.
+※ For applicants who do not submit language proficiency test scores, their language ability may be 
+assessed through an interview, if necessary, and the final admission decision will be made 
+accordingly.
+※ Language proficiency test scores are considered valid only if their expiration date is after the start 
+date of the semester.

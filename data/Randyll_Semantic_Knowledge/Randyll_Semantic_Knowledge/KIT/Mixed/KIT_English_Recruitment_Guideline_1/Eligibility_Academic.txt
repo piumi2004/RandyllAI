@@ -1,0 +1,17 @@
+UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Academic
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 6
+
+ÿ  After  the  freshman  recruitment  period  ends,  if  the  application,  acceptance,  and  registration  status  of  new  students  at  universities  nationwide  (junior  colleges,  general  universities,  and  industrial  universities)  is  electronically  searched  and  it  is  confirmed  that  initial  successful  candidates  and  supplementary  successful  candidates  from  early  admission  have  applied  for  regular  admission,  which  is  prohibited,  or  have  double-registered,
+Admission  may  be  cancelled.
+ÿ  Admission  may  be  cancelled  if  double  registration  is  confirmed  after  the  semester  begins  (registering  at  two  or  more  universities).
+E.  Matters  not  specified  in  these  admission  guidelines  will  be  handled  according  to  the  decision  of  our  university's  Admissions  Committee.

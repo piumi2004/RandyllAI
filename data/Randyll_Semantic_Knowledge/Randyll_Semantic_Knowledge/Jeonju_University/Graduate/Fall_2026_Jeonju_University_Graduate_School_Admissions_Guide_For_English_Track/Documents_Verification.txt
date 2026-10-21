@@ -1,0 +1,34 @@
+UNIVERSITY: Jeonju University
+DEGREE/PROGRAM: Graduate
+TOPIC: Documents Verification
+ORIGINAL SOURCE: Fall 2026 Jeonju University Graduate School Admissions Guide_For English Track applicants(International students) (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 7, passage 1
+
+6. Application and Document Submission
+A. Original Documents Required
+B. Translation & Notarization
+All submitted documents must be originals.
+Documents written in languages other than Korean or English
+must be submitted with a notarized translation (Korean or English).
+Only notarizations obtained in the country where the issuing
+institution is located are accepted; notarizations obtained in Korea
+C. No Return of Documents
+Submitted documents will not be returned even in the case of
+Applicants who submit an expected graduation certificate must
+submit the final certificate within 15 days of the start of the
+semester after final acceptance. Failure to do so will result in
+cancellation of admission.
+1
+Personal Statement & Research Plan
+Completed online
+2
+Certificate of Graduation (or Expected
+1. Graduates of Korean Universities (or Graduate Schools)
+Graduation) from University/Graduate School
