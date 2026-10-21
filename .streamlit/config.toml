@@ -1,0 +1,32 @@
+[theme]
+base = "dark"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["2rem", "1.5rem", "1.25rem", "1.05rem", "1rem", "0.875rem"]
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+baseRadius = "0.8rem"
+buttonRadius = "0.8rem"
+showWidgetBorder = true
+linkUnderline = false
+paddingTop = "1.5rem"
+paddingBottom = "2.5rem"
+
+primaryColor = "#C8102E"
+backgroundColor = "#07111F"
+secondaryBackgroundColor = "#122847"
+textColor = "#F4F7FB"
+borderColor = "#2A4D7A"
+linkColor = "#8EBEFF"
+codeBackgroundColor = "#0C1C34"
+codeTextColor = "#D6E8FF"
+
+redColor = "#E11D48"
+redTextColor = "#FECDD3"
+redBackgroundColor = "#3F1522"
+blueColor = "#3B82F6"
+blueTextColor = "#DBEAFE"
+blueBackgroundColor = "#123056"
+
+chartCategoricalColors = ["#C8102E", "#3B82F6", "#93C5FD", "#FB7185", "#1D4ED8", "#F43F5E", "#60A5FA"]
