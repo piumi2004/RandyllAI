@@ -1,8 +1,0 @@
-University: Jeonbuk National University
-Topic: 07 Tuition
-Source: Jeonbuk National Master_s.md, Tuition Fee
-Source status: university admission guide / OCR transcription where specified
-
-Source table lists total first payment by field, including KRW 178,000 admission fee: Humanities/Social Sciences 3,140,000; Natural Sciences/Agriculture/PE 3,954,000; Engineering 4,226,000; Arts 4,344,000; Veterinary Medicine 4,668,000; Medicine/Dentistry 5,785,000; Mathematics 3,150,000; Pharmacy 4,597,000. Source separately lists expected scholarships and actual-payment estimates; do not confuse estimates with universal payable rates.
-
-Verification note: This is a concise source-based fact sheet; consult the original guide before making payments or visa/admissions decisions.

@@ -1,4 +1,11 @@
+# Ignore entire data directory
+data/
+
+# Secrets
 .env
+.env.*
+
+# Python environment
 .venv/
 __pycache__/
 *.pyc
