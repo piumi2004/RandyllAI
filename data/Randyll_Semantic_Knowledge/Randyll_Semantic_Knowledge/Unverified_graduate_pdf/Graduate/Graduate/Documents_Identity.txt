@@ -1,0 +1,165 @@
+UNIVERSITY: Unverified graduate pdf
+DEGREE/PROGRAM: Graduate
+TOPIC: Documents Identity
+ORIGINAL SOURCE: Graduate.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 8, passage 4
+
+Submit both ① and ②
+① Copy of parents' local ID card or copy of passport
+② Original Korean/English documents or original notarized
+⑦ Proof of nationality and 
+family relations
+○
+○
+translation proving the nationality and personal information of 
+the applicant and parents, and the relationship between the 
+applicant and parents (issued/notarized within 1 year of 
+application)
+☞ Refer to [Proof of nationality and family relations
+documentation guide] for Chinese applicants
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 10, passage 4
+
+○ General Requirements (Submit 1~3) Citizenship, personal details, and family relationship of both parents and Applicant
+ ① Applicant’s passport copy
+ ② Copies of the parents’ local ID or passport
+ ③ Original notarized translation of the Family Relationship Certificate
+§
+Applicants may submit a birth certificate if the Family Relationship Certificate is unavailable provided it specifies the 
+citizenship, personal details, and family relationship of both parents at the time of application.
+§
+Notarized documents must be issued within 1 year of the submission date. 
+§
+In case of submitting a copy, it is accepted if the notarized document is an original.
+§
+Submit additional proof for changes such as death, divorce, or remarriage.
+China
+(Submit all 
+documents from
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 10, passage 5
+
+① Copy of the applicant’s passport
+  ② Copies of the parents’ local ID or passport
+  ③ Original notarized translation of the Family Hukoubu issued within the last five years
+  ④ Original notarized translation of the Kinship Certificate
+§
+The Kinship Certificate is not required if the applicant and both parents are registered together in 
+the Family Hukoubu.
+§
+If the applicant and parents are registered separately, the Kinship Certificate and each individual 
+Hukoubu must be submitted.
+§
+The Kinship Certificate is mandatory if the Hukoubu is submitted based on the applicant’s grandparents.
+All countries 
+except China
+Submit original certificates issued by a government agency proving the citizenship of the applicant and 
+parents as well as the relationship between them.
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 11, passage 2
+
+○ All Applicants: Affidavit of Financial Support [Form4] + Original Certificate of Bank Deposit Balance from a domestic or 
+overseas bank (KRW 16,000,000 or more)
+Ÿ
+Applicants who have completed courses at the Institute of International Language Education at Kongju National University: 
+KRW 8,000,000 or more (Provided that the original certificate of completion for the Korean language course and official 
+transcripts for all semesters are submitted)
+Ÿ
+The bank deposit balance certificate must be issued within 30 days prior to the submission date. However, if an expiration date 
+is specified on the certificate, it is recognized up to that expiration date (provided that the issue date is within 6 months).
+Ÿ
+Bank transaction statements, mobile banking screenshots, etc., are NOT accepted as proof of financial capability.
+Ÿ
+Proof of financial capability must be submitted as a bank deposit balance certificate under the name of the applicant or 
+their parents (siblings are accepted only if both parents are deceased).
+Ÿ
+Foreign Registration Card holders residing in Korea: Must submit the original bank deposit balance certificate issued under 
+the applicant's name by a bank in Korea. (In th
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 11, passage 3
+
+e case of minors, the original bank deposit balance certificate under their 
+parents' name, verified via a Family Relation Certificate, may be submitted)
+Ÿ
+If an academic advisor (faculty member) acts as a financial guarantor instead of the university headquarters, the number of 
+sponsored international students is limited to one (1) student. (Additional financial sponsorship is permitted only if the 
+previously sponsored student has completely departed the country or if the academic advisor has revoked the sponsorship 
+for the previously sponsored student) .
+Ÿ
+The Affidavit of Financial Support [Form 5] must be completed based on the account holder's name stated on the bank 
+deposit balance certificate. (e.g., applicant, parents, prospective academic advisor).
+
+
+--- RECORD 6 ---
+SECTION: Source page subsection
+LOCATION: PDF page 21, passage 2
+
+(Undergraduate course:
+Certificate of high school graduation and transcript 
+and Academic Record(if applicable)
+(Undergraduate Transfer course: (Associate) Degree 
+certificate or Certificate of Completion, and 
+transcript)
+(Graduate course:
+Bachelor’s degree and transcript)
+(if applying for Doctorate course:
+Master’s degree and transcript)
+For applicants who graduated from an university in 
+South Korea, both Apostilled and Consulate certified 
+processes are not required.
+5. Certificate of Family Relation
+(English Translated & Notarized)
+The Family Relationship Certificate must verify the 
+citizenship, personal details, and family relationship 
+of both the applicant and parents. The document 
+will not be accepted if any information is missing.
+6. Copy of applicant’s passport
+one
+7. Affidavit of Financial Support
+one
+8. Certificate of bank balance:
+more than KRW 16,000,000
+
+
+--- RECORD 7 ---
+SECTION: Source page subsection
+LOCATION: PDF page 22, passage 1
+
+[Form 2 Application Form] - Submit printed copy from Jinhak Apply
+  2027 Spring Semester Graduate School
+ Application for Admission(Freshmen)
+(2027학년도 전기 대학원 외국인 신입생 입학지원서)
+※ Please type or write clearly in Korean or in English (한글이나 영어로 명확하게 작성하세요)
+1. Degree Program Applied for (지원 과정): (  ) Master's(석사)  (  ) Doctorate(박사)
+2. Department Applied for (지원 학과):
+3. Name (성명) ※ Name on your passport (여권상의 이름)
+Last(성)                 First(이름)
+Last(성)                 First(이름)
+4. Date of Birth(생년월일):          /           /
+Year(년)        Month(월)        Day(일)
+5. Foreign Registration No.(외국인 등록번호):           -
+※ Those who have been given Alien Registration Number in Korea must enter the number
+(외국인등록을 한 적이 있는 지원자는 반드시 기재)
+9. Sex(성별): (  ) Male(남)  (  ) Female(여)
+11. Mailing Address(우편물 수령 주소)
+address is in Korea, please write in Korean and if it is abroad, please write in English
+(국내 주소인 경우 한국어로 작성, 해외 주소인 경우 영어로 작성)

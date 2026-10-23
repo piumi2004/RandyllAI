@@ -1,0 +1,30 @@
+UNIVERSITY: Dongseo University
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Nationality
+ORIGINAL SOURCE: Dongseo University.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 8, passage 1
+
+04 Eligibility & Requirements
+Classification
+Eligibility and Requirements
+· Parents and applicant must have citizenship from a country other than Korea.
+Nationality-related Notes
+※
+· Applicants with dual nationality or stateless status are not eligible to apply.
+· If the applicant and their parents have renounced or lost Korean nationality,
+official documentation proving the loss of nationality (including details and
+the exact date of loss/renunciation) must be submitted.
+· Receipts or reports of nationality renunciation/loss that only confirm the
+submission of the application will not be accepted.
+· Applicant must have completed secondary school (or be expected to complete
+secondary school before admission) either in or outside Korea.
+· Sophomore transfer applicant must also have either:
+- completed (or be expected to complete) at least 1 year (2 regular
+semesters) and earned at least 25% of the credits required to complete

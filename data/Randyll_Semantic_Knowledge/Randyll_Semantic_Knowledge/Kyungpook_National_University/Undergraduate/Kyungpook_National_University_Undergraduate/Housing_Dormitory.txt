@@ -1,0 +1,26 @@
+UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Housing Dormitory
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: CONTENTS | 10 Dormitory Fees 17
+LOCATION: heading: CONTENTS / row 9
+
+| 工 ADMISSIONS GUIDE Admissions Process 01 2 Schedule 01 Available Departments Eligibility How to Apply 10 Required Documents 11 Application Fee   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 10 Dormitory Fees 17                                                                                                                             |
+
+
+--- RECORD 2 ---
+SECTION: 11 Dormitory Fees (as of Spring Semester 2026)
+LOCATION: heading: 11 Dormitory Fees (as of Spring Semester 2026) / passage 1
+
+| Room & Board            | Room & Board            | Semester - Bongsa & Hwamok-Gwan (Daegu)   | Semester - Cheomseong- Gwan (Daegu)   | Semester - Cheongun-Gwan, Noak-Gwan (Sangju)   | Vacation - Summer    | Vacation - Winter    | Notes                                                             |
+|-------------------------|-------------------------|-------------------------------------------|---------------------------------------|------------------------------------------------|----------------------|----------------------|-------------------------------------------------------------------|
+| Room                    | 2 People per Room       | W652,300                                  | W723,400                              | W693,100                                       | W374,600             | W393,000             | Students can select meals per day. (Daegu: 0~3meals/day) (Sangju: |
+| Board (3 Meals per Day) | Board (3 Meals per Day) | W1,100,800                                | W1,100,800                            | W1,111,800                                     | W452,200 2 meals/day | W270,000 2 meals/day | 1~3meals/day)                                                     |

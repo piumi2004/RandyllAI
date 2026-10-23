@@ -1,0 +1,70 @@
+UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Documents Academic
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: 1. Application Documents (After Online Application) | ④Official High School Transcript (All Three Years)
+LOCATION: heading: 1. Application Documents (After Online Application) / row 6
+
+| Required Documents                                                                                 | Regular   | Transfer   | Remarks                                                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------------------------------------------------------------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ④Official High School Transcript (All Three Years)                                                 | 0         |            | • Applicants from China: Refer to “D. Applicants from High Schools in China.' • Applicants from Other Countries: Apostille or Consular Legalization • For Graduates: Must submit all documents by the application deadline • For Expected Graduates: Submit Expected Graduation                                                                                                                             |
+
+
+--- RECORD 2 ---
+SECTION: 1. Application Documents (After Online Application) | ⑤ Certificate of Enrollment, or Graduation (Expected Gr
+LOCATION: heading: 1. Application Documents (After Online Application) / row 7
+
+| Required Documents                                                                                 | Regular   | Transfer   | Remarks                                                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------------------------------------------------------------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ⑤ Certificate of Enrollment, or Graduation (Expected Graduation) from University                   | X         | O          | • Applicants from China: Refer to “D. Applicants from High Schools in China.' • Applicants from Other Countries: Apostille or Consular Legalization • For Graduates: Must submit all documents by the application deadline • For Expected Graduates: Submit Expected Graduation                                                                                                                             |
+
+
+--- RECORD 3 ---
+SECTION: 1. Application Documents (After Online Application) | ⑥Official University Transcript * Transcripts must incl
+LOCATION: heading: 1. Application Documents (After Online Application) / row 8
+
+| Required Documents                                                                                 | Regular   | Transfer   | Remarks                                                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------------------------------------------------------------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ⑥Official University Transcript * Transcripts must include earned credits and per- centage scores. | ×         | O          | Certificate (indicating the graduation date) and transcript covering completed semesters • Applicants from Countries with an 11-year Education System must additionally submit both of the following: 1) Official documentation proving completion of Grades 9– 11 in the same country (e.g. Middle School Graduation Certificate or equivalent official document) 2) Grade 9 (or Middle School) Transcript |
+
+
+--- RECORD 4 ---
+SECTION: 1. Application Documents (After Online Application) | ⑨Certificate of Enrollment (or Completion) and Transcri
+LOCATION: heading: 1. Application Documents (After Online Application) / row 11
+
+| Required Documents                                                                                 | Regular   | Transfer   | Remarks                                                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------------------------------------------------------------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ⑨Certificate of Enrollment (or Completion) and Transcript at a Korean Language Institute           | △         | △          | • Required only for applicants who are currently enrolled in or have completed a Korean language program in Korea                                                                                                                                                                                                                                                                                           |
+
+
+--- RECORD 5 ---
+SECTION: 3. ★Mandatory Submission of Original Documents | 2) Academic Qualification Verification
+LOCATION: heading: 3. ★Mandatory Submission of Original Documents / row 3
+
+| 1) Proof of Financial Ability          | Applicants who have already submitted the original copy do not need to submit it again.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2) Academic Qualification Verification | This requirement does not apply to applicants who graduated from schools in Korea. Applicants who graduated from schools outside Korea must submit one of the following: ①, ②, or ③. ① Applicants who obtained their academic qualifications in China: - General High School: English version of the Diploma Certificate issued by CHSI (学信网) — Vocational High School: Original graduation certificate authenticated by Apostille and theSchool Information Verification Form' ③Other Countries: Original academic qualification documents verified by the Korean consulate/embassy in the country of issuance or the consulate of the applicant's home country in Korea |
+
+
+--- RECORD 6 ---
+SECTION: 3. ★Mandatory Submission of Original Documents | 3) Official Transcripts
+LOCATION: heading: 3. ★Mandatory Submission of Original Documents / row 4
+
+| 1) Proof of Financial Ability          | Applicants who have already submitted the original copy do not need to submit it again.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3) Official Transcripts                | Original copies of all transcripts submitted during the online application process                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+
+--- RECORD 7 ---
+SECTION: A. Daegu Campus | Political Science and Diplomacy
+LOCATION: heading: A. Daegu Campus / row 14
+
+| Department (Major)                                                       | Department (Major)                                                       | Website                                       | Contact (053-950-)   |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------|----------------------|
+| Political Science and Diplomacy                                          | Political Science and Diplomacy                                          | https://politics.knu,ac.kr                    | 5206                 |

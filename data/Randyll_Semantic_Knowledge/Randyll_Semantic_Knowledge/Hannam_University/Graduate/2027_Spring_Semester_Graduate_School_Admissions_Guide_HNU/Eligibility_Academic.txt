@@ -1,0 +1,23 @@
+UNIVERSITY: Hannam University
+DEGREE/PROGRAM: Graduate
+TOPIC: Eligibility Academic
+ORIGINAL SOURCE: 2027-Spring-Semester-Graduate-School-Admissions-Guide-HNU.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 1
+
+Ⅳ. ELIGIBILITY REQUIREMENTS
+Applicants must hold, or expect to hold in prior to entering HNU, a
+bachelor’s degree or its equivalent (or higher) degree from an accredited 
+college or university
+Applicants must hold, or expect to hold in prior to entering HNU, a
+bachelor’s degree or its equivalent (or higher) degree from an accredited 
+college or university
+Applicants must hold, or expect to hold in prior to entering HNU, a master’s
+degree or its equivalent (or higher) degree from an accredited college or 
+university

@@ -1,0 +1,24 @@
+UNIVERSITY: Jeonju University
+DEGREE/PROGRAM: Graduate
+TOPIC: Tuition Fees
+ORIGINAL SOURCE: Fall 2026 Jeonju University Graduate School Admissions Guide_For English Track applicants(International students) (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 10, passage 2
+
+New Students
+• Graduates of Jeonju university's undergraduate program with a GPA of 3.0/4.5 or higher are exempt from the
+• Applicants who have graduated from this university or other domestic or overseas universities with a minimum
+undergraduate GPA of 3.0/4.5 and are admitted through the English Track will receive a 30% reduction in tuition
+Current Students
+• English track students with a previous semester GPA of 4.0/4.5 or higher: 30% tuition reduction; GPA of 3.5/4.5 or
+higher: 20% tuition reduction.
+Current Students 2
+• English track students with a previous semester GPA of 4.0/4.5 or higher: 30% tuition reduction; GPA of 3.5/4.5 or
+higher: 20% tuition reduction.
+※ "Current Students 2" applies on a temporary basis during the visa-restricted university designation period to students who enrolled

@@ -1,0 +1,41 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Graduate
+TOPIC: Admission Results
+ORIGINAL SOURCE: Jeonbuk National Master_s.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Admissions Timeline | Admission Results Announcement
+LOCATION: heading: Admissions Timeline / row 7
+
+| Steps                              | Schedule (KST) - Round 1                      | Schedule (KST) - Round 2                      | Remarks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Admission Results Announcement     | '2026. 11. 13.(Fri)                           | '2027.1. 6.(Wed)                              | - Announced to applicant's email and JBNU webpage (www.jbnu.ac.kr)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+
+--- RECORD 2 ---
+SECTION: 1. Announcement of Result\_ Website and Email Notification | Announcement Date
+LOCATION: heading: 1. Announcement of Result\_ Website and Email Notification / row 3
+
+| Category            | Round 1                                                                                                                 | Round 2                                                                                                                 | Remarks                                                                            |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Announcement Date   | 2026.11.13.(Fri)                                                                                                        | 2027. 01. 06.(Wed)                                                                                                      |                                                                                    |
+
+
+--- RECORD 3 ---
+SECTION: 1. Announcement of Result\_ Website and Email Notification | Admission letter
+LOCATION: heading: 1. Announcement of Result\_ Website and Email Notification / row 5
+
+| Category            | Round 1                                                                                                                 | Round 2                                                                                                                 | Remarks                                                                            |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Admission letter    | It will be issued to the final admitted applicants who have submitted all the documents and paid tuition fee            | It will be issued to the final admitted applicants who have submitted all the documents and paid tuition fee            | If all of documents are not submitted by the deadline, admission will be cancelled |
+
+
+--- RECORD 4 ---
+SECTION: Exceptional recognition for certificate of expected graduation
+LOCATION: heading: Exceptional recognition for certificate of expected graduation / passage 3
+
+(Eligible Applicants) Applicants whose graduation date is within one year from the date of issuance of the Certificate of Admission

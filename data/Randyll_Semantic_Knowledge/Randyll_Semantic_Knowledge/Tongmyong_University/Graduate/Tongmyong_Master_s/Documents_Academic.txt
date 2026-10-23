@@ -1,0 +1,18 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Documents Academic
+ORIGINAL SOURCE: Tongmyong Master_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 4, passage 5
+
+**Financial guarantor : Only parents of applicants are acceptable
+※ Applicants who obtained their degree in China must submit all of the following documents for
+⦁Notarized copies of the graduation certificate and academic transcript (with English translation)
+⦁An academic degree verification report issued by the China Academic Degrees and Graduate
+Education Development Center (CDGDC)

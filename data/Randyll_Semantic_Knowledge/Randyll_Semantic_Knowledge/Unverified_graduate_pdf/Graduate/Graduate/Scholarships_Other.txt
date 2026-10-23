@@ -1,0 +1,400 @@
+UNIVERSITY: Unverified graduate pdf
+DEGREE/PROGRAM: Graduate
+TOPIC: Scholarships Other
+ORIGINAL SOURCE: Graduate.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 2, passage 2
+
+4. Proof of financial ability documentation guide ·········································· 9
+Ⅵ Method of application ·························································································· 9
+Ⅶ Announcement and registration of successful candidates ························ 10
+Ⅷ Applicant Notes (MUST BE AWARED) ···························································· 10
+[Appendix] ······················································································································ 12
+1. Information on Dormitory ·············································································· 12
+2. Information on Tuition & Scholarship Program ······································ 13
+3. International Student Health Insurance Enrollment <1577-1000> ························ 15
+4. Support for foreign students ······································································· 15
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 12, passage 3
+
+1. Announcement of successful candidates: After 10:00 on December 31st, 2026
+○ Announcements on the website of International Affairs(https://oia.kongju.ac.kr) (Applicants will NOT be notified individually)
+2. Tuition payment: Scheduled in January, 2027
+○ The date and method of payment will be announced on the website later
+○ Issuance of Certificate of Admission: Issuance after submitting all documents and paying tuition fees (sent
+by e-mail to successful candidates)
+8
+ Applicant Notes (MUST BE AWARED)
+1. For the purpose of graduate admission, the university collects and uses applicants' personal information as follows:
+- Collection and use items: Name, resident registration number, address, previous university, phone number, mobile phone
+number, email, bank account number for refund, etc.
+- Purpose of collection and use: Materials for university admission & student services, scholarship, university admission
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 1
+
+2. Information on Tuition & Scholarship Program
+1) Tuition fees                                                                    (Unit: won, as of 2026)
+Classification
+Humanities & 
+Social Science
+Engineering
+Arts
+Natural Sciences
+Geography
+Entrance fee
+179,000
+179,000
+179,000
+179,000
+179,000
+Tuition
+2,434,000
+3,190,000
+3,190,000
+2,937,000
+2,926,000
+※ Tuition fees may be subject to change depending on the 2027 tuition assessment results.
+※ Geography Education - Geography / Geography - Humanities and Social Sciences (Applicants must verify)
+2) Scholarship for new students (paid only for the first semester)
+Category
+Scholarship Name
+Eligibility and Requirements
+Benefit
+Foreign student scholarship
+paid to all new students (First semester)
+Full entrance fee + 60% of tuition
+1,000,000 KRW will be provided
+For those who advance immediately after 
+completing the Korean language program at
+once, after the end of the first
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 2
+
+for freshmen recommended by the department
+Partial tuition support within the
+annual budget
+for enrolled students recommended by the 
+department with a GPA of 3.5 or higher in the
+TOPIK Excellence Scholarship
+Acquisition of TOPIK Level 5 or 6 during
+Level 5- 300,000 KRW
+Level 6- 500,000 KRW
+(Duplicate payment for the same
+for students with a GPA of 4.0 or higher in
+the previous semester This scholarship is 
+awarded from the semester following the 
+paper publication date for a maximum of two
+semesters during enrollment
+1. Full actual tuition waiver for two semesters
+International Student Research
+Full amount of the actual tuition
+for the first or corresponding author of a 
+paper published in SCI(E), SSCI, or A&HCI
+journals
+2. Full actual tuition waiver for one semester
+for the first or corresponding author of a 
+paper published in SCOPUS or KCI journals
+including candidate journals
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 3
+
+3) Research Scholarship for the Brain Korea 21(BK21) project participant
+※ Phase 4 BK21 project funding is only for graduate students of participating professors, and recipients are selected
+separately each semester among those who apply.
+Program Purpose 
+Conditions and Eligibility for Scholarship Benefits
+ㅇTraining smart city professionals
+■  Eligible departments (Convergence System Engineering Major*): Civil
+to build safe, cost-effective, 
+sustainable, and intelligent green 
+infrastructure ecosystems
+ㅇParticipate in various research
+
+
+--- RECORD 6 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 1
+
+Program Purpose 
+Conditions and Eligibility for Scholarship Benefits
+departments, including the Civil and Environmental Engineering 
+Department, take part in the combined educational contents. In 
+accordance with the relevant regulations, students who completed 
+course works within the department affiliated with the Convergence 
+System Engineering Major can obtain the degree granted by the 
+department he/she originally enrolled in given that the required 
+number of credits for graduation were met. 
+  ex) If the number of credits required to obtain a master’s degree is
+Engineering 
+(Research Center
+27 credits: Civil and Environmental Engineering (at least 12 
+credits completed) + Convergence System Engineering (15 credits 
+or more) ⇒ the degree that will be bestowed on the candidate 
+will be under the: Civil and Environmental Engineering Department 
+(Department of Urban Systems Engineering (Convergence Major)
+
+
+--- RECORD 7 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 2
+
+ㅇPromote local technologies and
+■ Scholarship benefits of Master’s/Doctoral Students:
+ ㅇ 1,000,000 KRW/month for Master’s students, 1,600,000 KRW/month
+for Doctoral students and 1,300,000 KRW/month after course 
+work for doctoral degree.
+ ㅇ Stable research funding for outstanding research
+expand the acquisition of 
+advanced technologies through 
+the active participation in 
+domestic and international 
+academic conferences.
+■ Incentives for outstanding Master’s/Doctoral students will be
+provided
+ ㅇ For students who receive the best paper or best research
+presentation award at a domestic or international academic 
+competitions
+ ㅇ For students who published research papers in local or
+■ The participation fees for attending local or international academic
+conferences will be covered by the scholarship
+ ㅇ All expenses (i.e. airfare, hotel, and miscellaneous expenses) will be
+
+
+--- RECORD 8 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 3
+
+covered for the students who will participate in academic 
+conferences
+■ Scholarship for graduate students participating in BK21 FOUR
+ㅇProviding creative education in
+the field of materials, 
+components, and manufacturing 
+processes for eco-friendly future 
+automotive technology.
+ㅇProviding specialized global
+education through the 
+convergence of materials, 
+components, and manufacturing 
+processes.
+(Graduate 
+Program for 
+Eco-Friendly
+ㅇImproving the overall quality of
+Future 
+Automotive 
+Technology)
+research in 5 research areas of 
+eco-friendly future automotive 
+technology (rechargeable battery, 
+material optimization, intelligent 
+vehicle technology, 
+exterior-interior compartments, 
+and air conditioning & cooling)
+ㅇSupporting student employment and
+joint research through 
+industry-university collaboration.
+
+
+--- RECORD 9 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 4
+
+Project.
+ ○ The following scholarships are provided to selected       
+students participating in the BK21 FOUR Project in       the 
+Department of Future Convergence Engineering:
+   - 1,000,000 KRW/month for master's students 
+   - 1,600,000 KRW/month for doctoral students
+   - 1,300,000 KRW/month after course work for doctoral       
+degree
+■ Incentive for master’s and doctoral course students       who 
+make outstanding performance.
+   Incentive for master’s and doctoral students        
+   who show extraordinary performance.
+ ○ Additional incentives are given to students publishing      
+SCI-level Journal papers.
+■ Support for students' participation in domestic and        
+international conferences.
+ ○ The expense of participating in international and          
+domestic conferences is provided to students with        
+outperforming research results.
+■ Support for participation in professional education         
+programs and seminars.
+ ○ The cost of participating in educational programs and     
+seminars is subsidized.
+
+
+--- RECORD 10 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 5
+
+ㅇCultivate convergence community
+■ Scholarships and research grants for full-time graduate students
+ ㅇ Monthly scholarships of 1,000,000 won for master’s program,
+1,600,000 won for doctoral program and 1,300,000 won after 
+course work for doctoral degree
+ ㅇ Support for thesis publication materials 
+ ㅇ Support for participation expenses when presenting at domestic and
+education professionals equipped 
+with school-community-polic 
+linkage capabilities suitable for the 
+needs of the times following the 
+paradigm shift in future education
+Education 
+Professionals> 
+Training Project 
+Team for Future
+ㅇStrengthen community-based
+international academic conferences
+■ Support for strengthening research competency
+ ㅇ Educational support for strengthening research capabilities such as
+
+
+--- RECORD 11 ---
+SECTION: Source page subsection
+LOCATION: PDF page 17, passage 1
+
+Program Purpose 
+Conditions and Eligibility for Scholarship Benefits
+ㅇDevelopment and diffusion of a
+new research area called 
+community-based education
+research methodologies
+ ㅇ Short-term overseas training support
+■ Cooperation with domestic and foreign educational and research institutes
+ ㅇ Support field-based research through a cooperative system with related
+ㅇ  Strengthen community-based
+education and research networks
+organizations
+ ㅇ Support for government-industry-academic cooperation research
+ ㅇ Joint research with overseas universities and research institutes
+ㅇ Training of world leading
+■  Scholarship: full-time graduate students enrolled in BK21 Four
+experts in advanced materials 
+for 4th industry (World Leading 
+e-BRAIN Program)
+program
+ ㅇ 1,000,000 KRW/month for Master course, 1,600,000 KRW/month
+ㅇ Training of specialized, creative
+
+
+--- RECORD 12 ---
+SECTION: Source page subsection
+LOCATION: PDF page 17, passage 2
+
+for doctoral course and 1,300,000 KRW/month after course work 
+for doctoral degree
+ ㅇ Additional scholarship for excellent journal paper
+Materials 
+Engineering
+(Graduate 
+Program on 
+the Advanced
+■ Financial support for domestic and overseas conferences
+and global workforce with 
+expert knowledge in 4th 
+industry and advanced 
+materials
+■ Various special education and seminar program 
+ ㅇ Speical education: advanced analysis equipment, artificial intelligence
+(AI), TRIZ, patent, paper writing, etc..            
+ ㅇ Seminar program: Colloquium with international invited speakers,
+internal research conference
+advanced materials for 
+semi-conductor/display, 
+electric automobiles and next 
+generation devices for 4th 
+industry
+3. International Student Health Insurance Enrollment <1577-1000>
+1) Mandatory Enrollment in National Health Insurance
+
+
+--- RECORD 13 ---
+SECTION: Source page subsection
+LOCATION: PDF page 17, passage 3
+
+○ According to government policy, international students residing in Korea for 6 months or more are required to enroll
+in the National Health Insurance.
+   ○ Coverage Period: From admission to graduation
+○ Insurance Premium: Monthly premium as set by the National Health Insurance Service (NHIS)
+※ Uninsured students may face disadvantages such as restrictions on scholarship eligibility, visa processing limitations,
+and restricted participation in international student programs.
+4. Support for foreign students
+1) Orientation for new foreign students
+○ Information on immigration services (alien registration, status of stay etc.) and academic and scholarship programs, health
+insurance, campus tours, etc.
+2) Program to Support Foreign Students
+○ Global Lounge: A dedicated space for international students that provides one-stop services to help students adapt to
+university life and offers various counseling services.
+
+
+--- RECORD 14 ---
+SECTION: Source page subsection
+LOCATION: PDF page 18, passage 1
+
+5. Contact information of Administration & Department office
+1) Administration in charge
+Service
+Department of
+TEL.
+(+82-41-850-)
+Remarks
+Admission Management
+International Affairs
+0862
+https://oia.kongju.ac.kr
+E-mail: intl_admission@kongju.ac.kr
+SNS: @knu_intladmission (instagram)
+Visa, Certificate of Admission,
+insurance, foreign students
+International Affairs
+8054
+E-mail: thinktop0228@kongju.ac.kr
+       dante8200@kongju.ac.kr
+Korean language training, 
+Foreign language programs, etc.
+Center for 
+International Education
+8867~8
+http://iile.kongju.ac.kr
+E-mail: kie151@kongju.ac.kr
+University Register, 
+Management(transcript),
+graduate
+8135
+E-mail: won101@kongju.ac.kr
+Tuition management
+Finance
+8092
+E-mail: bon402@kongju.ac.kr
+E-mail: bon201@kongju.ac.kr
+Scholarship
+8048
+Certificates (Enrollment,
+Transcript, etc.)
+Student Service Center
+8023
+E-mail: bon102@kongju.ac.kr
+Health care
+Health Clinic
+8830
+E-mail: unihealth@kongju.ac.kr

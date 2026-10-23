@@ -1,0 +1,22 @@
+UNIVERSITY: Hannam University
+DEGREE/PROGRAM: Graduate
+TOPIC: Application Deadlines
+ORIGINAL SOURCE: 2027-Spring-Semester-Graduate-School-Admissions-Guide-HNU.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 3, passage 2
+
+․The invoice on the Graduate School's
+Web site
+※ The Evaluation schedule may be changed. Please check the schedule to the
+<<Important Notes for international applicants>>
+International applicants who reside out of Korea are not able to apply
+for the additional admission for 2027 Spring semester due to the visa
+matter. International applicants who reside in Korea can apply for the
+additional admission application for 2027 Spring semester.
+* Applicants who are expected to graduate from overseas universities

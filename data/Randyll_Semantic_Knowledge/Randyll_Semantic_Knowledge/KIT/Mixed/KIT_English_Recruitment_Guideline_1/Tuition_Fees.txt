@@ -1,0 +1,55 @@
+UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Tuition Fees
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 3
+
+-  
+Final  registration  for  rolling  admissions  payers  of  the  registration  confirmation  deposit:  Feb.  10,  2027  (Wed)  –  Feb.  12,  2027  (Fri)  until  17:00  (Full  tuition  excluding  the  100,000  KRW  registration  confirmation  deposit)
+3.  Application  Method  and  Important  Notes
+a.  Multiple  applications  are  possible  (multiple  applications  to  different  departments  within  the  same  admission  track,  or  multiple  applications  to  the  same  department  through  different  admission  tracks)
+ÿ  Rolling  Admissions:  Multiple  applications  are  allowed  up  to  a  maximum  of  5  for  the  1st  round  and  2nd  round.
+ÿ  Regular  Admission:  You  can  apply  to  up  to  3  schools  during  regular  admission.
+ÿ  University's  own  online  application:  Free
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 1
+
+Machine Translated by Google
+2027  Gyeongnam  Information  University  New  Student  Recruitment  Guide
+14  Tuition  Fees  by  Department  (Based  on  Previous  Year)
+Tuition  (including  registration  confirmation  deposit)
+Department  of  Semiconductor  Electronics,  Department  of  Chemical  and  Energy  Engineering,  Department  of  Mechanical  Engineering,  Department  of  AI  Computer  Science,  Department  of  Electric  and  Hydrogen  Vehicles,  Department  of  Electrical  Engineering,  Department  of  Fire  Safety  Management,
+AI  Visual  Design  Department,  Media  &  Video  Department,  Civil  &  Environmental  Engineering  Department,  Environmental  Landscape  Design  Department,  Interior  Design  Department,  Sports  Rehabilitation
+Training  Department,  Footwear  Fashion  Department,  Hair  Design  Department,  Global  K-Beauty  Department,  K-Beauty  Stylist  Department
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 3
+
+ÿ  Successful  candidates  (including  additional  successful  candidates)  in  the  1st  and  2nd  rounds  of  rolling  admissions  must  pay  the  registration  confirmation  deposit  (100,000  KRW)  within  the  payment  period,  and  the  final  tuition  is  the  amount  excluding  the  registration  confirmation  deposit.
+Admission  is  possible  only  if  payment  is  made  within  the  final  registration  period.
+ÿ  Successful  candidates  in  regular  admission  (including  additional  successful  candidates)  must  pay  the  full  tuition  fee  within  the  registration  period  to  be  admitted.
+B.  Application  for  Tuition  (Registration  Confirmation  Deposit)  Refund
+ÿ  You  can  apply  for  a  refund  of  tuition  (registration  confirmation  deposit)  through  the  Admissions  Inquiry  on  our  university  website.
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 4
+
+ÿ  Tuition  fees  paid  within  the  registration  period  will  be  refunded  in  full  by  the  refund  deadline  (start  of  the  semester);  for  those  who  withdraw  after  the  refund  deadline,  the  refund  will  be  processed  in  accordance  with  the  Ministry  of  Education  Ordinance  'Rules  on  University  Tuition  Fees'.
+ÿ  Tuition  refunds  can  be  requested  online  through  the  university  website,  and  the  funds  will  be  deposited  into  the  bank  account  in  the  name  of  the  applicant  or  guardian  specified  at  the  time  of  application.
+ÿ  Refund  requests  are  possible  on  public  holidays,  but  deposit  processing  is  not  available.
+16.  Important  Notices  for  Exam  Takers
+A.  You  may  apply  to  up  to  5  universities  in  the  1st  Early  Admission  round,  up  to  5  in  the  2nd  Early  Admission  round,  and  up  to  3  in  the  Regular  Admission  round.

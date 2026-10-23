@@ -1,0 +1,57 @@
+UNIVERSITY: Unverified undergraduate pdf
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Eligibility Nationality
+ORIGINAL SOURCE: Undergraduate.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 1
+
+3
+ Eligibility of Applicants
+1. Eligibility of Applicants: Applicants who meet all of the following qualifications
+1) Nationality Both an applicant and the applicant's parents should be non-Korean nationals
+※ Nationality criterion is evidenced only if the applicant and both of their parents acquire non-Korean citizenship on
+the period before the applicant begins the curriculum corresponding to educational program of Korean high school
+※ Dual citizenship including Korean nationality and stateless persons are NOT eligible (Nationality is determined as of the
+2) Educational Background
+Category
+Educational Background
+High school graduates (or those expected to graduate before February 2027) who have completed 
+all educational courses equivalent to Korean primary and secondary education at domestic or 
+foreign educational institutions
+※ Academic backgrounds obtained through qualification exams (GED), homeschooling, or cyber
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 20, passage 1
+
+[Form 3. Application Form (Transfer students) - Submit printed copy from Jinhak Apply]
+KNU Application Form 2027 (Transfer students)
+◦ International applicant
+Date of Birth
+Sex
+M  ․  F
+Address
+-Applicant's country:
+-Korean address:
+Tel.
+College
+Division(Dept.)
+Country of Birth
+Nationality
+College & Division(Dept.)
+School location
+Regular school
+Relationship
+Nationality
+Occupation
+Apply for phone(Skype) interview
+□ apply for the interview
+I hereby apply for the Spring 2027 Admission for International Students (Transfer) of Kongju National University by submitting
+the following required documents:

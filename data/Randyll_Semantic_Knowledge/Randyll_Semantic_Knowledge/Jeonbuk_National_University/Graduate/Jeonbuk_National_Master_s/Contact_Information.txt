@@ -1,0 +1,43 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Graduate
+TOPIC: Contact Information
+ORIGINAL SOURCE: Jeonbuk National Master_s.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: 2. Document Submission Desk | Tel
+LOCATION: heading: 2. Document Submission Desk / row 3
+
+| Address       | Office of International Affairs, 3rd Floor, JBNU International Center, Jeonbuk National University, eo ez   Jo  o- -c 'n-Jdo o- Lode 54896)   |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Tel           | +82-63-270-4382                                                                                                                               |
+
+
+--- RECORD 2 ---
+SECTION: 1. Announcement of Result\_ Website and Email Notification | Announcement Method
+LOCATION: heading: 1. Announcement of Result\_ Website and Email Notification / row 4
+
+| Category            | Round 1                                                                                                                 | Round 2                                                                                                                 | Remarks                                                                            |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Announcement Method | JBNU Homepage and E-mail                                                                                                | JBNU Homepage and E-mail                                                                                                |                                                                                    |
+
+
+--- RECORD 3 ---
+SECTION: 2) Doctoral Course | Tel
+LOCATION: heading: 2) Doctoral Course / row 5
+
+|  Contact      |  Contact                                                                                                                                                                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tel           | +82-63-270-4382                                                                                                                                                                               |
+
+
+--- RECORD 4 ---
+SECTION: 2) Doctoral Course | E-mail
+LOCATION: heading: 2) Doctoral Course / row 7
+
+|  Contact      |  Contact                                                                                                                                                                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| E-mail        | admissiong@jbnu.ac.kr                                                                                                                                                                         |

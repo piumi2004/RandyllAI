@@ -1,0 +1,70 @@
+UNIVERSITY: Jeonbuk National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Housing Dormitory
+ORIGINAL SOURCE: Jeonbuk National Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 12, passage 3
+
+Environmental Design
+https://housing.jbnu.ac.kr
+O
+2, 3
+Dance (Ballet/Dance Education
+Creator)
+https://arts.jbnu.ac.kr/arts/inde
+Dance (Korean Folk Dance)
+IIndustrial Design(Visual·Media
+Design)
+https://design.jbnu.ac.kr
+O
+2
+Industrial Design(Product
+Music(Wind·String Instruments)
+https://wz3.jbnu.ac.kr/music/inde
+x..do
+O
+3
+Music(Voice)
+Music(Multi-media Composition)
+Korean Music 
+(Instrumental Music)
+https://arts.jbnu.ac.kr/arts/555
+1/subview.do
+O
+3, 4
+Korean Music 
+(Vocal·Composition·Theory)
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 18, passage 1
+
+▪ Additional School Life Information
+1. 2026 Spring Semester begins: 2027. March 2nd (Tue)
+※ Admitted students should come to JBNU before the semester begins
+2. Residence Hall : Chambit hall, Daedong hall, Cheongwoong hall
+1) Application : Must be applied at the time of application for admission, if not students should apply
+2) All international students can reside at the dormitory. Dormitory application will be cancelled automatically
+if applicant do not make payments for the dormitory fee by the deadline
+3) Tuberculosis test: to the Dormitory office before start of semester
+※ Students who submitted it to the Korean Embassy for the visa process don't need to submit it
+4) Dormitory hall Inquiry : http://likehome.jbnu.ac.kr / 063-270-4723
+(Based on 2026-2 semester)
+Hall
+Meal Plan
+Campus
+location
+Equipment
+Dorm fee
+(/semester)
+Jeonju
+Triple room, Desk, Chair, Closet,
+Air conditioner,  Bathroom, Washroom
+1,404,630 KRW

@@ -1,0 +1,25 @@
+UNIVERSITY: Jeonju University
+DEGREE/PROGRAM: Graduate
+TOPIC: Eligibility Language
+ORIGINAL SOURCE: Fall 2026 Jeonju University Graduate School Admissions Guide_For English Track applicants(International students) (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 4, passage 1
+
+3. Eligibility Requirements
+Master's
+Persons who have obtained or are expected to obtain (by August 2026) a bachelor's degree from a domestic or
+foreign accredited university
+Academic Qualifications
+Persons recognized by the Minister of Education as having equivalent academic qualifications
+Nationality
+Both the applicant and both parents must be foreign nationals
+Language Proficiency Requirements
+Applicants for English-language track departments must submit a valid score of TOEFL iBT 59, IELTS 5.5, or New TEPS 202 or higher within the
+Applicants whose native language is English, or who hold nationality of a country where English is a legally recognized official language, are exempt
+from submitting a language proficiency score.

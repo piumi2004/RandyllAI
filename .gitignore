@@ -1,5 +1,4 @@
 # Ignore entire data directory
-data/
 
 # Secrets
 .env

@@ -1,0 +1,37 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Documents Identity
+ORIGINAL SOURCE: Tongmyong Master_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 4, passage 1
+
+Section
+Application documents
+[1-1] Application from (including personal statement, research plan for Doctoral applicants)
+[1-3] Color photograph 3 copies (passport photo: 3.5cm×4.5cm/white background)
+[1-4] (If applicable) ROK Alien Registration Card copy
+[1-5] Applicants residing overseas must submit a tuberculosis (TB) test report (including a
+chest X-ray) issued by a designated hospital – only for those who will reside in the
+dormitory after admission.
+[2-1] Parents' ID card (or passport) copy (notarized in English if it is not in English)
+[2-2] Family Relations Certificate with parents (notarized in English if it is not in English)
+[3-1] (If applicable) Language test result (TOPIK, IELTS, TOEFL, TEPS)
+※ Valid only if the expiration date is after the start date of the semester
+[4-1] Certificate of the Bachelor's degree graduation (or expectant graduation) (notarized for Academic
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 7, passage 3
+
+will result in disqualification. Any resulting disadvantages shall be the sole responsibility of the
+8. When entering the applicant’s name in English, the order must exactly match that shown on the
+passport (Last Name, First Name).
+Example: The name must be entered in the same order as shown in the Machine Readable Zone
+(MRZ) at the bottom of the passport.

@@ -1,0 +1,175 @@
+UNIVERSITY: Unverified undergraduate pdf
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Other Information
+ORIGINAL SOURCE: Undergraduate.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 1, passage 1
+
+2027 Spring Semester Undergraduate 
+(Freshmen & Transfer) Admission Guide for
+Kongju National University
+※ Some contents in this guide may be subject to change, so please be sure to check the
+latest admission guide on the Kongju National University Office of International Affairs
+website (https://oia.kongju.ac.kr) prior to final application submission.
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 9, passage 4
+
+Georgia, Greece, Netherlands, Norway, Denmark, Germany, Latvia, Russia, Romania, Luxembourg, Lithuania, 
+Liechtenstein, North Macedonia, Monaco, Montenegro, Moldova, Malta, Belgium, Belarus, Bosnia and 
+Herzegovina, Bulgaria, Cyprus, San Marino, Serbia, Sweden, Switzerland, Spain, Slovakia, Slovenia, Armenia, 
+Iceland, Ireland, Azerbaijan, Andorra, Albania, Estonia, United Kingdom, Austria, Uzbekistan, Ukraine, Italy, 
+Czech Republic, Kazakhstan, Kosovo, Croatia, Türkiye, Portugal, Poland, France, Finland, Hungary
+North 
+America
+USA (including Guam, Mauri Islands, Saipan, Puerto Rico), Canada
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 9, passage 5
+
+Guyana, Guatemala, Grenada, Nicaragua, Dominican Republic, Dominica, Mexico, Barbados, Bahamas, 
+Venezuela, Belize, Bolivia, Brazil, Saint Lucia, Saint Vincent and the Grenadines, Saint Kitts and Nevis, 
+Suriname, Argentina, Antigua and Barbuda, Ecuador, El Salvador, Honduras, Uruguay, Chile, Costa Rica, 
+Colombia, Trinidad and Tobago, Panama, Peru, Paraguay, Jamaica
+Africa
+Namibia, South Africa, Liberia, Lesotho, Malawi, Morocco, Botswana, Sao Tome and Principe, Senegal, 
+Seychelles, Eswatini, Cape Verde, Burundi, Tunisia, Rwanda
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 3
+
+Data Information and Physics
+8480
+https://dip.kongju.ac.kr
+Applied Mathematics
+8560
+https://apmath.kongju.ac.kr
+Chemistry
+8490
+http://chem.kongju.ac.kr
+Biological Sciences
+8505
+https://bio.kongju.ac.kr
+Geoenvironmental Sciences
+8510
+http://geo.kongju.ac.kr
+Atmospheric Science
+8530
+http://atmos.kongju.ac.kr
+Conservation Science for Cultural
+Heritage 
+8540
+https://munbo.kongju.ac.kr
+Fashion Design & Merchandising
+8301
+https://fashion.kongju.ac.kr
+Sports Science 
+8550
+https://lifesport.kongju.ac.kr
+Nursing
+0300
+http://nurse.kongju.ac.kr
+Health Administration
+0320
+http://www.dhm.or.kr
+Emergency Medical Service
+0330
+http://emt.kongju.ac.kr
+Medical Information 
+0340
+http://www.dmrhim.com
+Game Design
+0350
+http://game.kongju.ac.kr
+Furniture living design
+0360
+https://furniturelivingdesign.kongju.ac.kr/ZG0240/index.do
+Convergence Design in Ceramic Culture
+0370
+https://design.kongju.ac.kr/ZD1220/index.do
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 3
+
+Community Development
+1380
+http://rd.kongju.ac.kr
+Real Estate Studies
+1400
+http://realestate.kongju.ac.kr
+Industrial Channels Management
+1420
+http://cm.kongju.ac.kr
+Plant Resources
+1200
+http://pr.kongju.ac.kr
+Horticulture
+1220
+http://hort.kongju.ac.kr
+Animal Bioscience
+1240
+http://ars.kongju.ac.kr
+
+
+--- RECORD 6 ---
+SECTION: Source page subsection
+LOCATION: PDF page 18, passage 4
+
+Gongjudaehak-ro, Gongju-si, Chungcheongnam-do (Zip Code: 32588)
+
+
+--- RECORD 7 ---
+SECTION: Source page subsection
+LOCATION: PDF page 19, passage 3
+
+Affidavit of Financial Support under the guarantor's name)
+   ※ Applicants who completed courses at the KNU Institute of International Language Education or the Korean Education and
+Culture Center: KRW 8,000,000 or more
+20  year    month    date
+Applicant's name:                        (Signature)
+
+
+--- RECORD 8 ---
+SECTION: Source page subsection
+LOCATION: PDF page 20, passage 3
+
+submit the Affidavit of Financial Support, Certificate of Employment, etc.)
+    ※ Applicants who completed courses at the KNU Institute of International Language Education or the Korean Education
+and Culture Center: KRW 8,000,000 or more
+20   year    month    date
+Applicant's name:                        (Signature)
+
+
+--- RECORD 9 ---
+SECTION: Source page subsection
+LOCATION: PDF page 22, passage 1
+
+[Form 5] Confirmation Letter for Prearranged Financial Support
+Confirmation Letter for 
+Prearranged Financial Support
+Applying 
+Department
+(지원 학과)
+o Information of Financial Support(관련 정보)
+연구비(Amount of research expenses)
+지원예정액(1년 기준)
+(Yearly Amount of Prearranged Financial Support)
+e.g.16,000,000원
+I hereby confirm that I will be responsible for the stated amount for the above applicant.
+* 본인은 상기 지원자에 대하여 명시된 금액을 지원할 예정임을 확인합니다.
+20    Year(년)    Month(월)    Date(일)
+Prospective Advisor 지도예정교수

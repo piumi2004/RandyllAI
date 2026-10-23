@@ -1,0 +1,27 @@
+UNIVERSITY: Tongmyong University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Eligibility Academic
+ORIGINAL SOURCE: Tongmyong Bachelor_s.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 2, passage 1
+
+1-1. Qualification for Academic Requirements
+Admission Type
+Qualifications
+Remarks
+Applicants who have graduated (or are expected to graduate) from an educational 
+program equivalent to or higher than the Korean high school curriculum.
+Applicants who meet the above qualifications as freshman and have completed 
+more than 1 year (2 semesters) of a 4-year university (bachelor‘s degree 
+program) in Korea or abroad or are recognized as having an equivalent or 
+higher level of education.
+Applicants who meet the above qualifications as freshman and have completed 
+more than 2 years (4 semesters) of a 4-year university (bachelor’s degree 
+program) in Korea or abroad or are recognized as having an equivalent or 
+higher level of education.
