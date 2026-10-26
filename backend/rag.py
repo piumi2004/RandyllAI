@@ -7,10 +7,12 @@ from pathlib import Path
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
-
 from anthropic import Anthropic, AnthropicError
 from google import genai
 from google.genai import errors as gemini_errors
+
+from backend.structured_retrieval import retrieve_structured_context
+from backend.db import get_universities
 
 
 # ==========================================
@@ -37,15 +39,10 @@ GEMINI_MODEL = os.getenv(
 ).strip()
 
 COLLECTION = "randyll_korea_knowledge_v2"
-
 QDRANT_URL = "http://localhost:6333"
-
 EMBEDDING_MODEL = "BAAI/bge-m3"
 
 TOP_K = 5
-
-# Search a larger candidate pool when the student
-# specifically mentions a university.
 CANDIDATE_LIMIT = 60
 
 
@@ -208,7 +205,6 @@ def detect_universities(question):
                 f" {normalized_alias} "
                 in normalized_question
             ):
-
                 detected.append(university)
                 break
 
@@ -220,13 +216,8 @@ def detect_universities(question):
 # ==========================================
 
 def document_matches_university(payload, university):
-
     """
     Check university metadata and source path.
-
-    This avoids relying on an exact Qdrant
-    metadata value such as
-    'Jeonbuk National University'.
     """
 
     if not university:
@@ -265,19 +256,14 @@ def document_matches_university(payload, university):
 # ==========================================
 
 def remove_source_markers(answer):
-
     """
     Remove [Source 1], [Source 2],
     [Sources 1 and 2], etc.
-
-    The real source metadata remains available
-    separately in the Streamlit dropdown.
     """
 
     pattern = (
         r"\[\s*Sources?\s+\d+"
-        r"(?:\s*(?:,|and|&)\s*"
-        r"(?:Sources?\s*)?\d+)*\s*\]"
+        r"(?:\s*(?:,|and|&)\s*(?:Sources?\s*)?\d+)*\s*\]"
     )
 
     answer = re.sub(
@@ -287,7 +273,6 @@ def remove_source_markers(answer):
         flags=re.IGNORECASE
     )
 
-    # Clean up whitespace before punctuation.
     answer = re.sub(
         r"[ \t]+([.,;:!?])",
         r"\1",
@@ -308,66 +293,72 @@ def remove_source_markers(answer):
 # ==========================================
 
 def generate_with_claude(prompt):
+    """
+    Generate a grounded answer using Claude.
+    """
 
-    print(
-        f"Calling Claude: {CLAUDE_MODEL}",
-        flush=True
-    )
+    print("\nSTEP 4: Calling Claude...")
+    print(f"Calling Claude: {CLAUDE_MODEL}")
 
-    response = claude_client.messages.create(
-        model=CLAUDE_MODEL,
-        max_tokens=1200,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
-    )
+    try:
 
-    print(
-        "Claude stop reason:",
-        response.stop_reason,
-        flush=True
-    )
+        response = claude_client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=2000,
+            thinking={"type": "disabled"},
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
 
-    print(
-        "Claude content types:",
-        [block.type for block in response.content],
-        flush=True
-    )
+        answer_parts = []
 
-    answer = "\n".join(
-        block.text
-        for block in response.content
-        if block.type == "text"
-    ).strip()
+        for block in response.content:
 
-    print(
-        "Claude answer length:",
-        len(answer),
-        flush=True
-    )
+            if block.type == "text" and block.text:
+                answer_parts.append(block.text)
 
-    print(
-        "Claude answer preview:",
-        answer[:300],
-        flush=True
-    )
+        answer = "\n".join(answer_parts).strip()
 
-    print(
-        "Claude input tokens:",
-        response.usage.input_tokens,
-        flush=True
-    )
+        print("Claude stop reason:", response.stop_reason)
+        print(
+            "Claude content types:",
+            [block.type for block in response.content]
+        )
+        print("Claude answer length:", len(answer))
+        print("Claude input tokens:", response.usage.input_tokens)
+        print("Claude output tokens:", response.usage.output_tokens)
+        print("Claude answer preview:", answer[:200])
 
-    print(
-        "Claude output tokens:",
-        response.usage.output_tokens,
-        flush=True
-    )
+        if not answer:
 
-    return answer
+            print("WARNING: Claude returned an empty answer.")
+
+            return (
+                "I couldn't generate a response from the "
+                "retrieved information. Please try again."
+            )
+
+        if response.stop_reason == "max_tokens":
+            print(
+                "WARNING: Claude answer may be incomplete."
+            )
+
+        return answer
+
+    except Exception as e:
+
+        print(
+            f"Claude API error: {type(e).__name__}: {e}"
+        )
+
+        return (
+            "An error occurred while generating the answer. "
+            "Please check the backend terminal."
+        )
 
 
 # ==========================================
@@ -483,9 +474,7 @@ def ask_randyll(question):
         )
 
         return {
-            "answer": (
-                "I couldn't process your question."
-            ),
+            "answer": "I couldn't process your question.",
             "sources": []
         }
 
@@ -519,6 +508,44 @@ def ask_randyll(question):
         )
 
     # --------------------------------------
+    # NEW: DETECT UNIVERSITY IN POSTGRESQL
+    # --------------------------------------
+
+    db_university = None
+
+    try:
+
+        normalized_question = (
+            f" {normalize_text(question)} "
+        )
+
+        matches = [
+            row["name"]
+            for row in get_universities()
+            if (
+                f" {normalize_text(row['name'])} "
+                in normalized_question
+            )
+        ]
+
+        if len(matches) == 1:
+            db_university = matches[0]
+
+        if db_university:
+            print(
+                "PostgreSQL university detected:",
+                db_university,
+                flush=True
+            )
+
+    except Exception as error:
+
+        print(
+            f"PostgreSQL university lookup error: {error}",
+            flush=True
+        )
+
+    # --------------------------------------
     # STEP 4: SEARCH QDRANT
     # --------------------------------------
 
@@ -531,18 +558,13 @@ def ask_randyll(question):
 
     try:
 
-        # IMPORTANT:
-        # No exact metadata filter here.
-        # We retrieve candidate records and
-        # validate their university metadata
-        # afterward.
         results = qdrant.query_points(
             collection_name=COLLECTION,
             query=query_vector,
             query_filter=None,
             limit=(
                 CANDIDATE_LIMIT
-                if requested_universities
+                if requested_universities or db_university
                 else TOP_K
             ),
             with_payload=True
@@ -579,7 +601,7 @@ def ask_randyll(question):
     # STEP 5: FILTER BY UNIVERSITY
     # --------------------------------------
 
-    if requested_universities:
+    if requested_universities or db_university:
 
         filtered_results = []
 
@@ -592,7 +614,9 @@ def ask_randyll(question):
                     payload,
                     university
                 )
-                for university in requested_universities
+                for university in (
+                    requested_universities or [db_university]
+                )
             ):
                 filtered_results.append(point)
 
@@ -608,7 +632,37 @@ def ask_randyll(question):
 
         results = results[:TOP_K]
 
-    if not results:
+    # --------------------------------------
+    # NEW: RETRIEVE POSTGRESQL INFORMATION
+    # --------------------------------------
+
+    db_context = ""
+
+    if db_university:
+
+        try:
+
+            db_context = retrieve_structured_context(
+                question,
+                db_university
+            )
+
+            if db_context:
+                print(
+                    "PostgreSQL records retrieved.",
+                    flush=True
+                )
+
+        except Exception as error:
+
+            print(
+                f"PostgreSQL retrieval error: {error}",
+                flush=True
+            )
+
+    # Continue when either database has information.
+
+    if not results and not db_context:
 
         return {
             "answer": (
@@ -743,7 +797,24 @@ def ask_randyll(question):
             f"Content:\n{text}"
         )
 
-    context = "\n\n".join(context_parts)
+    # --------------------------------------
+    # NEW: COMBINE POSTGRESQL AND QDRANT
+    # --------------------------------------
+
+    qdrant_context = "\n\n".join(context_parts)
+
+    if db_context:
+
+        context = (
+            f"STRUCTURED POSTGRESQL INFORMATION:\n"
+            f"{db_context}\n\n"
+            f"RETRIEVED UNIVERSITY GUIDELINES:\n"
+            f"{qdrant_context}"
+        )
+
+    else:
+
+        context = qdrant_context
 
     # --------------------------------------
     # STEP 7: BUILD RAG PROMPT
@@ -814,6 +885,23 @@ IMPORTANT RULES:
 
 20. Mention the intake or academic year
     when it is available and relevant.
+
+21. Use PostgreSQL records for exact structured
+    information when those records are available.
+
+22. Use Qdrant guidelines for detailed
+    explanations and admission rules.
+
+23. Do not treat partial database program
+    records as a complete university catalog.
+
+24. Preserve tuition currency and effective year.
+    Never describe an older fee as a confirmed
+    fee for a later academic year.
+
+25. If PostgreSQL and Qdrant information conflict,
+    mention the discrepancy rather than inventing
+    a resolution.
 
 RETRIEVED UNIVERSITY KNOWLEDGE:
 
