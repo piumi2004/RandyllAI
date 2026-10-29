@@ -10,3 +10,15 @@
 __pycache__/
 *.pyc
 
+.mypersonal
+
+# Local agent instructions and technical strategy
+/AGENTS.md
+/CLAUDE.md
+/RandyllAI_Technical_Improvement_Strategy.pdf
+
+# Private explainer notes
+/IMPROVEMENTS_1-3_EXPLAINED.md
+
+# Database dumps contain real data
+*.dump
