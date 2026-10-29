@@ -321,6 +321,18 @@ That legacy script writes `randyll_korea_test`, not the collection used by the c
 
 ## Run the app
 
+Chat uses Qdrant only by default. PostgreSQL retrieval is optional; set
+`USE_POSTGRES=true` in `.env` to enable it once structured records are ready.
+
+To use an existing v2 index, set `QDRANT_COLLECTION=randyll_korea_knowledge_v2`
+in `.env`. V2 search handles its older payload format and derives university and
+degree labels from source paths. Explicit domain selections use the topic taxonomy.
+V2 records do not carry the reviewed index's eligibility metadata; selecting v2
+uses its original knowledge content. The default remains the reviewed collection.
+
+The reviewed knowledge package builder requires `PyMuPDF>=1.26,<1.27`.
+PyMuPDF 2.0 changes table extraction and cannot rebuild the checked snapshot.
+
 Start the Streamlit app:
 
 ```powershell

@@ -144,6 +144,7 @@ def build():
                             "\n".join(f"{h}: {v}" for h, v in zip(headers, row)) for row in rows]
             elif "table" in plan:
                 table = page.find_tables().tables[plan["table"]]
+
                 rows = expand_merged_cells(table)
                 header_count = plan.get("header_rows", 1)
                 headers = plan.get("headers", rows[0])

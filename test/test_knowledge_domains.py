@@ -119,5 +119,45 @@ class RetrievalTests(unittest.TestCase):
             self.assertFalse({5, 6, 7} & {p.id for p in self.search(question, domains)})
 
 
+class V2RetrievalTests(unittest.TestCase):
+    def setUp(self):
+        self.client = QdrantClient(':memory:')
+        self.addCleanup(self.client.close)
+        self.collection = 'randyll_korea_knowledge_v2'
+        self.client.create_collection(self.collection,
+            vectors_config=models.VectorParams(size=2, distance=models.Distance.COSINE))
+        self.client.upsert(self.collection, points=[
+            models.PointStruct(id=i, vector=[1.0, 0.0] if i < 65 else [0.8, 0.2], payload={
+                'university': 'Randyll Semantic Knowledge', 'degree': 'Example University',
+                'topic': 'Tuition Fees' if i % 2 else 'Housing Dormitory',
+                'source_path': 'Randyll_Semantic_Knowledge/' +
+                    ('Other_University' if i < 65 else 'Example_University') +
+                    '/Graduate/Guide/Tuition_Fees.txt',
+            }) for i in range(1, 69)])
+
+    def search(self, domains=None):
+        return search_with_domains(self.client, self.collection, [1.0, 0.0], 'tuition', 2,
+            accept=lambda p: p.payload['university'] == 'Example University', domains=domains)
+
+    def test_legacy_payload_and_university_filter_beyond_first_page(self):
+        points = self.search()
+        self.assertEqual(len(points), 2)
+        self.assertTrue(all(p.id >= 65 for p in points))
+        self.assertTrue(all(p.payload['degree'] == 'Graduate' for p in points))
+        stored = self.client.retrieve(self.collection, ids=[65])[0]
+        self.assertEqual(stored.payload['university'], 'Randyll Semantic Knowledge')
+
+    def test_explicit_domains_use_legacy_topics(self):
+        self.assertEqual({p.id for p in self.search(['finances'])}, {65, 67})
+        self.assertEqual(self.search(['employment']), [])
+        with self.assertRaises(ValueError):
+            self.search(['unknown'])
+
+    def test_explicit_held_or_domestic_records_remain_excluded(self):
+        self.client.set_payload(self.collection, payload={'status': 'held'}, points=[65])
+        self.client.set_payload(self.collection, payload={'audience': 'domestic'}, points=[66])
+        self.assertEqual({p.id for p in self.search()}, {67, 68})
+
+
 if __name__ == '__main__':
     unittest.main()
