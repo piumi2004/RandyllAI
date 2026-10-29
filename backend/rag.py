@@ -13,6 +13,7 @@ from google.genai import errors as gemini_errors
 
 from backend.structured_retrieval import retrieve_structured_context
 from backend.db import get_universities
+from backend.knowledge_domains import COLLECTION, search_with_domains
 
 
 # ==========================================
@@ -38,7 +39,6 @@ GEMINI_MODEL = os.getenv(
     "GEMINI_MODEL", ""
 ).strip()
 
-COLLECTION = "randyll_korea_knowledge_v2"
 QDRANT_URL = "http://localhost:6333"
 EMBEDDING_MODEL = "BAAI/bge-m3"
 
@@ -51,6 +51,10 @@ CANDIDATE_LIMIT = 60
 # ==========================================
 
 UNIVERSITY_ALIASES = {
+    "kongju": ["kongju", "kongju national university"],
+    "gachon": ["gachon", "gachon university"],
+    "yeungnam university college": ["yeungnam university college", "ync"],
+    "ajou": ["ajou", "ajou university"],
     "dongseo": [
         "dongseo",
         "dongseo university"
@@ -63,8 +67,7 @@ UNIVERSITY_ALIASES = {
     ],
     "kyungpook": [
         "kyungpook",
-        "kyungpook national",
-        "knu"
+        "kyungpook national"
     ],
     "tongmyong": [
         "tongmyong",
@@ -394,7 +397,7 @@ def generate_with_gemini(prompt):
 # 12. MAIN RAG FUNCTION
 # ==========================================
 
-def ask_randyll(question):
+def ask_randyll(question, domains=None):
 
     total_start = time.perf_counter()
 
@@ -558,17 +561,15 @@ def ask_randyll(question):
 
     try:
 
-        results = qdrant.query_points(
-            collection_name=COLLECTION,
-            query=query_vector,
-            query_filter=None,
-            limit=(
-                CANDIDATE_LIMIT
-                if requested_universities or db_university
-                else TOP_K
-            ),
-            with_payload=True
-        ).points
+        universities = requested_universities or ([db_university] if db_university else [])
+        results = search_with_domains(
+            qdrant, COLLECTION, query_vector, question,
+            CANDIDATE_LIMIT if universities else TOP_K,
+            accept=lambda point: not universities or any(
+                document_matches_university(point.payload or {}, university)
+                for university in universities),
+            domains=domains,
+        )
 
     except Exception as error:
 
@@ -779,8 +780,9 @@ def ask_randyll(question):
 
         sources.append({
             "id": i,
-            "filename": filename,
-            "page": topic,
+            "filename": payload.get("source_document") or filename,
+            "page": payload.get("page"),
+            "source_reference": payload.get("source_reference", ""),
             "score": float(point.score),
             "university": university,
             "degree": degree,
@@ -793,7 +795,8 @@ def ask_randyll(question):
             f"University: {university}\n"
             f"Degree: {degree}\n"
             f"Topic: {topic}\n"
-            f"Filename: {filename}\n"
+            f"Source: {payload.get('source_reference') or filename}\n"
+            f"Evidence status: {payload.get('review_level', 'unknown')}\n"
             f"Content:\n{text}"
         )
 
@@ -906,6 +909,10 @@ IMPORTANT RULES:
 RETRIEVED UNIVERSITY KNOWLEDGE:
 
 {context}
+
+Preserve degree level, applicant route, dates, currency units and exceptions.
+Reference-year fees are not confirmed current fees. Baseline evidence has not
+been fact-checked by this review. Never infer missing table values or eligibility.
 
 STUDENT QUESTION:
 

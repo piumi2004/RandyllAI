@@ -2,7 +2,10 @@
 from collections import Counter
 from qdrant_client import QdrantClient
 
-COLLECTION = "randyll_korea_knowledge_v2"
+if __package__:
+    from .knowledge_domains import COLLECTION
+else:
+    from knowledge_domains import COLLECTION
 
 client = QdrantClient(
     url="http://localhost:6333",
@@ -16,6 +19,8 @@ print("Stored points:", info.points_count)
 
 universities = Counter()
 topics = Counter()
+domains = Counter()
+review_chunks = 0
 sample_files = {}
 
 offset = None
@@ -38,6 +43,8 @@ while True:
 
         universities[university] += 1
         topics[payload.get("topic", "<MISSING>")] += 1
+        domains.update(payload.get("domains", []))
+        review_chunks += bool(payload.get("review_required"))
 
         if university not in sample_files:
             sample_files[university] = payload.get(
@@ -58,4 +65,8 @@ print("\n========== TOPICS ==========")
 for topic, count in topics.most_common(20):
     print(f"{topic!r}: {count} chunks")
 
+print("\n========== DOMAINS ==========")
+for domain, count in domains.most_common():
+    print(f"{domain}: {count} chunks")
+print(f"Chunks requiring metadata review: {review_chunks}")
 print("\nDONE")

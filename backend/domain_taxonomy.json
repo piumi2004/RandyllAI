@@ -1,0 +1,201 @@
+{
+  "version": 2,
+  "domains": {
+    "education": "Education pathways, eligibility and degree requirements",
+    "universities": "Institutions, programs and contacts",
+    "finances": "Tuition, scholarships, fees and financial evidence",
+    "culture_life": "Language, health, transport and student life",
+    "visas": "Visa categories, procedures and supporting documents",
+    "employment": "Part-time employment conditions and restrictions",
+    "accommodation": "Dormitories and housing",
+    "applications": "Intakes, deadlines, documents and admission procedures"
+  },
+  "topics": {
+    "Application_Fee": [
+      "finances",
+      "applications"
+    ],
+    "Contact_Information": [
+      "universities"
+    ],
+    "Documents_Academic": [
+      "applications"
+    ],
+    "Documents_Identity": [
+      "applications"
+    ],
+    "Documents_Verification": [
+      "applications"
+    ],
+    "Documents_Required": [
+      "applications"
+    ],
+    "Eligibility_Academic": [
+      "education",
+      "applications"
+    ],
+    "Eligibility_Language": [
+      "education",
+      "applications"
+    ],
+    "Eligibility_Nationality": [
+      "applications"
+    ],
+    "Financial_Proof": [
+      "finances",
+      "applications"
+    ],
+    "Health_Insurance": [
+      "culture_life",
+      "finances"
+    ],
+    "Housing_Dormitory": [
+      "accommodation"
+    ],
+    "Interviews_Assessment": [
+      "applications"
+    ],
+    "Programs_Majors": [
+      "education",
+      "universities"
+    ],
+    "Scholarships_Other": [
+      "finances"
+    ],
+    "Scholarships_Admission": [
+      "finances",
+      "applications"
+    ],
+    "Tuition_Fees": [
+      "finances"
+    ],
+    "Visa_Immigration": [
+      "visas"
+    ],
+    "Application_Deadlines": [
+      "applications"
+    ],
+    "Application_Procedure": [
+      "applications"
+    ],
+    "Admission_Results": [
+      "applications"
+    ],
+    "Graduation_Degree_Requirements": [
+      "education"
+    ],
+    "Other_Information": [],
+    "Other_Policies": [],
+    "Admission_Policies": [
+      "applications"
+    ],
+    "Application_Forms": [
+      "applications"
+    ],
+    "Privacy_Consent": [
+      "applications"
+    ],
+    "Academic_Grading": [
+      "education",
+      "applications"
+    ],
+    "University_Profile": [
+      "universities"
+    ],
+    "University_Rankings": [
+      "universities"
+    ],
+    "Campus_Location": [
+      "universities",
+      "culture_life"
+    ],
+    "Student_Support": [
+      "culture_life"
+    ],
+    "Career_Support": [
+      "education",
+      "universities"
+    ]
+  },
+  "aliases": {
+    "Application_Fees": "Application_Fee",
+    "Undergraduate_Tuition": "Tuition_Fees",
+    "Graduate_Tuition": "Tuition_Fees",
+    "Tuition": "Tuition_Fees",
+    "Academic_Eligibility": "Eligibility_Academic",
+    "Undergraduate_Academic_Eligibility": "Eligibility_Academic",
+    "Nationality_Eligibility": "Eligibility_Nationality",
+    "Academic_and_Nationality_Eligibility": "Eligibility_Academic",
+    "Language_Eligibility": "Eligibility_Language",
+    "Freshman_Language_Eligibility": "Eligibility_Language",
+    "Transfer_Language_Eligibility": "Eligibility_Language",
+    "English_and_Korean_Language": "Eligibility_Language",
+    "Required_Documents_Handling": "Documents_Verification",
+    "Required_Documents": "Documents_Required",
+    "Admission_Evaluation": "Interviews_Assessment",
+    "Admissions_Assessment": "Interviews_Assessment",
+    "Undergraduate_Entry_Scholarships": "Scholarships_Admission",
+    "Undergraduate_Merit_Scholarships": "Scholarships_Other",
+    "Doctoral_Excellence_Scholarship": "Scholarships_Other",
+    "Scholarships": "Scholarships_Other",
+    "Dormitory": "Housing_Dormitory",
+    "Visa": "Visa_Immigration",
+    "Visa_and_Admissions_Certificate": "Visa_Immigration",
+    "Graduation_Requirements": "Graduation_Degree_Requirements",
+    "Contact": "Contact_Information",
+    "Admission_Deadlines_2027_Spring": "Application_Deadlines",
+    "Application_Timeline_2027": "Application_Deadlines"
+  },
+  "query_terms": {
+    "finances": [
+      "tuition",
+      "scholarship",
+      "scholarships",
+      "fees",
+      "budget",
+      "financial proof"
+    ],
+    "accommodation": [
+      "dormitory",
+      "dormitories",
+      "housing",
+      "accommodation"
+    ],
+    "visas": [
+      "visa",
+      "visas",
+      "immigration",
+      "d-2",
+      "d-4"
+    ],
+    "employment": [
+      "part-time work",
+      "part time work",
+      "employment",
+      "work permit"
+    ],
+    "applications": [
+      "deadline",
+      "deadlines",
+      "application",
+      "admission",
+      "intake"
+    ],
+    "education": [
+      "eligibility",
+      "degree requirements",
+      "education pathways"
+    ],
+    "universities": [
+      "programs",
+      "majors",
+      "campus"
+    ],
+    "culture_life": [
+      "culture",
+      "transport",
+      "health insurance",
+      "student life"
+    ]
+  }
+}

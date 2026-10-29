@@ -1,0 +1,884 @@
+[
+  {
+    "source": "Graduate.pdf",
+    "page": 6,
+    "topic": "Contact_Information",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.69
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 7,
+    "topic": "Eligibility_Academic",
+    "region": [
+      0,
+      0.65,
+      1,
+      0.94
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 8,
+    "topic": "Interviews_Assessment",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.253
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 8,
+    "topic": "Application_Fee",
+    "region": [
+      0,
+      0.255,
+      1,
+      0.36
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 10,
+    "topic": "Documents_Identity",
+    "region": [
+      0,
+      0.635,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 11,
+    "topic": "Financial_Proof",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.577
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 11,
+    "topic": "Application_Procedure",
+    "region": [
+      0,
+      0.58,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 12,
+    "topic": "Admission_Results",
+    "region": [
+      0,
+      0.575,
+      1,
+      0.756
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 12,
+    "topic": "Privacy_Consent",
+    "region": [
+      0,
+      0.76,
+      1,
+      0.92
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 13,
+    "topic": "Admission_Policies",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification.",
+    "prepend": [
+      12,
+      0.923,
+      0.95
+    ]
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 17,
+    "topic": "Health_Insurance",
+    "region": [
+      0,
+      0.435,
+      1,
+      0.59
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 17,
+    "topic": "Student_Support",
+    "region": [
+      0,
+      0.59,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 6,
+    "topic": "Eligibility_Nationality",
+    "region": [
+      0,
+      0.12,
+      1,
+      0.21
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 6,
+    "topic": "Eligibility_Academic",
+    "region": [
+      0,
+      0.21,
+      1,
+      0.485
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 6,
+    "topic": "Eligibility_Language",
+    "region": [
+      0,
+      0.485,
+      1,
+      0.685
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 7,
+    "topic": "Application_Fee",
+    "region": [
+      0,
+      0.435,
+      1,
+      0.7
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 10,
+    "topic": "Documents_Identity",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.36
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 10,
+    "topic": "Financial_Proof",
+    "region": [
+      0,
+      0.36,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 11,
+    "topic": "Application_Procedure",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 12,
+    "topic": "Admission_Results",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.24
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 12,
+    "topic": "Privacy_Consent",
+    "region": [
+      0,
+      0.24,
+      1,
+      0.445
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 12,
+    "topic": "Admission_Policies",
+    "region": [
+      0,
+      0.445,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 14,
+    "topic": "Health_Insurance",
+    "region": [
+      0,
+      0.615,
+      1,
+      0.775
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 14,
+    "topic": "Student_Support",
+    "region": [
+      0,
+      0.775,
+      1,
+      0.95
+    ],
+    "scope": "2027 spring international admission guide; retain the degree scope and all stated exceptions. Local source, not a current-policy certification."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 3,
+    "topic": "Application_Deadlines",
+    "region": [
+      0,
+      0.18,
+      1,
+      0.61
+    ],
+    "scope": "2027 spring graduate schedule. Document evaluation is 100%; no in-person interviews. Schedule subject to change; registration is specified only as January 2027.",
+    "table": 1
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 15,
+    "topic": "Tuition_Fees",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.24
+    ],
+    "scope": "Amounts in KRW. Source reference fees for 2026, subject to change; do not present as confirmed 2027 fees.",
+    "table": 0
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 14,
+    "topic": "Tuition_Fees",
+    "region": [
+      0,
+      0.05,
+      1,
+      0.185
+    ],
+    "scope": "Amounts in KRW. Source reference fees for 2026, subject to change; do not present as confirmed 2027 fees.",
+    "table": 0
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 15,
+    "topic": "Scholarships_Other",
+    "region": [
+      0,
+      0.24,
+      1,
+      0.69
+    ],
+    "scope": "2027 spring guide. Preserve incoming versus enrolled student categories, eligibility, timing and duplicate-payment restrictions. Benefits are source-specific.",
+    "table": 1
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 14,
+    "topic": "Scholarships_Other",
+    "region": [
+      0,
+      0.185,
+      1,
+      0.615
+    ],
+    "scope": "2027 spring guide. Preserve incoming versus enrolled student categories, eligibility, timing and duplicate-payment restrictions. Benefits are source-specific.",
+    "table": 1
+  },
+  {
+    "source": "2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf",
+    "page": 8,
+    "topic": "Application_Deadlines",
+    "region": [
+      0,
+      0.09,
+      1,
+      0.92
+    ],
+    "scope": "2027 spring undergraduate international freshman/transfer admission. Dates span 2026 and 2027. Keep the three intake columns separate and preserve footnotes.",
+    "table": 0,
+    "header_rows": 2,
+    "headers": [
+      "Category",
+      "1st Intake",
+      "2nd Intake",
+      "3rd Intake"
+    ]
+  },
+  {
+    "source": "2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf",
+    "page": 12,
+    "topic": "Tuition_Fees",
+    "region": [
+      0,
+      0.57,
+      1,
+      0.93
+    ],
+    "scope": "KRW per semester, based on 2026 fall fees; subject to change for 2027. No scholarship discount is implied.",
+    "table": 2
+  },
+  {
+    "source": "2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf",
+    "page": 15,
+    "topic": "Application_Procedure",
+    "region": [
+      0,
+      0.09,
+      1,
+      0.38
+    ],
+    "scope": "2027 spring international undergraduate admission guide; retain freshman/transfer and language-track conditions."
+  },
+  {
+    "source": "2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf",
+    "page": 15,
+    "topic": "Graduation_Degree_Requirements",
+    "region": [
+      0,
+      0.56,
+      1,
+      0.89
+    ],
+    "scope": "2027 spring international undergraduate admission guide; retain freshman/transfer and language-track conditions."
+  },
+  {
+    "source": "2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf",
+    "page": 16,
+    "topic": "Admission_Policies",
+    "region": [
+      0,
+      0.09,
+      1,
+      0.93
+    ],
+    "scope": "2027 spring international undergraduate admission guide; retain freshman/transfer and language-track conditions.",
+    "prepend": [
+      15,
+      0.89,
+      0.95
+    ]
+  },
+  {
+    "source": "2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf",
+    "page": 17,
+    "topic": "Contact_Information",
+    "region": [
+      0,
+      0.09,
+      1,
+      0.51
+    ],
+    "scope": "2027 spring international undergraduate admission guide; retain freshman/transfer and language-track conditions."
+  },
+  {
+    "source": "YEUNGNAM",
+    "page": 5,
+    "topic": "Tuition_Fees",
+    "region": [
+      0,
+      0.1,
+      1,
+      0.26
+    ],
+    "scope": "KRW per semester; tuition may change. These are tuition amounts, not scholarship percentages.",
+    "table": 0
+  },
+  {
+    "source": "YEUNGNAM",
+    "page": 5,
+    "topic": "Scholarships_Other",
+    "region": [
+      0,
+      0.6,
+      1,
+      0.94
+    ],
+    "scope": "Academic-performance scholarships from the second semester. Include minimum-credit rules and industry-employment exceptions.",
+    "table": 2
+  },
+  {
+    "source": "YEUNGNAM",
+    "page": 7,
+    "topic": "Housing_Dormitory",
+    "region": [
+      0,
+      0.6,
+      1,
+      0.94
+    ],
+    "scope": "2027 first-semester international admission guide. Happy Dormitory and Global House are distinct residences; annual figures are twelve months, meals excluded, fees normally paid for six months.",
+    "checked_text": "Happy Dormitory: 2 persons per room; KRW 264,000 per month (12 months = KRW 3,168,000).\nGlobal House: 2 persons per room; KRW 210,000 per month (12 months = KRW 2,520,000).\nMeals are not included. Dormitory fees may change. Fees are paid for six months in principle. Basic furniture such as desks and wardrobes is provided."
+  },
+  {
+    "source": "Graduate.pdf",
+    "page": 4,
+    "topic": "Programs_Majors",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.95
+    ],
+    "scope": "Kongju 2027 spring graduate guide; columns list separate degree programs. Blank cells mean not listed here. Page 5 continuation remains under review; this is not a complete program list.",
+    "table": 1,
+    "headers": [
+      "Campus",
+      "Field",
+      "Master's department",
+      "Doctoral department",
+      "Combined Master's and Ph.D. department"
+    ],
+    "header_rows": 1
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 4,
+    "topic": "Programs_Majors",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.95
+    ],
+    "scope": "Kongju 2027 spring international undergraduate guide. Preserve the source admission markers; no marker must be inferred for an empty cell.",
+    "table": 1,
+    "headers": [
+      "Campus",
+      "College",
+      "Department (Major)",
+      "Freshman",
+      "Transfer (choose one major)"
+    ],
+    "header_rows": 2
+  },
+  {
+    "source": "Undergraduate.pdf",
+    "page": 5,
+    "topic": "Programs_Majors",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.95
+    ],
+    "scope": "Continuation of the Kongju program table on physical PDF page 4. Same column order. Retain language and department notes below the table.",
+    "table": 0,
+    "headers": [
+      "Campus",
+      "College",
+      "Department (Major)",
+      "Freshman",
+      "Transfer (choose one major)"
+    ],
+    "header_rows": 0
+  },
+  {
+    "source": "2027-Spring-Semester-Graduate-School-Admissions-Guide-HNU.pdf",
+    "page": 4,
+    "topic": "Programs_Majors",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.95
+    ],
+    "scope": "Hannam graduate admission, physical PDF pages 4-5. Circles and dashes are source availability markers for each degree. Page 5 contains the continuation and English-lecture/program-duration notes; a program's inclusion in those notes does not establish a fully English-taught degree.",
+    "table": 2,
+    "headers": [
+      "Field",
+      "Department",
+      "Master's",
+      "Ph.D.",
+      "Integrated Ph.D.",
+      "Sub-application field"
+    ],
+    "header_rows": 2
+  },
+  {
+    "source": "2027-Spring-Semester-Graduate-School-Admissions-Guide-HNU.pdf",
+    "page": 5,
+    "topic": "Programs_Majors",
+    "region": [
+      0.10965546218487396,
+      0.10775386444708679,
+      0.9236033613445378,
+      0.89179548156956
+    ],
+    "scope": "Continuation of the table on physical PDF page 4, using its Master's, Ph.D. and Integrated Ph.D. headers. Rows were transcribed against the rendered PDF; discipline groups and degree-specific Fine Arts specializations are preserved. The source TOTAL row is a summary across both pages, not a program.",
+    "headers": [
+      "Field",
+      "Department",
+      "Master's",
+      "Ph.D.",
+      "Integrated Ph.D.",
+      "Sub-application field"
+    ],
+    "checked_rows": [
+      [
+        "ENGINEERING",
+        "Electrical & Electronic Engineering",
+        "○",
+        "○",
+        "○",
+        "Electronic Engineering"
+      ],
+      [
+        "ENGINEERING",
+        "Advanced Materials & Chemical Engineering",
+        "○",
+        "○",
+        "○",
+        "Chemical Engineering; Advanced Materials"
+      ],
+      [
+        "ENGINEERING",
+        "Inf. & Communi. Engineering",
+        "○",
+        "○",
+        "○",
+        "Information & Communication Engineering"
+      ],
+      [
+        "ENGINEERING",
+        "Industrial Engineering",
+        "○",
+        "○",
+        "○",
+        "Industrial Engineering"
+      ],
+      [
+        "ENGINEERING",
+        "Mechanical Engineering",
+        "○",
+        "○",
+        "○",
+        "Mechanical Engineering"
+      ],
+      [
+        "ENGINEERING",
+        "Biopharmaceutical Engineering",
+        "○",
+        "-",
+        "-",
+        "Biopharmaceutical Engineering"
+      ],
+      [
+        "FINE ARTS & SPORTS SCIENCE",
+        "Fine Arts",
+        "○",
+        "○",
+        "-",
+        "Painting, Sculpture, Industrial Art (Master's); Fine Art (Ph.D.)"
+      ],
+      [
+        "FINE ARTS & SPORTS SCIENCE",
+        "Sports Science",
+        "○",
+        "○",
+        "○",
+        "Sports Science"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Archives Management",
+        "○",
+        "○",
+        "-",
+        "Archives Management"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Counseling",
+        "○",
+        "○",
+        "○",
+        "Counseling"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Global Business",
+        "○",
+        "-",
+        "-",
+        "Global Business Administration"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Business of Art & Culture",
+        "-",
+        "○",
+        "-",
+        "Art Business & Administration"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Global Economics & Commerce",
+        "○",
+        "○",
+        "○",
+        "Global Economics & Commerce"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Social Economy, Business&Policy",
+        "○",
+        "○",
+        "○",
+        "Social Economy, Business&Policy"
+      ],
+      [
+        "INTERDISCIPLINE / SOCIAL SCIENCE",
+        "Art Education",
+        "-",
+        "○",
+        "-",
+        ""
+      ],
+      [
+        "INTERDISCIPLINE / NATURAL SCIENCE",
+        "Cosmetic Science",
+        "○",
+        "○",
+        "○",
+        "Cosmetic Science"
+      ],
+      [
+        "INTERDISCIPLINE / ENGINEERING",
+        "Space Engineering",
+        "○",
+        "-",
+        "-",
+        "Space Engineering"
+      ],
+      [
+        "INTERDISCIPLINE / ENGINEERING",
+        "AI and Data Science",
+        "○",
+        "-",
+        "-",
+        "AI and Data Science"
+      ],
+      [
+        "INTERDISCIPLINE / ENGINEERING",
+        "Nanomaterials and Semiconductor",
+        "○",
+        "○",
+        "○",
+        "Semiconductor Materials"
+      ],
+      [
+        "INTERDISCIPLINE / ENGINEERING",
+        "Biopharmaceutical Engineering",
+        "-",
+        "○",
+        "-",
+        ""
+      ],
+      [
+        "INTERDISCIPLINE / ENGINEERING",
+        "Design Engineering",
+        "○",
+        "-",
+        "-",
+        ""
+      ],
+      [
+        "INTERDISCIPLINE / ENGINEERING",
+        "Defense AI Transformation and Convergence",
+        "○",
+        "○",
+        "○",
+        ""
+      ]
+    ],
+    "table_notes": "Source page 5 notes: Master's programs consist of 4 semesters (2 years); Ph.D. programs consist of 4 semesters (2 years); Integrated Ph.D. programs consist of 8 semesters (4 years). The source's 'Combination of Englishlecture Department' list names English Language & Literature, Children's English, Global Business (Master's), Management Information Systems, Economics, Chemistry, Multimedia, Advanced Materials & Chemical Engineering, Inf. & Communi. Engineering, Sports Science, Social Economy: Business&Policy, Cosmetic Science, Biological Science and Biotechnology, and Biopharmaceutical Engineering (14 departments). This note does not say the entire degree is taught in English. Blank sub-application fields are blank in the source; no specialization is inferred."
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 4,
+    "topic": "Eligibility_Academic",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Hannam 2027 spring undergraduate international admission. Retain the foreign-parent requirement, school-system exceptions and GED exclusions together. These are source-specific recognition rules."
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 7,
+    "topic": "Documents_Verification",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Hannam undergraduate required-documents table, items 1-7. Verification conditions apply to BOTH the high-school graduation certificate and transcript. The dated appendices on pages 10 and 11 support this section.",
+    "checked_text": "Required documents on source page 7 (this page is not the entire guide's checklist):\n1. Application Form: enter directly on the application website.\n2. Consent Form for Academic Background Verification: designated university form.\n3. Educational History Form: designated university form.\n4-1. Original Certificate of High School Graduation (or Expected Graduation).\n4-2. Original High School Transcript.\nConditions for items 4-1 and 4-2:\nIf the certificate is not in English or Korean, submit a notarized translation in English or Korean. The guide accepts a translated document with Translator Confirmation issued by the university's Center for International Relations or Korean Language Center for applicants who completed a regular course at that Korean Language Center or are from a partner university.\nAttach one of these to both the graduation certificate and transcript: an Apostille verified by the respective country's government agency; consular confirmation from the Korean Embassy in the applicant's country; consular confirmation from the applicant's embassy in Korea; or an original Academic Verification Certificate in English (recognized only if the highest academic degree was obtained in China). Overseas Korean Schools approved by the Korean Ministry of Education are exempt from the above confirmation.\nAdditional elementary/middle-school graduation certificates or academic transcripts may be required for academic verification; submit them only when requested by Hannam's Admission Office.\n5. Original Certificate of Entry and Exit Records: not required if the applicant has never entered Korea.\n6. Copy of Passport.\n7. Copy of Registration Card: only for foreign residents in Korea."
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 9,
+    "topic": "Documents_Verification",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Hannam 2027 spring undergraduate guide: complete document-submission notes, including the March 2027 deadline, conditions and contact information. This is a local-source transcription, not a current-policy confirmation."
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 10,
+    "topic": "Documents_Verification",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Dated Apostille reference as of July 9, 2026, attributed in the guide to the Republic of Korea e-Apostille Service. Region membership is not applicant-nationality eligibility. Use with the document-verification requirements on page 7; do not present this list as current membership.",
+    "table": 0
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 11,
+    "topic": "Eligibility_Academic",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Dated reference: Status of Overseas Korean Schools as of April 1, 2025, attributed by the guide to the Ministry of Education. This list is not a nationality or automatic-admission rule. Page 7 discusses the verification exemption for approved overseas Korean schools. Preserve source spellings, including the truncated name Konkuk Korean Schoo; do not silently repair it.",
+    "table": 0
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 16,
+    "topic": "Admission_Policies",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Form 1: Hannam 2027 Freshman Spring Application Form for International Students. Declaration only; blank applicant fields are excluded. Keep its admission-and-degree cancellation wording specific to this form.",
+    "checked_text": "I  certify  that  the  information   I have  provided on  this form  is  true and  correct  to  the  best  of my\nknowledge, and   I  fully understand  that any  falsifying  or  concealing  of  material  facts  or  using  of  false\ndocuments  in the submission of  this form may  result  in the cancellation of my admission and degree by\nHannam University.\n (본인은 위 기재내용에 틀림이 없으며 만약 허위, 누락 또는 잘못 기재된 사항이 발견될 경우, 그에 근거한 입학 또는 학위\n 취득이 취소될 수 있음을 숙지하고 이에 동의합니다.)"
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 17,
+    "topic": "Application_Forms",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Form 2: LETTER OF CONSENT for academic-background verification. Instructions 1-4 refer to this form, not a general application checklist. Blank fields are excluded.",
+    "checked_text": "This letter confirms attendance at the school entered in field 1. The applicant permits release of academic records to Hannam University in Daejeon, Korea when officially requested, and requests the school's cooperation in verification of enrollment and transcripts.\nField 1: Write the school name of your highest level of certificate.\nField 2: Write your full name in English as used at the school in field 1.\nField 3: Write the exact date of admission (transfer) to that school.\nField 4: Write the exact date of graduation (withdrawal) from that school.\nThe form also requests the date of birth and the applicant's date, name and signature."
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 19,
+    "topic": "Admission_Policies",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Form 4: Educational History. Complete ENGLISH declaration, attributed to this form. The Korean version also mentions degree cancellation, while this English declaration mentions admission; do not silently treat the translations as identical. The separate attendance-rounding instruction is not included here.",
+    "checked_text": "(By signing here,  I certify that the information  I have provided on this form is true and correct to the best of my knowledge, and  I fully understand that any falsifying\n\nor concealing material facts or using of any false documents in the submission of this form may result in the cancellation of my admission to Hannam University)"
+  },
+  {
+    "source": "Hannam University Bachelor_s.pdf",
+    "page": 20,
+    "topic": "Academic_Grading",
+    "region": [
+      0,
+      0.04,
+      1,
+      0.93
+    ],
+    "scope": "Hannam undergraduate guide, Reference: GPA Conversion Table. Four source GPA scales map to the 100-point scale. Preserve each inclusive interval exactly; do not interpolate, extrapolate or infer admission/scholarship thresholds. In the final row, the Korean term ?? means at or below (inclusive).",
+    "table": 0
+  }
+]

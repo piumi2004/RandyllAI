@@ -2,7 +2,10 @@
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 
-COLLECTION = "randyll_korea_knowledge_v2"
+if __package__:
+    from .knowledge_domains import COLLECTION
+else:
+    from knowledge_domains import COLLECTION
 
 model = SentenceTransformer("BAAI/bge-m3")
 qdrant = QdrantClient(url="http://localhost:6333")

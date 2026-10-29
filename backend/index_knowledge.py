@@ -1,180 +1,58 @@
 
-import uuid
 import time
-from pathlib import Path
 
-from sentence_transformers import SentenceTransformer
-from qdrant_client import QdrantClient, models
+import argparse
+import json
+from datetime import datetime, timezone
+
+if __package__:
+    from .knowledge_loader import load_documents, payload, audit, resolve_root
+    from .knowledge_domains import COLLECTION
+else:
+    from knowledge_loader import load_documents, payload, audit, resolve_root
+    from knowledge_domains import COLLECTION
 
 
 # ==========================================
 # CONFIGURATION
 # ==========================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-
-KNOWLEDGE_DIR = (
-    PROJECT_ROOT / "data" / "Randyll_Semantic_Knowledge"
-)
-
-CURATED_DIR = KNOWLEDGE_DIR / "CURATED_FACT_SHEETS"
-
-COLLECTION = "randyll_korea_knowledge_v2"
-
 EMBEDDING_MODEL = "BAAI/bge-m3"
 
 QDRANT_URL = "http://localhost:6333"
 
 BATCH_SIZE = 8
-CHUNK_SIZE = 1200
-CHUNK_OVERLAP = 150
-
-# Prefer manually written fact sheets for these universities.
-CURATED_UNIVERSITIES = {
-    "Dongseo_University",
-    "Jeonbuk_National_University",
-    "Kyungpook_National_University",
-}
 
 
-# ==========================================
-# TEXT CHUNKING
-# ==========================================
+def comparable_payload(value):
+    """PDF coordinates tolerate JSON float round-trips; all evidence stays exact."""
+    result = dict(value)
+    if 'source_region' in result:
+        result['source_region'] = [round(v, 6) for v in result['source_region']]
+    return result
 
-def split_text(text):
-    """
-    Split long files into overlapping chunks.
-    Short files remain as one chunk.
-    """
 
-    text = text.strip()
-
-    if not text:
-        return []
-
-    chunks = []
-    start = 0
-
-    while start < len(text):
-
-        end = min(start + CHUNK_SIZE, len(text))
-
-        # Prefer paragraph or line boundaries.
-        if end < len(text):
-            boundary = text.rfind("\n\n", start + 400, end)
-
-            if boundary == -1:
-                boundary = text.rfind("\n", start + 400, end)
-
-            if boundary != -1:
-                end = boundary + 1
-
-        chunk = text[start:end].strip()
-
-        if chunk:
-            chunks.append(chunk)
-
-        if end >= len(text):
+def verify_and_promote(qdrant, collection, documents):
+    from qdrant_client import models
+    if collection == COLLECTION:
+        raise ValueError('Verify a physical staging collection, not the live alias')
+    expected = {d['id']: comparable_payload(payload(d)) for d in documents}
+    actual = {}
+    offset = None
+    while True:
+        points, offset = qdrant.scroll(collection_name=collection, limit=128,
+                                       offset=offset, with_payload=True, with_vectors=False)
+        actual.update({str(p.id): comparable_payload(p.payload) for p in points})
+        if offset is None:
             break
-
-        start = max(start + 1, end - CHUNK_OVERLAP)
-
-    return chunks
-
-
-# ==========================================
-# LOAD KNOWLEDGE FILES
-# ==========================================
-
-def load_documents():
-
-    if not KNOWLEDGE_DIR.exists():
-        raise FileNotFoundError(
-            f"Knowledge folder not found: {KNOWLEDGE_DIR}"
-        )
-
-    documents = []
-
-    txt_files = sorted(KNOWLEDGE_DIR.rglob("*.txt"))
-
-    print(f"Found {len(txt_files)} TXT files.")
-
-    for path in txt_files:
-
-        relative = path.relative_to(KNOWLEDGE_DIR)
-
-        # Skip general README.
-        if path.name.lower() == "readme.txt":
-            continue
-
-        parts = relative.parts
-
-        is_curated = parts[0] == "CURATED_FACT_SHEETS"
-
-        if is_curated:
-
-            if len(parts) < 3:
-                continue
-
-            university = parts[1]
-            degree = "Mixed"
-
-        else:
-
-            university = parts[0]
-
-            # Avoid indexing automatic material for the
-            # universities with curated fact sheets.
-            if university in CURATED_UNIVERSITIES:
-                continue
-
-            degree = (
-                parts[1] if len(parts) > 2 else "Mixed"
-            )
-
-        topic = path.stem.replace("_", " ")
-
-        text = path.read_text(
-            encoding="utf-8",
-            errors="replace"
-        ).strip()
-
-        if not text:
-            continue
-
-        source_name = path.name
-
-        # Prefix each embedding with meaningful metadata.
-        # This helps semantic search recognize university
-        # and topic even for short fact sheets.
-        pieces = split_text(text)
-
-        for chunk_number, chunk in enumerate(pieces, start=1):
-
-            embedding_text = (
-                f"University: {university.replace('_', ' ')}\n"
-                f"Degree level: {degree}\n"
-                f"Topic: {topic}\n\n"
-                f"{chunk}"
-            )
-
-            documents.append({
-                "id": str(uuid.uuid5(
-                    uuid.NAMESPACE_URL,
-                    f"{relative.as_posix()}::{chunk_number}"
-                )),
-                "text": embedding_text,
-                "university": university.replace("_", " "),
-                "degree": degree,
-                "topic": topic,
-                "filename": source_name,
-                "source_path": relative.as_posix(),
-                "chunk_number": chunk_number,
-                "curated": is_curated
-            })
-
-    return documents
-
+    if len(expected) != len(documents) or actual != expected:
+        raise RuntimeError('Snapshot verification failed; live alias was not changed')
+    operations = []
+    if any(a.alias_name == COLLECTION for a in qdrant.get_aliases().aliases):
+        operations.append(models.DeleteAliasOperation(delete_alias=models.DeleteAlias(alias_name=COLLECTION)))
+    operations.append(models.CreateAliasOperation(create_alias=models.CreateAlias(
+        collection_name=collection, alias_name=COLLECTION)))
+    qdrant.update_collection_aliases(change_aliases_operations=operations)
 
 # ==========================================
 # MAIN INDEXING PROCESS
@@ -182,6 +60,32 @@ def load_documents():
 
 def main():
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--audit', action='store_true', help='Report metadata without loading models or writing to Qdrant')
+    parser.add_argument('--collection', help='New staging collection name; existing collections are rejected')
+    parser.add_argument('--verify-only', metavar='STAGING_COLLECTION', help='Verify a finished staging upload and promote it without re-embedding')
+    args = parser.parse_args()
+    if args.audit:
+        from pathlib import Path
+        from collections import Counter
+        report = audit(load_documents())
+        snapshot = Path(__file__).resolve().parent.parent / 'data/knowledge_reviewed/ALL_RECORDS.jsonl'
+        report['snapshot_status_counts'] = dict(Counter(json.loads(line)['status']
+            for line in snapshot.read_text(encoding='utf-8').splitlines()))
+        report['review_scope'] = 'Active-record audit only. Held originals and pending work are listed in REVIEW_LEDGER.json and docs/knowledge-review-implementation.md.'
+        print(json.dumps(report, indent=2))
+        return
+    if args.verify_only:
+        from qdrant_client import QdrantClient
+        verify_and_promote(QdrantClient(url=QDRANT_URL, timeout=120), args.verify_only, load_documents())
+        print(f'Verified and promoted: {args.verify_only}')
+        return
+    collection = args.collection or 'randyll_korea_knowledge_v4_' + datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')
+    if collection == COLLECTION:
+        raise ValueError('The live alias cannot be used as a staging collection')
+
+    from sentence_transformers import SentenceTransformer
+    from qdrant_client import QdrantClient, models
     start_time = time.perf_counter()
 
     print("=" * 55)
@@ -209,29 +113,24 @@ def main():
         raise RuntimeError("Cannot determine embedding size.")
 
     # Use a NEW collection; don't delete the old PDF index.
-    if not qdrant.collection_exists(COLLECTION):
+    if not qdrant.collection_exists(collection):
 
         qdrant.create_collection(
-            collection_name=COLLECTION,
+            collection_name=collection,
             vectors_config=models.VectorParams(
                 size=vector_size,
                 distance=models.Distance.COSINE
             )
         )
 
-        print(f"Created collection: {COLLECTION}")
+        print(f"Created collection: {collection}")
 
     else:
-        info = qdrant.get_collection(COLLECTION)
-        existing_size = info.config.params.vectors.size
+        raise RuntimeError('Refusing to upsert an existing snapshot. Choose a fresh collection name.')
 
-        if existing_size != vector_size:
-            raise RuntimeError(
-                "Existing collection has a different "
-                "vector size. Use a new collection name."
-            )
-
-        print(f"Using existing collection: {COLLECTION}")
+    for field in ('domains', 'document_domains', 'university', 'topic', 'status', 'audience'):
+        qdrant.create_payload_index(collection_name=collection, field_name=field,
+                                    field_schema=models.PayloadSchemaType.KEYWORD, wait=True)
 
     total_batches = (
         len(documents) + BATCH_SIZE - 1
@@ -263,21 +162,12 @@ def main():
                 models.PointStruct(
                     id=item["id"],
                     vector=vector.tolist(),
-                    payload={
-                        "text": item["text"],
-                        "university": item["university"],
-                        "degree": item["degree"],
-                        "topic": item["topic"],
-                        "filename": item["filename"],
-                        "source_path": item["source_path"],
-                        "chunk_number": item["chunk_number"],
-                        "curated": item["curated"]
-                    }
+                    payload=payload(item)
                 )
             )
 
         qdrant.upsert(
-            collection_name=COLLECTION,
+            collection_name=collection,
             points=points,
             wait=True
         )
@@ -290,13 +180,14 @@ def main():
         )
 
     count = qdrant.count(
-        collection_name=COLLECTION,
+        collection_name=collection,
         exact=True
     ).count
+    verify_and_promote(qdrant, collection, documents)
 
     print("\n" + "=" * 55)
     print("INDEXING COMPLETED")
-    print(f"Collection: {COLLECTION}")
+    print(f"Verified collection: {collection}; live alias: {COLLECTION}")
     print(f"Vectors stored: {count}")
     print(
         f"Time: {time.perf_counter() - start_time:.2f}s"
