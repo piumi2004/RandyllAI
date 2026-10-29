@@ -1,8 +1,14 @@
 
 import os
 import re
+import sys
 import time
 from pathlib import Path
+
+# Redirected Windows consoles may default to cp1252, which cannot log PDF text.
+for stream in (sys.stdout, sys.stderr):
+    if callable(getattr(stream, "reconfigure", None)):
+        stream.reconfigure(encoding="utf-8", errors="backslashreplace")
 
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
@@ -11,9 +17,8 @@ from anthropic import Anthropic, AnthropicError
 from google import genai
 from google.genai import errors as gemini_errors
 
-from backend.structured_retrieval import retrieve_structured_context
-from backend.db import get_universities
-from backend.knowledge_domains import COLLECTION, search_with_domains
+from backend.knowledge_domains import search_with_domains
+from backend.legacy_retrieval import search_legacy_collection
 
 
 # ==========================================
@@ -40,6 +45,14 @@ GEMINI_MODEL = os.getenv(
 ).strip()
 
 QDRANT_URL = "http://localhost:6333"
+CHAT_COLLECTION = "randyll_korea_knowledge_v2"
+POSTGRES_ENABLED = os.getenv("POSTGRES_ENABLED", "false").strip().lower() == "true"
+
+if POSTGRES_ENABLED:
+    from backend.structured_retrieval import retrieve_structured_evidence
+    from backend.db import get_universities
+    from backend.structured_search import resolve_university_names
+
 EMBEDDING_MODEL = "BAAI/bge-m3"
 
 TOP_K = 5
@@ -515,38 +528,34 @@ def ask_randyll(question, domains=None):
     # --------------------------------------
 
     db_university = None
+    db_universities = []
 
-    try:
+    if POSTGRES_ENABLED:
+        try:
+            db_universities = resolve_university_names(question)
+            if len(db_universities) == 1:
+                db_university = db_universities[0]
+            if db_university:
+                print("PostgreSQL university detected:", db_university, flush=True)
+        except Exception as error:
+            print(f"PostgreSQL university lookup error: {error}", flush=True)
 
-        normalized_question = (
-            f" {normalize_text(question)} "
-        )
-
-        matches = [
-            row["name"]
-            for row in get_universities()
-            if (
-                f" {normalize_text(row['name'])} "
-                in normalized_question
-            )
-        ]
-
-        if len(matches) == 1:
-            db_university = matches[0]
-
-        if db_university:
-            print(
-                "PostgreSQL university detected:",
-                db_university,
-                flush=True
-            )
-
-    except Exception as error:
-
-        print(
-            f"PostgreSQL university lookup error: {error}",
-            flush=True
-        )
+    db_context = ""
+    db_sources = []
+    if POSTGRES_ENABLED:
+        try:
+            # An unresolved named institution must not receive general dates
+            # disguised as a university-specific admission schedule.
+            if db_universities or not requested_universities:
+                evidence = retrieve_structured_evidence(
+                    question, db_university, university_names=db_universities, include_corpus=True
+                )
+                if evidence.get("answer"):
+                    return {"answer": evidence["answer"], "sources": evidence["sources"]}
+                db_context = evidence["context"]
+                db_sources = evidence["sources"]
+        except Exception as error:
+            print(f"PostgreSQL retrieval error: {error}", flush=True)
 
     # --------------------------------------
     # STEP 4: SEARCH QDRANT
@@ -561,9 +570,14 @@ def ask_randyll(question, domains=None):
 
     try:
 
-        universities = requested_universities or ([db_university] if db_university else [])
-        results = search_with_domains(
-            qdrant, COLLECTION, query_vector, question,
+        universities = db_universities or requested_universities
+        search = (
+            search_legacy_collection
+            if CHAT_COLLECTION == "randyll_korea_knowledge_v2"
+            else search_with_domains
+        )
+        results = search(
+            qdrant, CHAT_COLLECTION, query_vector, question,
             CANDIDATE_LIMIT if universities else TOP_K,
             accept=lambda point: not universities or any(
                 document_matches_university(point.payload or {}, university)
@@ -578,14 +592,16 @@ def ask_randyll(question, domains=None):
             flush=True
         )
 
-        return {
-            "answer": (
-                "Unable to search the university "
-                "knowledge database. Please check "
-                "Qdrant and the collection."
-            ),
-            "sources": []
-        }
+        if not db_context:
+            return {
+                "answer": (
+                    "Unable to search the university "
+                    "knowledge database. Please check "
+                    "Qdrant and the collection."
+                ),
+                "sources": []
+            }
+        results = []
 
     print(
         f"Qdrant search completed in "
@@ -602,7 +618,7 @@ def ask_randyll(question, domains=None):
     # STEP 5: FILTER BY UNIVERSITY
     # --------------------------------------
 
-    if requested_universities or db_university:
+    if requested_universities or db_universities:
 
         filtered_results = []
 
@@ -616,7 +632,7 @@ def ask_randyll(question, domains=None):
                     university
                 )
                 for university in (
-                    requested_universities or [db_university]
+                    db_universities or requested_universities
                 )
             ):
                 filtered_results.append(point)
@@ -632,34 +648,6 @@ def ask_randyll(question, domains=None):
     else:
 
         results = results[:TOP_K]
-
-    # --------------------------------------
-    # NEW: RETRIEVE POSTGRESQL INFORMATION
-    # --------------------------------------
-
-    db_context = ""
-
-    if db_university:
-
-        try:
-
-            db_context = retrieve_structured_context(
-                question,
-                db_university
-            )
-
-            if db_context:
-                print(
-                    "PostgreSQL records retrieved.",
-                    flush=True
-                )
-
-        except Exception as error:
-
-            print(
-                f"PostgreSQL retrieval error: {error}",
-                flush=True
-            )
 
     # Continue when either database has information.
 
@@ -686,7 +674,7 @@ def ask_randyll(question, domains=None):
     )
 
     context_parts = []
-    sources = []
+    sources = list(db_sources)
 
     for i, point in enumerate(
         results,
@@ -819,6 +807,15 @@ def ask_randyll(question, domains=None):
 
         context = qdrant_context
 
+    if CHAT_COLLECTION == "randyll_korea_knowledge_v2":
+        context = (
+            "Qdrant legacy records without review metadata have not passed the current "
+            "human review. Institution and degree metadata may be incorrect; "
+            "use explicit source text for identity and degree scope. If the "
+            "source is ambiguous, say so. Do not describe these records as "
+            "reviewed or certify their facts as current.\n\n" + context
+        )
+
     # --------------------------------------
     # STEP 7: BUILD RAG PROMPT
     # --------------------------------------
@@ -827,9 +824,9 @@ def ask_randyll(question, domains=None):
 You are Randyll Overseas AI Assistant.
 
 You help international students find accurate
-information about universities in South Korea.
+information about universities in South Korea and Randyll Overseas services.
 
-Use ONLY the university knowledge provided below.
+Use ONLY the source information provided below.
 
 IMPORTANT RULES:
 
@@ -905,6 +902,22 @@ IMPORTANT RULES:
 25. If PostgreSQL and Qdrant information conflict,
     mention the discrepancy rather than inventing
     a resolution.
+
+26. If the student asks a general question without naming a university,
+    do not narrow the answer to an institution found incidentally in sources.
+    General intake guidance is not an exact deadline for any university.
+
+27. Agency service statements describe the provider's own offering.
+    They do not establish guaranteed admission, visa approval, or outcomes.
+    Answer agency questions using agency records, not unrelated university passages.
+
+28. Compare tuition using the structured fee comparison groups only.
+    Never rank fees across different currencies, billing periods, fee years or
+    degree scopes. Unknown periods/years and estimates are not comparable.
+    Do not infer annual fees by multiplying a semester fee or convert currencies
+    without a documented rule and exchange rate. Cite the applicable fee year.
+    Pending records are unreviewed source data, not certified current facts.
+    Do not use prose or Qdrant snippets to invent a ranking absent from SQL results.
 
 RETRIEVED UNIVERSITY KNOWLEDGE:
 
