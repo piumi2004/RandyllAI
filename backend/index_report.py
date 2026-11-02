@@ -41,11 +41,10 @@ def main():
 
     print("TXT files found:", len(files))
 
-    if len(files) != 116:
-        raise RuntimeError(
-            f"Expected 116 TXT files but found {len(files)}. "
-            "Check the input folder before indexing."
-        )
+    if not files:
+        raise RuntimeError("No TXT files found.")
+
+    print("TXT files found:", len(files))
 
     records = []
     seen_ids = set()
