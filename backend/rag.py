@@ -577,6 +577,133 @@ def create_embedding(text):
 # 10. QUESTION INTENT
 # ==========================================================
 
+
+# ==========================================================
+# CONTROLLED CLAUDE-ONLY GENERAL KNOWLEDGE MODE
+# ==========================================================
+
+def is_safe_general_question(question):
+    """
+    Return True only for approved general educational
+    questions that Claude can explain without Qdrant.
+
+    Return False for university-specific information,
+    visa requirements, current figures, and Randyll
+    company-specific information.
+    """
+
+    q = normalize_text(question)
+
+    
+    # Recognize approved Sinhala general questions.
+    # Keep this narrow to avoid bypassing RAG for
+    # university-specific or regulated information.
+
+    sinhala_general_patterns = [
+        r"ඇයි මම දකුණු කොරියාවේ study කළ යුත්තේ",
+        r"ඇයි මම කොරියාවේ study කළ යුත්තේ",
+        r"ඇයි මම දකුණු කොරියාවේ ඉගෙන ගත යුත්තේ",
+        r"දකුණු කොරියාවේ ඉගෙන ගන්න හොඳ ඇයි",
+        r"දකුණු කොරියාවේ ඉගෙනීමේ වාසි මොනවාද",
+        r"කොරියාවේ ඉගෙනීමේ වාසි මොනවාද",
+        r"topik කියන්නේ මොකක්ද",
+        r"study gap කියන්නේ මොකක්ද",
+    ]
+
+    if has_sinhala(question):
+        if (
+            not detect_universities(question)
+            and any(
+                normalize_text(pattern) == q
+                for pattern in sinhala_general_patterns
+            )
+        ):
+            return True
+
+
+    # Questions containing any of these topics must
+    # continue through the existing RAG workflow.
+    protected_terms = [
+        "randyll",
+        "our agency",
+        "your agency",
+        "our company",
+        "your company",
+        "tuition",
+        "scholarship",
+        "admission fee",
+        "bank balance",
+        "visa fee",
+        "visa requirement",
+        "visa application",
+        "document checklist",
+        "application deadline",
+        "next exam",
+        "exam date",
+        "registration date",
+        "minimum wage",
+        "salary",
+        "work hours",
+        "part time permission",
+        "part time work",
+        "current rules",
+        "latest rules",
+        "eligibility",
+        "qualified",
+        "refund",
+        "how much",
+        "how many hours",
+        "2026",
+        "2027",
+    ]
+
+    if any(
+        term in q
+        for term in protected_terms
+    ):
+        return False
+
+    # Protect named universities.
+    if detect_universities(question):
+        return False
+
+    # Protect explicit visa-category and employer routes.
+    if re.search(
+        r"\b(?:d[\s-]?[1249]|d[\s-]?10|e[\s-]?9)\b",
+        q
+    ):
+        return False
+
+    # Approved general educational topics.
+    # These are narrow patterns, not a general fallback
+    # for every unanswered question.
+    allowed_patterns = [
+        r"^what is topik\??$",
+        r"^what is eps topik\??$",
+        r"^what is the difference between topik and eps topik\??$",
+        r"^are topik and eps topik the same\??$",
+        r"^what is a study gap\??$",
+        r"^what is a scholarship\??$",
+        r"^what is a bachelor s degree\??$",
+        r"^what is a master s degree\??$",
+        r"^what is a phd\??$",
+        r"^what is a statement of purpose\??$",
+        r"^what is an sop\??$",
+        r"^what is a university transcript\??$",
+        r"^why (?:should|would) i (?:choose|study in) south korea\??$",
+        r"^why is south korea (?:good|a good country) for international students\??$",
+        r"^what are the benefits of studying in (?:south )?korea\??$",
+        r"^what are the advantages of studying in (?:south )?korea\??$",
+        r"^what are the disadvantages of studying in (?:south )?korea\??$",
+        r"^what should i consider before studying in (?:south )?korea\??$",
+    ]
+
+    return any(
+        re.fullmatch(pattern, q)
+        for pattern in allowed_patterns
+    )
+
+
 def detect_question_topic(question):
     q = normalize_text(question)
 
@@ -1605,6 +1732,143 @@ def prepare_context(results):
 # 19. GENERATE WITH CLAUDE
 # ==========================================================
 
+def answer_general_with_claude(question):
+    """
+    Answer approved general educational questions
+    using Claude's built-in knowledge.
+
+    No Qdrant retrieval is performed.
+    """
+
+    print(
+        "GENERAL KNOWLEDGE MODE - CLAUDE ONLY",
+        flush=True
+    )
+
+    if has_sinhala(question):
+        language_instruction = """
+SINHALA LANGUAGE STYLE — VERY IMPORTANT:
+
+You are speaking to a Sri Lankan student.
+
+Use natural, friendly, conversational Sri Lankan Sinhala.
+
+- Write like a helpful Sri Lankan education counsellor,
+  not a university textbook or government document.
+- Use simple everyday Sinhala sentences.
+- Prefer conversational words such as:
+  "ඔයාට", "පුළුවන්", "තියෙනවා",
+  "වෙන්න පුළුවන්", "ඒ නිසා", "හැබැයි".
+- Address the student politely and naturally.
+- Avoid overly formal or literary Sinhala.
+- Avoid word-for-word translations from English.
+- Use familiar English terms naturally where appropriate:
+  university, degree, scholarship, tuition fees,
+  intake, IELTS, TOPIK, career, budget, application.
+- Do not force English terminology into formal Sinhala.
+- Keep official university and program names unchanged.
+- Use Sinhala as the main language, not English.
+- Explain one idea per sentence when possible.
+- Use short headings and understandable examples.
+- Do not use unnatural phrases such as:
+  "ගෝලීය ශිෂ්‍ය පරිසරය",
+  "අධ්‍යයන මාර්ග විවිධත්වය",
+  "වර්තමාන තොරතුරු සඳහා සත්‍යාපනය".
+- Do not use slang or exaggerated promotional language.
+- Do not invent benefits, scholarships, or guarantees.
+
+The answer must sound as though a real Sri Lankan
+student counsellor is explaining it in Sinhala.
+"""
+    else:
+        language_instruction = """
+Answer in clear, friendly, natural English.
+Use simple explanations without unnecessary jargon.
+"""
+
+    
+    prompt = f"""
+You are Randyll Overseas AI Assistant.
+
+You help students understand studying in South Korea,
+Korean education, language learning, and general
+study-abroad opportunities.
+
+The student is asking a GENERAL EDUCATIONAL question.
+Answer using your broad background knowledge.
+
+RESPONSE DEPTH:
+
+- Give a complete, useful explanation.
+- For broad questions, aim for approximately 200-300 words.
+- For simple definitions, use approximately 60-120 words.
+- For "why", "how", "advantages", or "disadvantages"
+  questions, explain 5-7 meaningful points.
+- Explain WHY each point matters to a student.
+- Include practical examples when relevant.
+- Do not just list keywords or one-line benefits.
+- Do not add filler to reach a word count.
+- If a question needs a short answer, keep it short.
+
+RESPONSE STYLE:
+
+- Start with a short, direct introduction.
+- Use clear headings when they improve readability.
+- Use numbered points or bullets for broad questions.
+- Each point should have 1-3 explanatory sentences.
+- Write naturally, as a helpful education counsellor.
+- Avoid unnecessary marketing language.
+- Avoid repeating the same benefits.
+- End with a short, practical takeaway if helpful.
+- Do not ask a follow-up question unless necessary.
+
+ACCURACY AND SAFETY:
+
+- Explain general, well-established educational concepts.
+- Do not invent specific university rankings,
+  scholarship eligibility, tuition or admission details.
+- Do not promise employment after graduation.
+- Do not invent current visa rules, work permissions,
+  exam dates, wages or immigration requirements.
+- If current official information is necessary,
+  explain briefly that verification is needed.
+- Never claim to have checked websites or live data.
+- Do not mention internal chatbot systems or sources.
+
+LANGUAGE:
+{language_instruction}
+
+
+STUDENT QUESTION:
+{question}
+
+BEFORE ANSWERING:
+- Check that the wording sounds natural in the
+  student's language.
+- For Sinhala, avoid literal English-to-Sinhala
+  translations and unnecessarily formal vocabulary.
+- Prefer clear, familiar Sinhala expressions.
+- Keep the meaning accurate without sounding robotic.
+- Do not mention these writing instructions.
+
+ANSWER:
+"""
+
+
+
+    answer = generate_with_claude(prompt)
+
+    if not answer:
+        answer = (
+            "I couldn't generate an answer right now. "
+            "Please try again."
+        )
+
+    return {
+        "answer": remove_source_markers(answer),
+        "sources": []
+    }
+
 
 def generate_with_claude(prompt):
     try:
@@ -1751,6 +2015,21 @@ def ask_randyll(question, domains=None):
             ),
             "sources": []
         }
+
+    
+    # ------------------------------------------------------
+    # CONTROLLED GENERAL KNOWLEDGE ROUTING
+    # ------------------------------------------------------
+
+    if (
+        LLM_PROVIDER == "claude"
+        and domains is None
+        and is_safe_general_question(question)
+    ):
+        return answer_general_with_claude(question)
+
+    # Everything else continues through existing RAG.
+
 
     universities = detect_universities(question)
     is_comparison = len(universities) >= 2
@@ -2072,10 +2351,15 @@ SCHOLARSHIP QUESTION:
 
     if has_sinhala(question):
         language_instruction = (
-            "Answer primarily in natural Sinhala. "
-            "Keep university names, official program "
-            "names, KRW amounts and common technical "
-            "terms in English when clearer."
+            "Answer in friendly, conversational Sri Lankan Sinhala. "
+        "Use everyday Sinhala expressions rather than formal "
+        "academic translations. Address the student naturally "
+        "using 'ඔයාට' and 'පුළුවන්' where appropriate. "
+        "Keep familiar terms such as university, degree, "
+        "scholarship, tuition fees, intake, IELTS, TOPIK, "
+        "budget, and KRW in English when natural. "
+        "Do not translate official program names. "
+        "Keep explanations clear, accurate, and student-friendly."
         )
     else:
         language_instruction = (
