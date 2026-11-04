@@ -319,6 +319,24 @@ python backend\index_documents.py
 
 That legacy script writes `randyll_korea_test`, not the collection used by the current chat application.
 
+## Upload and incrementally sync documents to Qdrant
+
+The **Upload documents** page accepts PDF, TXT, and Markdown files. Upload a
+revised source using the same filename: the app compares normalized chunk
+content, keeps unchanged vectors, indexes only changed/new chunks, and removes
+obsolete chunks for that source after verifying the new vectors. A trailing
+duplicate suffix such as `(1)` or `(2)` is ignored for matching downloaded
+copies. Unrelated source files and records remain unchanged. If no source
+match exists, the file is added as a new document.
+
+Changed content is written to the Qdrant upload collection and remains
+searchable by chat. The app preserves university, topic, degree, and domain
+metadata when those values exist on the matched source. Sources marked
+unapproved or requiring review are not changed; complete their review workflow
+first. If deleting obsolete vectors fails, the app attempts to restore their
+backups and marks new vectors inactive. Scanned PDFs must be OCR-processed
+before uploading. Files are not archived locally, and PostgreSQL is not modified.
+
 ## Run the app
 
 Chat uses Qdrant only by default. PostgreSQL retrieval is optional; set

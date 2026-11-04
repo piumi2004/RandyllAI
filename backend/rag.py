@@ -12,7 +12,10 @@ from qdrant_client import QdrantClient, models
 from anthropic import Anthropic
 from google import genai
 
-from backend.knowledge_domains import search_with_domains
+from backend.knowledge_domains import (
+    UPLOAD_COLLECTION,
+    search_with_domains,
+)
 
 
 # ==========================================================
@@ -914,7 +917,8 @@ def search_qdrant(
     # Keep manager's domain-aware retrieval for
     # explicit domains or reviewed collections.
     if (
-        domains is not None
+        query_filter is None
+        or domains is not None
         or QDRANT_COLLECTION != "randyll_korea_knowledge_v2"
     ):
         return search_with_domains(
@@ -924,7 +928,8 @@ def search_qdrant(
             question,
             limit,
             accept=accept,
-            domains=domains
+            domains=domains,
+            additional_collections=(UPLOAD_COLLECTION,)
         )
 
     results = qdrant.query_points(
@@ -1134,34 +1139,6 @@ def search_one_university(
     search_query = f"{name} {topic}"
 
     candidates = {}
-
-    # First, search points whose university field
-    # exactly matches the corrected university name.
-    # These points can be found without relying on
-    # filenames or substring matching.
-    if (
-        domains is None
-        and QDRANT_COLLECTION == "randyll_korea_knowledge_v2"
-    ):
-        exact_filter = models.Filter(
-            must=[
-                models.FieldCondition(
-                    key="university",
-                    match=models.MatchValue(
-                        value=name
-                    )
-                )
-            ]
-        )
-
-        exact_results = search_qdrant(
-            question=topic,
-            limit=CANDIDATE_LIMIT,
-            query_filter=exact_filter
-        )
-
-        for point in exact_results:
-            candidates[str(point.id)] = point
 
     # Also search globally for legacy records
     # that have university identity only in paths.

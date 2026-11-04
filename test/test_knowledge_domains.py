@@ -118,6 +118,120 @@ class RetrievalTests(unittest.TestCase):
         for question, domains in [('tuition', None), ('unrecognized', None), ('', ['finances'])]:
             self.assertFalse({5, 6, 7} & {p.id for p in self.search(question, domains)})
 
+    def test_latest_numbered_document_copy_only_is_retrieved(self):
+        self.client.create_collection(
+            'uploads',
+            vectors_config=models.VectorParams(size=2, distance=models.Distance.COSINE),
+        )
+        self.client.upsert('uploads', points=[
+            models.PointStruct(
+                id=20,
+                vector=[1.0, 0.0],
+                payload={
+                    'status': 'active',
+                    'audience': 'international',
+                    'university': 'A',
+                    'domains': ['applications'],
+                    'filename': 'Group Assignment (1).pdf',
+                    'text': 'Old copy: bonus marks are +10%.',
+                },
+            ),
+            models.PointStruct(
+                id=21,
+                vector=[0.8, 0.2],
+                payload={
+                    'status': 'active',
+                    'audience': 'international',
+                    'university': 'A',
+                    'domains': ['applications'],
+                    'filename': 'Group Assignment (2).pdf',
+                    'text': 'New copy: bonus marks are +20%.',
+                },
+            ),
+        ])
+
+        results = search_with_domains(
+            self.client,
+            'test',
+            [1.0, 0.0],
+            'bonus marks',
+            10,
+            accept=lambda point: point.payload['university'] == 'A',
+            additional_collections=('uploads',),
+        )
+
+        self.assertIn(21, {point.id for point in results})
+        self.assertNotIn(20, {point.id for point in results})
+        self.assertNotIn(
+            '+10%',
+            '\n'.join(point.payload.get('text', '') for point in results),
+        )
+        self.assertIn(
+            '+20%',
+            '\n'.join(point.payload.get('text', '') for point in results),
+        )
+
+    def test_retired_document_vectors_and_older_numbered_copy_are_excluded(self):
+        self.client.create_collection(
+            'uploads',
+            vectors_config=models.VectorParams(size=2, distance=models.Distance.COSINE),
+        )
+        self.client.upsert('uploads', points=[
+            models.PointStruct(
+                id=30,
+                vector=[1.0, 0.0],
+                payload={
+                    'status': 'active',
+                    'is_active': False,
+                    'audience': 'international',
+                    'university': 'A',
+                    'domains': ['applications'],
+                    'filename': 'Group Assignment (1).pdf',
+                    'text': 'Old bonus is +10%.',
+                },
+            ),
+            models.PointStruct(
+                id=31,
+                vector=[0.9, 0.1],
+                payload={
+                    'status': 'active',
+                    'is_active': True,
+                    'audience': 'international',
+                    'university': 'A',
+                    'domains': ['applications'],
+                    'filename': 'Group Assignment (1).pdf',
+                    'text': 'Old bonus is +10%.',
+                },
+            ),
+            models.PointStruct(
+                id=32,
+                vector=[0.8, 0.2],
+                payload={
+                    'status': 'active',
+                    'is_active': True,
+                    'audience': 'international',
+                    'university': 'A',
+                    'domains': ['applications'],
+                    'filename': 'Group Assignment (2).pdf',
+                    'text': 'New bonus is +20%.',
+                },
+            ),
+        ])
+
+        results = search_with_domains(
+            self.client,
+            'test',
+            [1.0, 0.0],
+            'bonus marks',
+            10,
+            accept=lambda point: point.payload.get('university') == 'A',
+            additional_collections=('uploads',),
+        )
+
+        self.assertEqual({point.id for point in results}, {1, 2, 4, 32})
+        self.assertNotIn(30, {point.id for point in results})
+        self.assertNotIn(31, {point.id for point in results})
+
 
 class V2RetrievalTests(unittest.TestCase):
     def setUp(self):
