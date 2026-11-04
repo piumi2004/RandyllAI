@@ -12,6 +12,8 @@ The [flagged knowledge review](docs/flagged-knowledge-review.md) gives recommend
 
 For Improvement #2, read the [structured-data implementation review](docs/structured-data-review.md), covering what the interns implemented, what is missing, and the next deliverables.
 
+For the current PostgreSQL corpus import, source review and numeric tuition comparisons, read [Data-folder import and combined answers](docs/corpus-postgres.md).
+
 For Improvement #3, follow the [document ingestion guide](docs/document-ingestion-guide.md): the existing work, missing stages, and instructions for Docling + EasyOCR with Korean/English recognition and an AWS deployment path.
 
 ## Overview

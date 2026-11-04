@@ -1,10 +1,16 @@
 
 import os
 import re
+import sys
 import time
 from pathlib import Path
 from types import SimpleNamespace
 from urllib.parse import urlparse
+
+# Redirected Windows consoles may default to cp1252, which cannot log PDF text.
+for stream in (sys.stdout, sys.stderr):
+    if callable(getattr(stream, "reconfigure", None)):
+        stream.reconfigure(encoding="utf-8", errors="backslashreplace")
 
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
@@ -87,14 +93,10 @@ GEMINI_MODEL = os.getenv(
     ""
 ).strip()
 
-USE_POSTGRES = os.getenv(
-    "USE_POSTGRES",
-    "false"
-).strip().lower() in {
-    "true",
-    "1",
-    "yes"
-}
+USE_POSTGRES = any(
+    os.getenv(name, "false").strip().lower() in {"true", "1", "yes"}
+    for name in ("USE_POSTGRES", "POSTGRES_ENABLED")
+)
 
 # Retrieval settings.
 TOP_K_PER_UNIVERSITY = 8
@@ -108,8 +110,10 @@ MAX_PASSAGE_CHARACTERS = 2300
 if USE_POSTGRES:
     from backend.db import get_universities
     from backend.structured_retrieval import (
-        retrieve_structured_context
+        retrieve_structured_context,
+        retrieve_structured_evidence,
     )
+    from backend.structured_search import resolve_university_names
 
 
 # ==========================================================
@@ -1603,6 +1607,31 @@ def retrieve_postgres_context(
     return "\n\n".join(contexts)
 
 
+def retrieve_postgres_evidence(question, universities):
+    if not USE_POSTGRES:
+        return {"context": "", "sources": []}
+
+    try:
+        database_universities = resolve_university_names(question)
+        if database_universities or not universities:
+            return retrieve_structured_evidence(
+                question,
+                database_universities[0] if len(database_universities) == 1 else None,
+                university_names=database_universities,
+                include_corpus=True,
+            )
+    except Exception as error:
+        print(
+            f"PostgreSQL evidence retrieval error: {error}",
+            flush=True
+        )
+
+    return {
+        "context": retrieve_postgres_context(question, universities),
+        "sources": [],
+    }
+
+
 # ==========================================================
 # 18. PREPARE CONTEXT AND SOURCES
 # ==========================================================
@@ -2110,10 +2139,18 @@ def ask_randyll(question, domains=None):
     # OPTIONAL POSTGRESQL
     # ------------------------------------------------------
 
-    db_context = retrieve_postgres_context(
+    db_evidence = retrieve_postgres_evidence(
         question,
         universities
     )
+    db_context = db_evidence["context"]
+    db_sources = db_evidence["sources"]
+
+    if db_evidence.get("answer"):
+        return {
+            "answer": db_evidence["answer"],
+            "sources": db_sources,
+        }
 
     if not results and not db_context:
         if (
@@ -2145,6 +2182,7 @@ def ask_randyll(question, domains=None):
     context_parts, sources = prepare_context(
         results
     )
+    sources.extend(db_sources)
 
     qdrant_context = "\n\n".join(
         context_parts
