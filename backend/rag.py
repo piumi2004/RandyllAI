@@ -617,15 +617,13 @@ def is_safe_general_question(question):
         r"study gap කියන්නේ මොකක්ද",
     ]
 
-    if has_sinhala(question):
-        if (
-            not detect_universities(question)
-            and any(
-                normalize_text(pattern) == q
-                for pattern in sinhala_general_patterns
-            )
-        ):
-            return True
+    sinhala_allowed = (
+        has_sinhala(question)
+        and any(
+            normalize_text(pattern) == q
+            for pattern in sinhala_general_patterns
+        )
+    )
 
 
     # Questions containing any of these topics must
@@ -705,7 +703,7 @@ def is_safe_general_question(question):
         r"^what should i consider before studying in (?:south )?korea\??$",
     ]
 
-    return any(
+    return sinhala_allowed or any(
         re.fullmatch(pattern, q)
         for pattern in allowed_patterns
     )
@@ -1144,6 +1142,36 @@ def search_one_university(
 
     candidates = {}
 
+    # v2 exact-university metadata query helps find university
+    # content without relying on semantic top-K rank.
+    # Broad domain-aware search below also searches uploaded data.
+    if (
+        domains is None
+        and QDRANT_COLLECTION == "randyll_korea_knowledge_v2"
+    ):
+        exact_filter = models.Filter(
+            must=[models.FieldCondition(
+                key="university",
+                match=models.MatchValue(value=name),
+            )]
+        )
+        try:
+            exact_results = search_qdrant(
+                question=topic,
+                limit=CANDIDATE_LIMIT,
+                query_filter=exact_filter,
+            )
+            for point in exact_results:
+                if document_matches_university(
+                    point.payload or {}, university
+                ):
+                    candidates[str(point.id)] = point
+        except Exception as error:
+            print(
+                f"Exact university filter unavailable: {error}",
+                flush=True,
+            )
+
     # Also search globally for legacy records
     # that have university identity only in paths.
     query_variants = [
@@ -1441,6 +1469,179 @@ def retrieve_complete_checklists(groups):
 # ==========================================================
 # 16. GENERAL KNOWLEDGE SEARCH
 # ==========================================================
+
+def is_randyll_services_question(question):
+    """
+    Detect requests about Randyll's overall services.
+
+    Do not intercept specific service questions such as
+    SOP pricing, Korean course schedules, or refunds.
+    """
+
+    q = normalize_text(question)
+
+    # Company must be explicitly mentioned, or referred
+    # to using "your agency" / "your services".
+    agency_mentioned = any(
+        term in q
+        for term in [
+            "randyll",
+            "your agency",
+            "your company",
+            "your services",
+            "your service",
+            "ඔයාලගේ",
+            "ඔයාලගෙ"
+        ]
+    )
+
+    if not agency_mentioned:
+        return False
+
+    service_intent = any(
+        term in q
+        for term in [
+            "services",
+            "service",
+            "provide",
+            "offer",
+            "help students",
+            "assistance",
+            "support students",
+            "සේවා",
+            "සේවාවන්",
+            "සේවාව",
+            "උදව්"
+        ]
+    )
+
+    # Keep questions about a specific service on the
+    # existing RAG route.
+    specific_topics = [
+        "how much",
+        "price",
+        "pricing",
+        "cost",
+        "fee",
+        "refund policy",
+        "course schedule",
+        "class schedule",
+        "opening hours",
+        "contact number",
+        "office location",
+        "registration fee",
+        "payment method",
+        "sop fee",
+        "visa fee",
+        "කීයද",
+        "ගාස්තුව",
+        "මුදල"
+    ]
+
+    if any(term in q for term in specific_topics):
+        return False
+
+    return service_intent
+
+
+def retrieve_randyll_services():
+    """
+    Retrieve the complete Randyll Service_Catalog
+    from the existing Qdrant Cloud collection.
+
+    Read-only: no vector updates or re-indexing.
+    """
+
+    print(
+        "RANDYLL COMPLETE SERVICE RETRIEVAL",
+        flush=True
+    )
+
+    records = []
+    seen_ids = set()
+    offset = None
+
+    while True:
+        points, offset = qdrant.scroll(
+            collection_name=QDRANT_COLLECTION,
+            offset=offset,
+            limit=200,
+            with_payload=True,
+            with_vectors=False
+        )
+
+        for point in points:
+            payload = point.payload or {}
+
+            domain = normalize_text(
+                payload.get("domain", "")
+            )
+
+            topic = normalize_text(
+                payload.get("topic", "")
+            )
+
+            record_id = str(
+                payload.get("record_id") or ""
+            )
+
+            # Exact group matching prevents unrelated
+            # university and course records appearing.
+            if (
+                domain != "randyll services"
+                or topic != "service catalog"
+            ):
+                continue
+
+            if not record_id.startswith(
+                "randyll_services__service_catalog__"
+            ):
+                continue
+
+            if not payload.get("text"):
+                continue
+
+            if record_id in seen_ids:
+                continue
+
+            seen_ids.add(record_id)
+
+            records.append(
+                SimpleNamespace(
+                    id=point.id,
+                    score=1.0,
+                    payload=payload
+                )
+            )
+
+        if offset is None:
+            break
+
+    records.sort(
+        key=lambda point: str(
+            point.payload.get("record_id", "")
+        )
+    )
+
+    print(
+        "Service records retrieved:",
+        len(records),
+        flush=True
+    )
+
+    # Diagnostic only: the number is not used
+    # to invent missing services.
+    if len(records) != 16:
+        print(
+            "WARNING: Expected 16 service records "
+            "from the latest catalog inspection.",
+            flush=True
+        )
+
+    return records
+
+
+
 
 def search_general(question, domains=None):
     stopwords = {
@@ -2047,6 +2248,12 @@ def ask_randyll(question, domains=None):
         question
     )
 
+    services_mode = (
+        domains is None
+        and not universities
+        and is_randyll_services_question(question)
+    )
+
     print("Detected universities:", universities)
     print("Topic:", topic)
     print("Degree level:", degree)
@@ -2079,7 +2286,11 @@ def ask_randyll(question, domains=None):
     comparison_counts = {}
 
     try:
-        if checklist_groups:
+        if services_mode:
+            print("RANDYLL SERVICES MODE", flush=True)
+            results = retrieve_randyll_services()
+
+        elif checklist_groups:
             print("CHECKLIST RETRIEVAL MODE")
 
             results = retrieve_complete_checklists(
@@ -2139,10 +2350,16 @@ def ask_randyll(question, domains=None):
     # OPTIONAL POSTGRESQL
     # ------------------------------------------------------
 
-    db_evidence = retrieve_postgres_evidence(
-        question,
-        universities
-    )
+    # Company service and visa checklist intents rely on complete
+    # catalog groups. Do not allow unrelated PostgreSQL answers
+    # to bypass the requested catalog evidence.
+    if services_mode or checklist_groups:
+        db_evidence = {"context": "", "sources": []}
+    else:
+        db_evidence = retrieve_postgres_evidence(
+            question,
+            universities
+        )
     db_context = db_evidence["context"]
     db_sources = db_evidence["sources"]
 
@@ -2381,6 +2598,21 @@ SCHOLARSHIP QUESTION:
             "Answer in clear, natural English."
         )
 
+    service_instructions = ""
+    if services_mode:
+        service_instructions = """
+RANDYLL SERVICE CATALOG ANSWER:
+- Consider every retrieved service record.
+- For a general overview, group services into 5-7 useful
+  categories without dropping entire categories.
+- If the student requests ALL services, include every
+  distinct service supported by the source records.
+- Avoid inventing fees, guarantees or services.
+- These are company-supplied claims; do not assert
+  current availability without verification.
+- Use conversational Sinhala for Sinhala questions.
+"""
+
     # ------------------------------------------------------
     # BUILD PROMPT
     # ------------------------------------------------------
@@ -2471,6 +2703,8 @@ DEGREE LEVEL:
 {checklist_instructions}
 
 {topic_instructions}
+
+{service_instructions}
 
 REFERENCE MATERIAL:
 <reference_material>
