@@ -1,0 +1,1046 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://127.0.0.1:8501
+
+Claude initialized: claude-haiku-5-5
+Loading BGE-M3 embedding model...
+BGE-M3 loaded in 6.06s
+Qdrant client initialized.
+
+=======================================================
+QUESTION: Dongseo University language requirements
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.69s
+Requested universities: ['dongseo']
+STEP 2: Searching Qdrant...
+Qdrant search completed in 6.25s
+Retrieved 60 candidates.
+Matching university chunks: 5
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Dongseo University
+Degree: Mixed
+Topic: 06 Language Eligibility
+Score: 0.683
+Filename: 06_Language_Eligibility.txt
+Text preview: University: Dongseo University
+Topic: 06 Language Eligibility
+Source: Dongseo University.pdf, p.8
+Source status: university admission guide / OCR transcription where specified
+
+Korean track: TOPIK level 3 or above, or Korea Immigration and Integration Program level 3 / pre-evaluation score at least 61, or King Sejong Institute Intermediate 1 or abo
+
+SOURCE 2
+University: Dongseo University
+Degree: Mixed
+Topic: Eligibility Language
+Score: 0.6813
+Filename: Eligibility_Language.txt
+Text preview: UNIVERSITY: Dongseo University
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Language
+ORIGINAL SOURCE: Dongseo University.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+
+
+SOURCE 3
+University: Dongseo University
+Degree: Mixed
+Topic: 15 Graduation Requirements
+Score: 0.673
+Filename: 15_Graduation_Requirements.txt
+Text preview: University: Dongseo University
+Topic: 15 Graduation Requirements
+Source: Dongseo University.pdf, p.14
+Source status: university admission guide / OCR transcription where specified
+
+Korean-track undergraduates: TOPIK 4 for graduation; arts/PE undergraduates: TOPIK 3; English-track undergraduates: TOEFL iBT 3.5 (previous 59), IELTS 5.5, CEFR B2 or NE
+
+SOURCE 4
+University: Dongseo University
+Degree: Mixed
+Topic: Eligibility Language
+Score: 0.6687
+Filename: Eligibility_Language.txt
+Text preview: l certificate of employment and
+income must submit a financial support
+plan for studying at DSU (Freeform)
+Proof of Language proficiency test results
+- Korean track: TOPIK Level 3 or above or
+Original
+- Must be valid until the final date of
+- English track: TOEFL iBT 3.5(previous scale 59),
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATIO
+
+SOURCE 5
+University: Dongseo University
+Degree: Mixed
+Topic: Eligibility Academic
+Score: 0.6506
+Filename: Eligibility_Academic.txt
+Text preview: UNIVERSITY: Dongseo University
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Academic
+ORIGINAL SOURCE: Dongseo University.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 963
+Claude input tokens: 2836
+Claude output tokens: 337
+Claude answer preview: Dongseo University accepts the following language qualifications.
+
+**Korean track**
+- TOPIK Level 3 or above, or
+- Korea Immigration and Integration Program Level 3 or above, or a pre-evaluation score
+claude completed in 2.70s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 9.67s
+=======================================================
+
+
+=======================================================
+QUESTION: Find English-taught Master's degrees in Seoul under 10 million KRW per year
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.55s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.32s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Jeonbuk National University
+Degree: Graduate
+Topic: Scholarships Other
+Score: 0.6369
+Filename: Scholarships_Other.txt
+Text preview: arship | Master-1,000,000 KRW/month Doctor- 1,600,000 KRW/month | full-time students participating in the BK project                                |
+| BK Dream Scholarship    | 50% reduction                                          | full-time students participating in the BK project                                |
+
+SOURCE 2
+University: Woosong University
+Degree: Graduate
+Topic: Tuition Fees
+Score: 0.6342
+Filename: Tuition_Fees.txt
+Text preview: nition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsection
+LOCATION: PDF page 1, passage 1
+
+WOOSONG UNIVERSITY ENGLISH TRACK
+GRADUATE PROGRAM SPRING 2027
+Why Choose
+Woosong University
+Established in 1954, Woosong University is a leading private
+university in Daejeon, Korea’s fifth-largest c
+
+SOURCE 3
+University: Woosong University
+Degree: Graduate
+Topic: Contact Information
+Score: 0.6296
+Filename: Contact_Information.txt
+Text preview: UNIVERSITY: Woosong University
+DEGREE/PROGRAM: Graduate
+TOPIC: Contact Information
+ORIGINAL SOURCE: Why WSU SPRING27 _FLYERS - Graduate Programs.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECT
+
+SOURCE 4
+University: Hankuk University of Foreign Studies
+Degree: Undergraduate
+Topic: Scholarships Other
+Score: 0.6259
+Filename: Scholarships_Other.txt
+Text preview: and a living allowance of KRW 1.2 million per semester until they
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 3, passage 2
+
+select a major and transfer to their new academic division. The maximum period for which these
+benefits may be provided is two years.
+• Further details regarding the curriculum of each division, the 
+
+SOURCE 5
+University: Tongmyong University
+Degree: Undergraduate
+Topic: Tuition Fees
+Score: 0.6247
+Filename: Tuition_Fees.txt
+Text preview: e. Korean Language Course(2 semesters) tuition fee: KRW 1,200,000 (Included in tuition invoice)
+4. KRW 36,000 of immigration registering fee and etc.
+❏ Important Notes for Online Application
+1. Application Deadlines (KST - Korea Standard Time)
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 377
+Claude input tokens: 2598
+Claude output tokens: 126
+Claude answer preview: I wasn't able to find English-taught Master's programs in Seoul under 10 million KRW per year in the university records provided. The retrieved records cover Woosong University (Daejeon), Jeonbuk Nati
+claude completed in 1.72s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 4.62s
+=======================================================
+
+
+=======================================================
+QUESTION: Gachong university
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.30s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.12s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+Degree: Mixed
+Topic: Scholarships Other
+Score: 0.537
+Filename: Scholarships_Other.txt
+Text preview: cording to the changes in Gachon University’s Scholarship Policy.
+
+
+--- RECORD 4 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 2
+
+** King Sejong Institute Middle Level 1 or higher or Social Integration Program of Ministry of Justice Level 3 or higher or pre-evaluation 61 point or higher
+1. Recipients of the Multi-Child Scholars
+
+SOURCE 2
+University: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+Degree: Mixed
+Topic: Programs Majors
+Score: 0.533
+Filename: Programs_Majors.txt
+Text preview: ure / Visual design / Industrial design)
+Art & Physical 
+Education
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 5, passage 2
+
+result of major-decision test held by Gachon University. Otherwise, students would belong to the International(Koreanology) major.
+In addition, when students choose the specific major on the 2nd year
+
+SOURCE 3
+University: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+Degree: Mixed
+Topic: Scholarships Other
+Score: 0.5287
+Filename: Scholarships_Other.txt
+Text preview: on in tuition(select one)
+Gachon Korean Language Education Center
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 13, passage 2
+
+* King Sejong Institute Middle Level 2 or higher or Social Integration Program of Ministry of Justice Level 4 or higher or pre-evaluation 81 point or higher
+** King Sejong Institute Middle Level 1 or
+
+SOURCE 4
+University: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+Degree: Mixed
+Topic: Housing Dormitory
+Score: 0.5258
+Filename: Housing_Dormitory.txt
+Text preview: UNIVERSITY: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+DEGREE/PROGRAM: Mixed
+TOPIC: Housing Dormitory
+ORIGINAL SOURCE: 2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify impo
+
+SOURCE 5
+University: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+Degree: Mixed
+Topic: Tuition Fees
+Score: 0.5138
+Filename: Tuition_Fees.txt
+Text preview: d academic background documents, the admission will be cancelled.
+
+
+--- RECORD 6 ---
+SECTION: Source page subsection
+LOCATION: PDF page 16, passage 2
+
+I. If the student want to give up enrolling in Gachon University, students have to submit the tuition fee refund documents within
+the deadline that we noticed, after the beginning of a semester, stud
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 295
+Claude input tokens: 3340
+Claude output tokens: 91
+Claude answer preview: Gachon University is mentioned, but your question ("Gachong university") doesn't specify what you'd like to know. Could you tell me which topic you're interested in, such as admission requirements, tu
+claude completed in 1.46s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 3.91s
+=======================================================
+
+
+=======================================================
+QUESTION: Gachon university tution fees
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.31s
+Requested universities: ['gachon']
+STEP 2: Searching Qdrant...
+Qdrant search completed in 66.75s
+Retrieved 0 candidates.
+Matching university chunks: 0
+
+=======================================================
+QUESTION: kyungpook national university degree
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.27s
+Requested universities: ['kyungpook']
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.08s
+Retrieved 60 candidates.
+Matching university chunks: 5
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Kyungpook National University
+Degree: Undergraduate
+Topic: Eligibility Nationality
+Score: 0.6665
+Filename: Eligibility_Nationality.txt
+Text preview: UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Eligibility Nationality
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+---
+
+SOURCE 2
+University: Kyungpook National University
+Degree: Undergraduate
+Topic: Admission Results
+Score: 0.6635
+Filename: Admission_Results.txt
+Text preview: UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Admission Results
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECOR
+
+SOURCE 3
+University: Kyungpook National University
+Degree: Undergraduate
+Topic: 04 Undergraduate Academic Eligibility
+Score: 0.6606
+Filename: 04_Undergraduate_Academic_Eligibility.txt
+Text preview: University: Kyungpook National University
+Topic: 04 Undergraduate Academic Eligibility
+Source: Kyungpook National University Undergraduate.md, Eligibility
+Source status: university admission guide / OCR transcription where specified
+
+Freshmen need school education equivalent to Korean elementary, middle and high school, subject to country-specific 
+
+SOURCE 4
+University: Kyungpook National University
+Degree: Mixed
+Topic: 03 Nationality Eligibility
+Score: 0.6575
+Filename: 03_Nationality_Eligibility.txt
+Text preview: University: Kyungpook National University
+Topic: 03 Nationality Eligibility
+Source: Kyungpook National University Undergraduate.md, Eligibility
+Source status: university admission guide / OCR transcription where specified
+
+Applicants and both parents must be non-Korean nationals. Multi-nationals with Korean citizenship ineligible. Eligible national
+
+SOURCE 5
+University: Kyungpook National University
+Degree: Undergraduate
+Topic: Documents Required
+Score: 0.6544
+Filename: Documents_Required.txt
+Text preview: UNIVERSITY: Kyungpook National University
+DEGREE/PROGRAM: Undergraduate
+TOPIC: Documents Required
+ORIGINAL SOURCE: Kyungpook National University Undergraduate.md
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECO
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 441
+Claude input tokens: 2343
+Claude output tokens: 120
+Claude answer preview: Kyungpook National University offers undergraduate (Bachelor's) programs. The retrieved records for this university focus on undergraduate admission topics, including nationality eligibility, academic
+claude completed in 1.86s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 4.36s
+=======================================================
+
+
+=======================================================
+QUESTION: Randyll Overseas services
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.33s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.10s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Unverified undergraduate pdf
+Degree: Undergraduate
+Topic: Scholarships Other
+Score: 0.5686
+Filename: Scholarships_Other.txt
+Text preview: ed space for international students that provides one-stop services to help students adapt to
+university life and offers various counseling services.
+○ Operation of programs to support international students: Foreign student support group, Buddy program, Various
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 1
+
+5.
+
+SOURCE 2
+University: KIT
+Degree: Mixed
+Topic: Eligibility Nationality
+Score: 0.5602
+Filename: Eligibility_Nationality.txt
+Text preview: UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Nationality
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subs
+
+SOURCE 3
+University: Unverified graduate pdf
+Degree: Graduate
+Topic: Scholarships Other
+Score: 0.5507
+Filename: Scholarships_Other.txt
+Text preview: adapt to
+university life and offers various counseling services.
+
+
+--- RECORD 14 ---
+SECTION: Source page subsection
+LOCATION: PDF page 18, passage 1
+
+5. Contact information of Administration & Department office
+1) Administration in charge
+Service
+Department of
+TEL.
+(+82-41-850-)
+Remarks
+Admission Management
+International Affairs
+0862
+https://oia.k
+
+SOURCE 4
+University: KIT
+Degree: Mixed
+Topic: Scholarships Other
+Score: 0.5488
+Filename: Scholarships_Other.txt
+Text preview: UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Scholarships Other
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsectio
+
+SOURCE 5
+University: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+Degree: Mixed
+Topic: Housing Dormitory
+Score: 0.5452
+Filename: Housing_Dormitory.txt
+Text preview: UNIVERSITY: Unverified 2 eng2027 springsemesterfreshmantransferadmissionguideline pdf
+DEGREE/PROGRAM: Mixed
+TOPIC: Housing Dormitory
+ORIGINAL SOURCE: 2.ENG2027-SpringSemesterFreshmanTransferAdmissionGuideline.pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify impo
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 432
+Claude input tokens: 3667
+Claude output tokens: 115
+Claude answer preview: Randyll Overseas is here to help you find information about universities in South Korea, including admission requirements, tuition fees, scholarships, housing, and contact details for university offic
+claude completed in 1.70s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 4.15s
+=======================================================
+
+
+=======================================================
+QUESTION: Age requirements
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.29s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.07s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Jeonbuk National University
+Degree: Undergraduate
+Topic: Eligibility Nationality
+Score: 0.6136
+Filename: Eligibility_Nationality.txt
+Text preview: ing, cyber education academic recognition methods are not admitted
+
+
+--- RECORD 2 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 2
+
+※ All requirements below must be satisfied
+1. Applicants who meet one of the following criteria
+- Type 1: Both applicants and their parents should hold foreign nationality
+- Type 2: Foreigners who ha
+
+SOURCE 2
+University: Woosuk University
+Degree: Undergraduate
+Topic: Contact Information
+Score: 0.601
+Filename: Contact_Information.txt
+Text preview: riod  will  be  deemed  to  have  no  intention  of  registering.
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 54, passage 4
+
+-  Pursuant  to  Article  15  (Age  Limit  for  Appointment)  Paragraph  1  of  the  Military  Personnel  Act,  the  minimum  age  of  a  person  appointed  as  an  officer  for  the  first  time  an
+
+SOURCE 3
+University: Kunjang University College
+Degree: Mixed
+Topic: Other Information
+Score: 0.595
+Filename: Other_Information.txt
+Text preview: ifications  •  Various  certifications  related  to  the  relevant
+
+
+--- RECORD 9 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 5
+
+ÿ  Criteria  for  Mature  Students:  Those  aged  25  or  older  as  of  the  admission  date  of  March  1,  2027.
+Special  Education  Candidates  (Persons  with  Disabilities)  •  Selected  through
+
+SOURCE 4
+University: KIT
+Degree: Mixed
+Topic: Programs Majors
+Score: 0.5918
+Filename: Programs_Majors.txt
+Text preview: gn  Department
+Sports  Rehabilitation  Training,  2  days  a  week
+
+
+--- RECORD 3 ---
+SECTION: Source page subsection
+LOCATION: PDF page 7, passage 9
+
+•  High  school  graduates  (or  those  expected  to  graduate)  or  those  recognized  by  law  as  having  equivalent  or  higher  educational  qualifications  who  meet  any  of  the  following  c
+
+SOURCE 5
+University: Woosuk University
+Degree: Undergraduate
+Topic: Documents Academic
+Score: 0.5798
+Filename: Documents_Academic.txt
+Text preview: e  provision
+application  form  ÿ  1  copy  of  the  high  school
+
+
+--- RECORD 8 ---
+SECTION: Source page subsection
+LOCATION: PDF page 21, passage 1
+
+Machine Translated by Google
+2.  [Student  Record-based]  Adult  Learner  Admission  –  Group  Na,  Group  Da
+a.  Eligibility:  Those  who  meet  either  Type  1  or  Type  2  qualifications.
+High  s
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 1166
+Claude input tokens: 3060
+Claude output tokens: 357
+Claude answer preview: I couldn't find a clear, complete age requirement in the retrieved records. The excerpts mention age criteria for specific programs, but they apply to different routes and degree levels, so I can't gi
+claude completed in 3.39s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 5.78s
+=======================================================
+
+
+=======================================================
+QUESTION: Randyll overseas services
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.34s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.11s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Unverified undergraduate pdf
+Degree: Undergraduate
+Topic: Scholarships Other
+Score: 0.5499
+Filename: Scholarships_Other.txt
+Text preview: ed space for international students that provides one-stop services to help students adapt to
+university life and offers various counseling services.
+○ Operation of programs to support international students: Foreign student support group, Buddy program, Various
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 1
+
+5.
+
+SOURCE 2
+University: KIT
+Degree: Mixed
+Topic: Eligibility Nationality
+Score: 0.5474
+Filename: Eligibility_Nationality.txt
+Text preview: UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Nationality
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subs
+
+SOURCE 3
+University: KIT
+Degree: Mixed
+Topic: Scholarships Other
+Score: 0.5316
+Filename: Scholarships_Other.txt
+Text preview: UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Scholarships Other
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsectio
+
+SOURCE 4
+University: Unverified graduate pdf
+Degree: Graduate
+Topic: Scholarships Other
+Score: 0.5301
+Filename: Scholarships_Other.txt
+Text preview: adapt to
+university life and offers various counseling services.
+
+
+--- RECORD 14 ---
+SECTION: Source page subsection
+LOCATION: PDF page 18, passage 1
+
+5. Contact information of Administration & Department office
+1) Administration in charge
+Service
+Department of
+TEL.
+(+82-41-850-)
+Remarks
+Admission Management
+International Affairs
+0862
+https://oia.k
+
+SOURCE 5
+University: Hankuk University of Foreign Studies
+Degree: Undergraduate
+Topic: Programs Majors
+Score: 0.5257
+Filename: Programs_Majors.txt
+Text preview: - Korean Interpretation and Translation as a Foreign Language
+O
+O
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 1
+
+• For transfer applicants whose previous university is a 4-year institution (or a 3-year institution under the British system), if they
+fail to meet the transfer requirements (credits and semesters)
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 503
+Claude input tokens: 3536
+Claude output tokens: 150
+Claude answer preview: Hello! I'm the Randyll Overseas AI Assistant, here to help you find information about universities in South Korea.
+
+What would you like to know? For example, you could ask about:
+- Admission requireme
+claude completed in 1.85s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 4.34s
+=======================================================
+
+
+=======================================================
+QUESTION: Randyll overseas services
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.33s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.09s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: Unverified undergraduate pdf
+Degree: Undergraduate
+Topic: Scholarships Other
+Score: 0.5499
+Filename: Scholarships_Other.txt
+Text preview: ed space for international students that provides one-stop services to help students adapt to
+university life and offers various counseling services.
+○ Operation of programs to support international students: Foreign student support group, Buddy program, Various
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 15, passage 1
+
+5.
+
+SOURCE 2
+University: KIT
+Degree: Mixed
+Topic: Eligibility Nationality
+Score: 0.5474
+Filename: Eligibility_Nationality.txt
+Text preview: UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Eligibility Nationality
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subs
+
+SOURCE 3
+University: KIT
+Degree: Mixed
+Topic: Scholarships Other
+Score: 0.5316
+Filename: Scholarships_Other.txt
+Text preview: UNIVERSITY: KIT
+DEGREE/PROGRAM: Mixed
+TOPIC: Scholarships Other
+ORIGINAL SOURCE: KIT English Recruitment Guideline (1).pdf
+
+Source-based extracted information. Not a new official admissions guide.
+OCR-derived content may contain recognition errors. Verify important details against original document.
+
+
+--- RECORD 1 ---
+SECTION: Source page subsectio
+
+SOURCE 4
+University: Unverified graduate pdf
+Degree: Graduate
+Topic: Scholarships Other
+Score: 0.5301
+Filename: Scholarships_Other.txt
+Text preview: adapt to
+university life and offers various counseling services.
+
+
+--- RECORD 14 ---
+SECTION: Source page subsection
+LOCATION: PDF page 18, passage 1
+
+5. Contact information of Administration & Department office
+1) Administration in charge
+Service
+Department of
+TEL.
+(+82-41-850-)
+Remarks
+Admission Management
+International Affairs
+0862
+https://oia.k
+
+SOURCE 5
+University: Hankuk University of Foreign Studies
+Degree: Undergraduate
+Topic: Programs Majors
+Score: 0.5257
+Filename: Programs_Majors.txt
+Text preview: - Korean Interpretation and Translation as a Foreign Language
+O
+O
+
+
+--- RECORD 5 ---
+SECTION: Source page subsection
+LOCATION: PDF page 6, passage 1
+
+• For transfer applicants whose previous university is a 4-year institution (or a 3-year institution under the British system), if they
+fail to meet the transfer requirements (credits and semesters)
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 536
+Claude input tokens: 3536
+Claude output tokens: 147
+Claude answer preview: Randyll Overseas services help international students find accurate information about universities in South Korea, including admission requirements, tuition and fees, scholarships, eligibility, and co
+claude completed in 1.93s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 4.38s
+=======================================================
+
+
+=======================================================
+QUESTION: Randyll SOP drafting
+=======================================================
+STEP 1: Creating query embedding...
+Embedding completed in 0.28s
+No specific university detected.
+STEP 2: Searching Qdrant...
+Qdrant search completed in 2.09s
+Retrieved 5 candidates.
+STEP 3: Preparing context...
+
+SOURCE 1
+University: KIT
+Degree: Mixed
+Topic: Other Information
+Score: 0.5679
+Filename: Other_Information.txt
+Text preview: portunity  2  Special  Admission  falls  short,  selection  will
+
+
+--- RECORD 17 ---
+SECTION: Source page subsection
+LOCATION: PDF page 14, passage 5
+
+B.  Unlike  general  universities  (limited  to  6  applications  for  rolling  admissions),  junior  colleges  have  no  limit  on  the  number  of  applications  for  the  1st  and  2nd  rounds  of
+
+SOURCE 2
+University: Kunjang University College
+Degree: Mixed
+Topic: Other Information
+Score: 0.5627
+Filename: Other_Information.txt
+Text preview: ter  the  Deposit  for  Early  Admission  Successful  Candidates
+
+
+--- RECORD 20 ---
+SECTION: Source page subsection
+LOCATION: PDF page 10, passage 5
+
+•  For  early  admission  successful  candidates,  deposit  the  security  deposit  into  the  virtual  account  listed  on  the  invoice  during  the  registration  period.
+•  Deposit  into  the  vi
+
+SOURCE 3
+University: KIT
+Degree: Mixed
+Topic: Other Information
+Score: 0.56
+Filename: Other_Information.txt
+Text preview: ifficult  to  reflect  school  violence  disciplinary  measures.
+
+
+--- RECORD 15 ---
+SECTION: Source page subsection
+LOCATION: PDF page 13, passage 4
+
+and  second  rounds  of  rolling  admissions  or  those  who  forfeited  their  registration,  they  will  be  filled  by  including  them  in  the  regular  admissions  quota;  and  if  vacancies  o
+
+SOURCE 4
+University: Woosuk University
+Degree: Undergraduate
+Topic: Other Information
+Score: 0.5595
+Filename: Other_Information.txt
+Text preview: ion  Documents
+ÿ  1  copy  of  the  admission  application  form
+
+
+--- RECORD 16 ---
+SECTION: Source page subsection
+LOCATION: PDF page 13, passage 2
+
+ÿ  Applicants  for  the  Department  of  Pharmacy  must  take  Calculus  or  Geometry  as  their  elective  subject  in  the  Mathematics  section  ( applicants  who  took  Probability  and  Statisti
+
+SOURCE 5
+University: KIT
+Degree: Mixed
+Topic: Other Information
+Score: 0.5593
+Filename: Other_Information.txt
+Text preview: made  in  order  of  merit  through  the  General  High  School
+
+
+--- RECORD 16 ---
+SECTION: Source page subsection
+LOCATION: PDF page 13, passage 5
+
+Special  Admission;  if  the  recruitment  quota  for  the  University's  own  Special  Admission  falls  short,  selection  will  be  made  in  order  of  merit  through  the  General  High  School  
+STEP 4: Calling claude...
+
+STEP 4: Calling Claude...
+Calling Claude: claude-haiku-5-5
+Claude stop reason: end_turn
+Claude content types: ['text']
+Claude answer length: 427
+Claude input tokens: 3244
+Claude output tokens: 131
+Claude answer preview: I can help with Statement of Purpose (SOP) drafting, but the retrieved university records here contain only fragments about application procedures and registration rules, not SOP guidance. To help wit
+claude completed in 1.48s
+
+=======================================================
+RAG PROCESS COMPLETED
+Total time: 3.88s
+=======================================================
+

@@ -1,4 +1,3 @@
-
 # Ignore entire data directory
 /data
 
@@ -23,18 +22,3 @@ __pycache__/
 
 # Database dumps contain real data
 *.dump
-
-# Streamlit-generated logs
-.streamlit/*.log
-
-# Other application logs
-*.log
-
-# Temporary files
-*.tmp
-*.bak
-
-# IDE and operating system files
-.vscode/
-.DS_Store
-Thumbs.db
