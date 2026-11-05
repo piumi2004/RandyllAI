@@ -1,4 +1,3 @@
-
 import os
 import re
 import sys
@@ -707,6 +706,218 @@ def is_safe_general_question(question):
         re.fullmatch(pattern, q)
         for pattern in allowed_patterns
     )
+
+
+# ==========================================================
+# GENERAL EDUCATIONAL QUESTION ROUTING
+# ==========================================================
+
+def is_general_education_overview(question):
+    """
+    Detect general educational questions that Claude can
+    answer without retrieving unrelated Qdrant documents.
+
+    Specific universities, tuition, visa rules, deadlines,
+    company services, and current figures still use RAG.
+    """
+
+    q = normalize_text(question)
+
+    if not q:
+        return False
+
+    # University-specific questions must use RAG.
+    if detect_universities(question):
+        return False
+
+    # Protect questions requiring official or stored data.
+    protected_terms = [
+        "randyll",
+        "your company",
+        "your agency",
+        "your services",
+        "our company",
+        "tuition",
+        "semester fee",
+        "application fee",
+        "admission fee",
+        "scholarship amount",
+        "scholarship eligibility",
+        "bank balance",
+        "visa",
+        "immigration",
+        "embassy",
+        "work permit",
+        "work permission",
+        "working hours",
+        "minimum wage",
+        "salary",
+        "refund",
+        "deadline",
+        "intake date",
+        "official requirement",
+        "admission requirement",
+        "eligibility",
+        "gpa requirement",
+        "ielts score",
+        "topik level",
+        "latest",
+        "current rules",
+        "how much",
+        "how many hours",
+    ]
+
+    if any(
+        contains_phrase(q, term)
+        for term in protected_terms
+    ):
+        return False
+
+    # Questions containing years or visa categories
+    # need evidence-based retrieval.
+    if re.search(
+        r"\b(?:19|20)\d{2}\b",
+        q
+    ):
+        return False
+
+    if re.search(
+        r"\b(?:d[ -]?(?:2|4|10)|e[ -]?9)\b",
+        q
+    ):
+        return False
+
+    # Common general educational questions.
+    exact_questions = {
+        "is south korea a good destination for international students",
+        "is south korea a good country for international students",
+        "is south korea a good place to study",
+        "why should i study in south korea",
+        "why should i choose south korea for my higher education",
+        "why should i choose south korea",
+        "is studying in south korea worth it",
+        "what are the advantages of studying in south korea",
+        "what are the disadvantages of studying in south korea",
+        "what are the benefits of studying in south korea",
+        "what are the advantages and disadvantages of studying in south korea",
+        "what challenges might international students face in south korea",
+        "what should i consider before deciding to study abroad",
+        "how can i prepare for living in south korea",
+        "how can i adapt to life in south korea",
+        "how can i choose the right university and degree program",
+        "how can i improve my korean language skills before moving abroad",
+        "how can i prepare financially for studying abroad",
+        "what are the common mistakes students make when applying to foreign universities",
+        "how can i adapt to a different culture while studying abroad",
+        "what should i do during my first month as an international student",
+        "can international students study in south korea without knowing korean",
+        "what is topik",
+        "what is eps topik",
+        "what is a study gap",
+        "what is a scholarship",
+        "what is a statement of purpose",
+        "what is an sop",
+        "what is a university transcript",
+        "what is a bachelor s degree",
+        "what is a master s degree",
+        "what is a phd",
+        "what is the difference between undergraduate and postgraduate studies",
+        "what is the difference between topik and eps topik",
+    }
+
+    if q in exact_questions:
+        return True
+
+    # Flexible matching for alternate phrasings.
+    patterns = [
+        r"(?:is|why is) (?:south )?korea .*"
+        r"(?:good|suitable|worth it|popular).*"
+        r"(?:student|study|education).*",
+
+        r"why .* (?:study|education|university) "
+        r"(?:in )?(?:south )?korea",
+
+        r"what (?:are|is) (?:the )?"
+        r"(?:advantages|disadvantages|benefits|challenges) "
+        r"(?:of|for|in) studying "
+        r"(?:in )?(?:south )?korea",
+
+        r"what .* challenges .*"
+        r"(?:international )?students .*",
+
+        r"how (?:can|should|do) i "
+        r"(?:prepare|adapt|adjust) .*"
+        r"(?:korea|abroad|international student).*",
+
+        r"how (?:can|should|do) i "
+        r"(?:choose|select|find) "
+        r"(?:the right|a suitable|a good) university.*",
+
+        r"how (?:can|should|do) i "
+        r"(?:improve|learn|practice) "
+        r"(?:my )?korean.*",
+
+        r"what .* mistakes .*"
+        r"(?:university|studying abroad).*",
+    ]
+
+    if any(
+        re.fullmatch(pattern, q)
+        for pattern in patterns
+    ):
+        return True
+
+    # Natural Sinhala general educational questions.
+    if has_sinhala(question):
+        original = str(question).casefold()
+
+        protected_sinhala = [
+            "ගාස්තු",
+            "කීයද",
+            "මුදල",
+            "ශිෂ්‍යත්ව මුදල",
+            "වීසා",
+            "ලියකියවිලි",
+            "සුදුසුකම්",
+            "අවසාන දිනය",
+        ]
+
+        if any(
+            term in original
+            for term in protected_sinhala
+        ):
+            return False
+
+        education_terms = [
+            "කොරියාව",
+            "කොරියාවේ",
+            "ඉගෙන",
+            "study",
+            "university",
+            "විදේශ",
+            "ශිෂ්‍ය",
+        ]
+
+        general_terms = [
+            "හොඳද",
+            "හොඳ ඇයි",
+            "වාසි",
+            "අවාසි",
+            "අභියෝග",
+            "කොහොමද",
+            "ලෑස්ති",
+            "සූදානම්",
+            "ඇයි",
+            "ජීවිතය",
+        ]
+
+        if (
+            any(x in original for x in education_terms)
+            and any(x in original for x in general_terms)
+        ):
+            return True
+
+    return False
 
 
 def detect_question_topic(question):
@@ -2228,12 +2439,26 @@ def ask_randyll(question, domains=None):
     # CONTROLLED GENERAL KNOWLEDGE ROUTING
     # ------------------------------------------------------
 
+    
+    # ------------------------------------------------------
+    # GENERAL EDUCATIONAL QUESTION ROUTING
+    # ------------------------------------------------------
+
     if (
         LLM_PROVIDER == "claude"
         and domains is None
-        and is_safe_general_question(question)
+        and (
+            is_safe_general_question(question)
+            or is_general_education_overview(question)
+        )
     ):
+        print(
+            "GENERAL EDUCATIONAL CLAUDE MODE",
+            flush=True
+        )
+
         return answer_general_with_claude(question)
+
 
     # Everything else continues through existing RAG.
 
